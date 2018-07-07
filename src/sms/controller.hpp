@@ -2,6 +2,7 @@
 #define CONTROLLER_HPP
 
 #include "requester.hpp"
+#include "request.hpp"
 
 #include <QTimer>
 #include <QJsonObject>
@@ -29,12 +30,15 @@ class Controller :  public QObject
 	public:	
 		void get_balance();
 		void check_login(const QString& l, const QString& p);
-
+		void check_price_for_country(const QString& cc);
 	
 		
 	public slots:
 		//void complete_request(const QString& req);
-		void complete_request();
+		void on_request_timer_shot();
+		
+	//FIMXE shouldn't be public	
+	public:	
 		void on_login_success();
 		void on_login_fail(const QString&);
 	
@@ -47,8 +51,12 @@ class Controller :  public QObject
 		void set_authorized();
 		void unset_authorized();
 
-		void schedule_request(const QString& req);
 		
+		void schedule_request(const Request& req);
+		void complete_request();
+		
+		//FIXME ELEEN const gives compile error
+		void send_request(Request& req);
 		/*
 		void print_json(const QJsonObject& j);
 		void success_handler(const QJsonObject& j);
@@ -56,7 +64,7 @@ class Controller :  public QObject
 		*/
 		
 	private:
-		QString m_current_request;
+		Request m_current_request;
 		handleFunc m_current_err_handler;
 		handleFunc m_current_ok_handler;
 		

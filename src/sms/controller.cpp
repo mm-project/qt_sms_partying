@@ -28,7 +28,24 @@
 			Controller::get_instance()->on_login_fail(json_to_string(j));
 				
 		}
+
+		void price_ok_handler(const QJsonObject& j)  
+		{
+			std::cout << "SUCESS:" << std::endl;
+			//print_json(j);
+			Controller::get_instance()->on_login_success();
+					
+		}
+
+		void price_err_handler(const QJsonObject& j)  
+		{
+			std::cout << "ERROR: " <<  json_to_string(j).toStdString() << std::endl;
+			//print_json(j);
+			Controller::get_instance()->on_login_fail(json_to_string(j));
+				
+		}
 		
+	
 	} 
 	/**/
 	
@@ -89,36 +106,61 @@
 		m_username = l;
 		m_password = p;
 
-		m_current_request = "account/get-balance/"+l+"/"+p;
-		m_current_err_handler = rest_handlers::login_err_handler;
-		m_current_ok_handler = rest_handlers::login_ok_handler;
+		//m_current_request = "account/get-balance/"+l+"/"+p;
+		//m_current_err_handler = rest_handlers::login_err_handler;
+		//m_current_ok_handler = rest_handlers::login_ok_handler;
 
-		schedule_request("FIXME REDUDEDANT");
+		Request r(Requester::Type::GET,"account/get-balance/"+l+"/"+p,rest_handlers::login_err_handler,rest_handlers::login_ok_handler);
+		schedule_request(r);
 	}
 	
 	
-	void Controller::schedule_request(const QString& req) {
+
+	void Controller::check_price_for_country(const QString& cc) {
+		assert(is_authorized());
+		
+		
+		Request r(Requester::Type::GET,"/account/get-pricing/outbound/"+m_username+"/"+m_password+"/"+cc,rest_handlers::price_err_handler,rest_handlers::price_ok_handler);
+		schedule_request(r);
+
+	}
+	
+	//we want application to be responsive during request
+	//also usually servers doesn't support too many request without delay
+	void Controller::schedule_request(const Request& req) {
 		//FIMXE delete timer
+		m_current_request = req;
 		m_timer = new QTimer; 
 		//m_timer->setObjectName(req);
 		
-		connect(m_timer, SIGNAL(timeout()), this, SLOT(complete_request()));
+		connect(m_timer, SIGNAL(timeout()), this, SLOT(on_request_timer_shot()));
 		m_timer->setSingleShot(true); 
 		m_timer->start(1000);
 
 	}
 	
+	void Controller::on_request_timer_shot() {
+		complete_request();
+	}
+	
+	
+	void Controller::send_request(Request& r) {
+		m_requester->sendRequest(r.get_str(),r.get_ok_handler(),r.get_err_handler(),r.get_type());
+	}
+	
 	void Controller::complete_request() {
 		//FIMXE check current_request not empty
 		//m_current_request 
-		std::cout << "DELAYER REQUEST: " << m_current_request.toStdString() << std::endl;
-		
-		m_requester->sendRequest(m_current_request,m_current_ok_handler,m_current_err_handler,Requester::Type::GET);
+		std::cout << "DELAYER REQUEST: " << m_current_request.get_str().toStdString() << std::endl;
+		send_request(m_current_request);
+		//m_requester->sendRequest2(m_current_request);
+		//,m_current_ok_handler,m_current_err_handler,Requester::Type::GET);
 		
 		//ELEN FIXME callable functions should be members of this class 
 		// m_requester->sendRequest(m_current_request,&Controller::success_handler,&Controller::error_handler);//,Requester::Type::GET);
 
-		m_current_request = "EMPTY";
+		//FIXME
+		//m_current_request = "EMPTY";
 		delete m_timer;
 		m_timer = 0;
 		

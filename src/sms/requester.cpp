@@ -1,3 +1,4 @@
+//#include "request.hpp"
 #include "requester.hpp"
 
 #include <iostream>
@@ -23,10 +24,15 @@ void Requester::initRequester(const QString &host, const QString& port, QSslConf
     this->port = port.toInt();
     sslConfig = value;
     if (sslConfig != nullptr)
+		//fixme add default value for part instead
         pathTemplate =  "https://%1/%2";
     else
         pathTemplate = "http://%1/%2";
 }
+
+//void Requester::sendRequest2(const Request& r) {
+//	sendRequest(r->get_str(),r->get_ok_handler(),r->get_err_handler(),r->get_type());
+//}
 
 void Requester::sendRequest(const QString &apiStr,
                             const handleFunc &funcSuccess,

@@ -1,7 +1,7 @@
 #ifndef REQUESTER_H
 #define REQUESTER_H
 
-
+//#include "request.hpp"
 
 #include <QObject>
 #include <QBuffer>
@@ -36,7 +36,9 @@ public:
 
     void initRequester(const QString& host, const QString& port, QSslConfiguration *value);
 
-    void sendRequest(const QString& apiStr,
+    //void sendRequest2(const Request&);
+ 
+	void sendRequest(const QString& apiStr,
                      const handleFunc &funcSuccess,
                      const handleFunc &funcError,
                      Type type = Type::GET,

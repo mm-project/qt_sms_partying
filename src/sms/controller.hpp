@@ -48,9 +48,12 @@ class Controller :  public QObject
 		void unset_authorized();
 
 		void schedule_request(const QString& req);
+		
+		/*
 		void print_json(const QJsonObject& j);
 		void success_handler(const QJsonObject& j);
 		void error_handler(const QJsonObject& j);
+		*/
 		
 	private:
 		QString m_current_request;

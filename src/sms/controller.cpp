@@ -135,6 +135,7 @@
 	}
 	
 	
+	/*
 	void Controller::print_json(const QJsonObject& j)
 	{
 		QJsonDocument doc(j);
@@ -155,6 +156,8 @@
 		std::cout << "ERROR:" << std::endl;
 		print_json(j);
 			
-	}
+	} */
+	
+	
 
 	

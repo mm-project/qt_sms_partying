@@ -34,7 +34,7 @@ public:
 
     explicit Requester(QObject *parent = 0);
 
-    void initRequester(const QString& host, int port, QSslConfiguration *value);
+    void initRequester(const QString& host, const QString& port, QSslConfiguration *value);
 
     void sendRequest(const QString& apiStr,
                      const handleFunc &funcSuccess,

@@ -13,17 +13,19 @@ Requester::Requester(QObject *parent) : QObject(parent)
     manager = new QNetworkAccessManager(this);
 }
 
-void Requester::initRequester(const QString &host, int port, QSslConfiguration *value)
+
+//FIXME add usage of port and move from default.
+void Requester::initRequester(const QString &host, const QString& port, QSslConfiguration *value)
 {
 	//FIXME return and check is not init
 	//std::cout << "requester init" << std::endl;
 	this->host = host;
-    this->port = port;
+    this->port = port.toInt();
     sslConfig = value;
     if (sslConfig != nullptr)
-        pathTemplate =  "https://%1:%2/%3";
+        pathTemplate =  "https://%1/%2";
     else
-        pathTemplate = "http://%1:%2/%3";
+        pathTemplate = "http://%1/%2";
 }
 
 void Requester::sendRequest(const QString &apiStr,
@@ -141,8 +143,8 @@ QNetworkRequest Requester::createRequest(const QString &apiStr)
 {
     QNetworkRequest request;
     //std::cout << pathTemplate.toStdString() << " " << apiStr.toStdString() << std::endl;
-	QString url = pathTemplate.arg(host).arg(port).arg(apiStr);
-	//std::cout << url.toStdString() << std::endl;
+	QString url = pathTemplate.arg(host).arg(apiStr);
+	std::cout << url.toStdString() << std::endl;
     request.setUrl(QUrl(url));
     request.setRawHeader("Content-Type","application/json");
     if(!token.isEmpty())

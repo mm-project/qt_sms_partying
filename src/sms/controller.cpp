@@ -48,7 +48,7 @@
 		ssl->setProtocol(QSsl::TlsV1_0);
 		
 		m_requester = new Requester(this);
-		m_requester->initRequester("rest.nexmo.com", 80 , ssl);
+		m_requester->initRequester("rest.nexmo.com", "" , ssl);
 		//complete_request();
 	
 	}
@@ -91,7 +91,7 @@
 
 		m_current_request = "account/get-balance/"+l+"/"+p;
 		m_current_err_handler = rest_handlers::login_err_handler;
-		m_current_ok_handler = rest_handlers::login_err_handler;
+		m_current_ok_handler = rest_handlers::login_ok_handler;
 
 		schedule_request("FIXME REDUDEDANT");
 	}
@@ -113,7 +113,7 @@
 		//m_current_request 
 		std::cout << "DELAYER REQUEST: " << m_current_request.toStdString() << std::endl;
 		
-		m_requester->sendRequest(m_current_request,m_current_err_handler,m_current_ok_handler,Requester::Type::GET);
+		m_requester->sendRequest(m_current_request,m_current_ok_handler,m_current_err_handler,Requester::Type::GET);
 		
 		//ELEN FIXME callable functions should be members of this class 
 		// m_requester->sendRequest(m_current_request,&Controller::success_handler,&Controller::error_handler);//,Requester::Type::GET);

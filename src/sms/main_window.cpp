@@ -22,7 +22,7 @@ MainWindow::MainWindow(QWidget* p)
 
 void MainWindow::update_status_bar(const QString& s, bool err)
 {
-        !err ? statusBar()->setStyleSheet("color : red")
+        err ? statusBar()->setStyleSheet("color : red")
                 : statusBar()->setStyleSheet("color : black");
         statusBar()->showMessage(s);
 }

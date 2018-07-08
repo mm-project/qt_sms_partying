@@ -115,7 +115,21 @@
 	}
 	
 	
+	/*
+	void Controller::send_sms(const QString& to, const QString& from, const QString& body) {
+		assert(is_authorized());
+		assert(have_sufficient_founds());
 
+		JsonBody j;
+		J.add("from:",);
+		J.add("to:");
+		J.add("body:");
+		
+		Request r(Requester::Type::POST,"/sms/json"+m_username+"/"+m_password+"/"+cc,rest_handlers::price_err_handler,rest_handlers::price_ok_handler);
+		schedule_request(r);
+	
+	}*/
+	
 	void Controller::check_price_for_country(const QString& cc) {
 		assert(is_authorized());
 		
@@ -144,9 +158,6 @@
 	}
 	
 	
-	void Controller::send_request(Request& r) {
-		m_requester->sendRequest(r.get_str(),r.get_ok_handler(),r.get_err_handler(),r.get_type());
-	}
 	
 	void Controller::complete_request() {
 		//FIMXE check current_request not empty
@@ -166,6 +177,10 @@
 		
 	}
 
+	void Controller::send_request(Request& r) {
+		m_requester->sendRequest(r.get_str(),r.get_ok_handler(),r.get_err_handler(),r.get_type());
+	}
+	
 	void Controller::on_login_success() {
 		set_authorized();
 		emit login_successed();

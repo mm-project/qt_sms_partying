@@ -16,6 +16,8 @@
 typedef std::function<void(const QJsonObject &)> handleFunc;
 typedef std::function<void()> finishFunc;
 
+
+
 class Requester : public QObject
 {
     Q_OBJECT

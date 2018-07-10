@@ -47,9 +47,9 @@ login_window::login_window(QWidget* parent)
  
 }
 
-
+//FIXME
 void login_window::user_field_clicked() {
-		emit change_status_bar("");	
+	emit change_status_bar("",true);	
 }
 
 bool login_window::pre_validate() 
@@ -60,7 +60,7 @@ bool login_window::pre_validate()
 	m_login_button->setEnabled(false);
 	m_username->setEnabled(false);
 	m_password->setEnabled(false);
-	emit change_status_bar("Logging in...");	
+	emit change_status_bar("Logging in...", true);	
 	return true;
 }
 
@@ -70,7 +70,7 @@ void login_window::post_validate(bool res, const QString& err_msg)
 		m_login_button->setEnabled(true);
 		m_username->setEnabled(true);
 		m_password->setEnabled(true);
-		emit change_status_bar("Error: "+err_msg);
+		emit change_status_bar("Error: "+err_msg,false);
 	} else {
 		emit accept_user();
 	}
@@ -88,7 +88,7 @@ void login_window::on_login_err(const QString& res) {
 void login_window::login_button_clicked()
 {
         if ( !pre_validate() ) return;
-		Controller::get_instance()->check_login(m_username->text(),m_password->text());
+		Controller::get_instance()->request_check_login(m_username->text(),m_password->text());
 		//answer will be handled by
 		//on_login_err or on_login_ok
 }

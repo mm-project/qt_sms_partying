@@ -17,12 +17,12 @@ MainWindow::MainWindow(QWidget* p)
         
 		connect(m_stacked, SIGNAL(status_bar_changed(const QString&, bool)), this, SLOT(update_status_bar(const QString&, bool)));
         
-		statusBar()->showMessage("Enter creditials to login");
+		statusBar()->showMessage("Enter creditials to login.");
 }
 
 void MainWindow::update_status_bar(const QString& s, bool err)
 {
-        err ? statusBar()->setStyleSheet("color : red")
+        !err ? statusBar()->setStyleSheet("color : red")
                 : statusBar()->setStyleSheet("color : black");
         statusBar()->showMessage(s);
 }

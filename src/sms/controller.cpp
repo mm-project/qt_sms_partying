@@ -45,7 +45,23 @@
 				
 		}
 		
-	
+		void balance_ok_handler(const QJsonObject& j)  
+		{
+			//std::cout << "SUCESS:" << std::endl;
+			//print_json(j);
+			Controller::get_instance()->on_balance_recieved(false,json_to_string(j));
+					
+		}
+
+		void balance_err_handler(const QJsonObject& j)  
+		{
+			//std::cout << "ERROR: " <<  json_to_string(j).toStdString() << std::endl;
+			//print_json(j);
+			Controller::get_instance()->on_balance_recieved(true,json_to_string(j));
+				
+		}
+
+		
 	} 
 	/**/
 	
@@ -95,14 +111,14 @@
 	
 	
 	
-	void Controller::get_balance() {
-		//std::cout <<  "requester " << m_requester << std::endl;
-		//m_requester->sendRequest(req,rest_handlers::success_handler,rest_handlers::error_handler);//,Requester::Type::GET);
+	void Controller::request_get_balance() {
+		Request r(Requester::Type::GET,"account/get-balance/"+m_username+"/"+m_password,rest_handlers::balance_err_handler,rest_handlers::balance_ok_handler);
+		schedule_request(r);
 	}
 
 	
 	//FIXME CHECK if ok and store username pasword.
-	void Controller::check_login(const QString& l, const QString& p) {
+	void Controller::request_check_login(const QString& l, const QString& p) {
 		m_username = l;
 		m_password = p;
 
@@ -130,7 +146,7 @@
 	
 	}*/
 	
-	void Controller::check_price_for_country(const QString& cc) {
+	void Controller::request_check_price_for_country(const QString& cc) {
 		assert(is_authorized());
 		
 		
@@ -143,7 +159,8 @@
 	//also usually servers doesn't support too many request without delay
 	void Controller::schedule_request(const Request& req) {
 		//FIMXE delete timer
-		m_current_request = req;
+		//m_current_request = req;
+		m_pending_requests.push(req);
 		m_timer = new QTimer; 
 		//m_timer->setObjectName(req);
 		
@@ -163,6 +180,8 @@
 		//FIMXE check current_request not empty
 		//m_current_request 
 		std::cout << "DELAYER REQUEST: " << m_current_request.get_str().toStdString() << std::endl;
+		m_current_request = m_pending_requests.front();
+		m_pending_requests.pop();
 		send_request(m_current_request);
 		//m_requester->sendRequest2(m_current_request);
 		//,m_current_ok_handler,m_current_err_handler,Requester::Type::GET);
@@ -189,6 +208,15 @@
 	void Controller::on_login_fail(const QString& res) {
 		unset_authorized();
 		emit login_failed(res);
+	}
+	
+	void Controller::on_balance_recieved(bool res, const QString& balance) {
+		emit signal_balance_request_done(res,balance);
+		
+		//if ( res ) 
+		//	emit balance_successed(balance);
+		//else	
+		//	emit balance_failed(balance);
 	}
 	
 	

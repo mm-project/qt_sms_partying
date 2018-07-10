@@ -17,9 +17,12 @@ public:
 signals:
         void status_bar_changed(const QString&, bool);
 
+		
 private slots:
-        void change_window();
-        void update_statusbar(const QString&);
+        void on_balance_response_availble(bool, const QString&);
+		
+		void change_window();
+        void update_statusbar(const QString&,bool);
 
 private:
         login_window* m_login;

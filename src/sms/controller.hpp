@@ -12,6 +12,7 @@
 
 #include <cassert>
 #include <iostream>
+#include <queue>
 
 class Controller :  public QObject
 {
@@ -28,9 +29,11 @@ class Controller :  public QObject
 		Controller(); 
 		
 	public:	
-		void get_balance();
-		void check_login(const QString& l, const QString& p);
-		void check_price_for_country(const QString& cc);
+		void request_get_balance();
+		void request_check_login(const QString& l, const QString& p);
+		void request_check_price_for_country(const QString& cc);
+		void request_send_sms();
+		
 	
 		
 	public slots:
@@ -41,10 +44,16 @@ class Controller :  public QObject
 	public:	
 		void on_login_success();
 		void on_login_fail(const QString&);
+		void on_balance_recieved(bool, const QString&);
 	
 	signals:
+		//FIXME go with one signal instead, and keep bool
 		void login_successed();
 		void login_failed(const QString&);
+		
+		void signal_balance_request_done(bool,const QString&);
+		//void balance_successed(const QString&);
+		//void balance_failed(const QString&);
 		
 	private:
 		bool is_authorized();
@@ -64,6 +73,7 @@ class Controller :  public QObject
 		*/
 		
 	private:
+		std::queue<Request> m_pending_requests;
 		Request m_current_request;
 		handleFunc m_current_err_handler;
 		handleFunc m_current_ok_handler;

@@ -18,21 +18,13 @@ public:
         MainWindow(QWidget* = 0);
 
 public slots:
-		void start_processing();
-		void end_processing() { m_processing = false; }
-
-        void update_status_bar(const QString&, bool = false, bool processing = false);
-
-private slots:
-		void update_progress_state();
+		void update_status_bar(const QString&, bool = false, bool processing = false);
 
 private:
         stacked_widget* m_stacked;
 		Controller* m_controller;
-		bool m_processing;
 		// For Status gif
 		QMovie* m_gif;
-		QTimer* m_timer;
 		QLabel* m_status_bar_label;
 		QLabel* m_gif_label;
 };

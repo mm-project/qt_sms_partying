@@ -163,7 +163,6 @@
 		m_pending_requests.push(req);
 		m_timer = new QTimer; 
 		//m_timer->setObjectName(req);
-		emit processing_start();
 		connect(m_timer, SIGNAL(timeout()), this, SLOT(on_request_timer_shot()));
 		m_timer->setSingleShot(true); 
 		m_timer->start(1000);
@@ -202,13 +201,11 @@
 	
 	void Controller::on_login_success() {
 		set_authorized();
-		emit processing_end();
 		emit login_successed();
 	}
 	
 	void Controller::on_login_fail(const QString& res) {
 		unset_authorized();
-		emit processing_end();
 		emit login_failed(res);
 	}
 	

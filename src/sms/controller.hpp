@@ -55,9 +55,6 @@ class Controller :  public QObject
 		//void balance_successed(const QString&);
 		//void balance_failed(const QString&);
 		
-		void processing_start();
-		void processing_end();
-
 	private:
 		bool is_authorized();
 		void set_authorized();

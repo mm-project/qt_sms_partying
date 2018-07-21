@@ -20,10 +20,6 @@ MainWindow::MainWindow(QWidget* p)
         resize(300, 200);
         setWindowTitle("SMS FUN");
         
-		m_timer = new QTimer(this);
-		m_timer->setSingleShot(true);
-		m_timer->setInterval(100);
-		connect(m_timer, SIGNAL(timeout()), this, SLOT(update_progress_state()));
 		connect(m_stacked, SIGNAL(status_bar_changed(const QString&, bool, bool)), this, SLOT(update_status_bar(const QString&, bool, bool)));
         
 		m_gif = new QMovie("C:\\Users\\elen\\Desktop\\qt_sms\\VisualStudio_qtsms\\x64\\Debug\\gg.gif");
@@ -33,6 +29,8 @@ MainWindow::MainWindow(QWidget* p)
 		m_gif_label->setMovie(m_gif);		
 		m_status_bar_label = new QLabel("Enter creditials to login.", this);
 		statusBar()->addWidget(m_status_bar_label);
+		statusBar()->addWidget(m_gif_label);
+		m_gif_label->setHidden(true);
 		setWindowIcon(QIcon("C:\\Users\\elen\\Desktop\\qt_sms\\main_window.png"));
 }
 
@@ -42,25 +40,11 @@ void MainWindow::update_status_bar(const QString& s, bool err, bool processing)
 		!err ? s_bar->setStyleSheet("color : red")
                : s_bar->setStyleSheet("color : black");
         m_status_bar_label->setText(s);
-		if (!m_processing) {
+		if (!processing) {
 			m_gif->stop();
-			s_bar->removeWidget(m_gif_label);
+			m_gif_label->setHidden(true);
+		} else {
+			m_gif->start();
+			m_gif_label->setHidden(false);
 		}
-}
-
-void MainWindow::start_processing()
-{
-	m_processing = true;
-	m_gif->start();
-	statusBar()->addWidget(m_gif_label);
-	m_timer->start();
-	//statusBar()->clearMessage(); //change
-}
-
-void MainWindow::update_progress_state()
-{
-	if (!m_processing) {
-		m_gif->stop();
-		//hide widget
-	}
 }

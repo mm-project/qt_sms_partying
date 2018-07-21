@@ -28,7 +28,7 @@ void stacked_widget::change_window()
 {
         m_layout->setCurrentWidget(m_send);
 		m_send->disable_inputs();
-        emit status_bar_changed("Current balance: getting data... ", true); 
+        emit status_bar_changed("Current balance: getting data... ", true,true); 
 		Controller::get_instance()->request_get_balance();
 }
 

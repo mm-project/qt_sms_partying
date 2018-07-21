@@ -8,6 +8,7 @@
 class stacked_widget;
 class QMovie;
 class QTimer;
+class QLabel;
 
 class MainWindow : public QMainWindow
 {
@@ -20,7 +21,7 @@ public slots:
 		void start_processing();
 		void end_processing() { m_processing = false; }
 
-        void update_status_bar(const QString&, bool);
+        void update_status_bar(const QString&, bool = false, bool processing = false);
 
 private slots:
 		void update_progress_state();
@@ -32,6 +33,8 @@ private:
 		// For Status gif
 		QMovie* m_gif;
 		QTimer* m_timer;
+		QLabel* m_status_bar_label;
+		QLabel* m_gif_label;
 };
 
 #endif

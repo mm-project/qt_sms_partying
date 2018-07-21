@@ -24,7 +24,7 @@ public:
 
 signals:
         void accept_user();
-        void change_status_bar(const QString&,bool);
+        void change_status_bar(const QString&,bool, bool = false);
 		
 private slots:
 		void login_button_clicked();

@@ -18,7 +18,7 @@ stacked_widget::stacked_widget(QWidget* parent)
         setLayout(m_layout);
 
         connect(m_login, SIGNAL(accept_user()), this, SLOT(change_window()));
-        connect(m_login, SIGNAL(change_status_bar(const QString&,bool)), this, SLOT(update_statusbar(const QString&,bool)));
+        connect(m_login, SIGNAL(change_status_bar(const QString&,bool, bool)), this, SLOT(update_statusbar(const QString&, bool, bool)));
 		
 		connect(Controller::get_instance(), SIGNAL(signal_balance_request_done(bool,const QString&)), this, SLOT(on_balance_response_availble(bool,const QString&)));
 		
@@ -43,8 +43,6 @@ void stacked_widget::enable_inputs() {
 
 void stacked_widget::on_balance_response_availble(bool rcode, const QString& res)
 {
-		 
-		
 		if ( !rcode ) {
 			emit status_bar_changed("Current balance:  "+res, true); 
 			m_send->enable_inputs();
@@ -55,7 +53,7 @@ void stacked_widget::on_balance_response_availble(bool rcode, const QString& res
 		
 }
 
-void stacked_widget::update_statusbar(const QString& s,bool res)
+void stacked_widget::update_statusbar(const QString& s,bool res, bool processing)
 {
-        emit status_bar_changed(s, res);
+        emit status_bar_changed(s, res, processing);
 }

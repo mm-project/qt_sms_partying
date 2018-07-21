@@ -13,6 +13,9 @@ class QLineEdit;
 class login_window : public QWidget
 {
         Q_OBJECT
+		
+private:
+	enum state { ENABLED = 0, DISABLED };
 
 public:
         login_window(QWidget* = 0);
@@ -27,8 +30,13 @@ private slots:
 		void login_button_clicked();
 		void user_field_clicked();
 		void on_login_ok();
+		void start_process();
+		void end_process();
 		void on_login_err(const QString&);
 		//void post_validate(bool res, const QString& err_msg); 
+
+private:
+	void set_state(state);
 
 private:
         QLineEdit* m_username;

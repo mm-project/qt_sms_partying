@@ -26,7 +26,7 @@ send_window::send_window(QWidget* parent)
         grid->addWidget(from_l, 0, 0, Qt::AlignRight);
         grid->addWidget(m_from_edt, 0, 1);
         grid->addWidget(to_l, 1, 0, Qt::AlignRight);
-        grid->rowStretch(60);
+        grid->rowStretch(1);
         grid->addWidget(m_to_edt, 1, 1);
         grid->addWidget(message_l, 2, 0);
         grid->addWidget(m_msg_txt, 3, 0, 1, 2);

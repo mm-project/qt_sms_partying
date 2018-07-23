@@ -1,6 +1,7 @@
 #include "login_window_gui.hpp"
 #include "controller.hpp"
 #include "main_window.hpp"
+#include "request_handler.hpp"
 
 #include <QLabel>
 #include <QLineEdit>
@@ -39,10 +40,19 @@ login_window::login_window(QWidget* parent)
 	//FIXME
 	m_controller = Controller::get_instance();
 
+	//connect(m_username, SIGNAL(clicked()), this, SLOT(user_field_clicked()));
+
+	login_hander = new LoginHandler;	
+	//register_request_handler("login",login_handler,)
+	
+	
 	connect(m_login_button, SIGNAL(clicked()), this, SLOT(login_button_clicked()));
-	connect(m_username, SIGNAL(clicked()), this, SLOT(user_field_clicked()));
-	connect(m_controller, SIGNAL(login_successed()), this, SLOT(on_login_ok()));
-	connect(m_controller, SIGNAL(login_failed(const QString&)), this, SLOT(on_login_err(const QString&)));
+	//connect(login_hander, SIGNAL(sig_error()), this, SLOT(on_login_ok()));
+	//connect(login_hander, SIGNAL(sig_pass()), this, SLOT(on_login_err()));
+	
+	//connect(m_login_button, SIGNAL(clicked()), this, SLOT(login_button_clicked()));
+	//connect(m_controller, SIGNAL(login_successed()), this, SLOT(on_login_ok()));
+	//connect(m_controller, SIGNAL(login_failed(const QString&)), this, SLOT(on_login_err(const QString&)));
 }
 
 //FIXME
@@ -81,7 +91,16 @@ void login_window::on_login_err(const QString& res) {
 void login_window::login_button_clicked()
 {
         if ( !pre_validate() ) return;
-		Controller::get_instance()->request_check_login(m_username->text(),m_password->text());
+		//Controller::get_instance()->request_check_login(m_username->text(),m_password->text());
+		//Controller::get_instance()->request("login").add_param(m_username->text());
+		//Controller::get_instance()->request("login").add_param(m_password->password());
+		//Controller::get_instance()->request("login")->execute();
+		
+		//login_hander->add_param(m_username->text());
+		//login_hander->add_param(m_password->text());
+		login_hander->execute();
+		
+		
 		//answer will be handled by
 		//on_login_err or on_login_ok
 }

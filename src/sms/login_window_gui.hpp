@@ -2,6 +2,7 @@
 #define LOGIN_WINDOW_GUI_HPP
 
 #include "controller.hpp"
+#include "request_handler.hpp"
 
 #include <QString>
 #include <QPushButton>
@@ -41,6 +42,7 @@ private:
         QLineEdit* m_password;
 		QPushButton* m_login_button;
 		Controller* m_controller;
+		RequestHandler* login_hander;
 };
 
 #endif

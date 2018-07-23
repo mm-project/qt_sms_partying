@@ -34,6 +34,7 @@ class Controller :  public QObject
 		void request_check_price_for_country(const QString& cc);
 		void request_send_sms();
 		
+		void schedule_request(const Request& req);
 	
 		
 	public slots:
@@ -61,7 +62,6 @@ class Controller :  public QObject
 		void unset_authorized();
 
 		
-		void schedule_request(const Request& req);
 		void complete_request();
 		
 		//FIXME ELEEN const gives compile error

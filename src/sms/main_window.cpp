@@ -10,6 +10,11 @@
 #include <QPicture>
 #include <QMovie>
 
+//#define MACRO_ICONS_DIR "C:\\Users\\levons\\Desktop\\git\\mm_project\\qt_sms_partying\\etc\\icons\\"
+#define MACRO_ICONS_DIR "icons\\"
+//#define MACRO_ICONS_DIR ""
+
+
 MainWindow::MainWindow(QWidget* p)
         :QMainWindow(p)
 {
@@ -21,8 +26,10 @@ MainWindow::MainWindow(QWidget* p)
         setWindowTitle("SMS FUN");
         
 		connect(m_stacked, SIGNAL(status_bar_changed(const QString&, bool, bool)), this, SLOT(update_status_bar(const QString&, bool, bool)));
-        
-		m_gif = new QMovie("C:\\Users\\elen\\Desktop\\qt_sms\\VisualStudio_qtsms\\x64\\Debug\\gg.gif");
+		//FIXME move to member
+		QString QT_ICON_DIR(MACRO_ICONS_DIR);
+		
+		m_gif = new QMovie(QT_ICON_DIR+"gg.gif");
 		//assert(m_gif->isValid() != 0); // maybe need to check
 		m_gif->setScaledSize(QSize(20, 20));
 		m_gif_label = new QLabel(this);
@@ -31,7 +38,7 @@ MainWindow::MainWindow(QWidget* p)
 		statusBar()->addWidget(m_status_bar_label);
 		statusBar()->addWidget(m_gif_label);
 		m_gif_label->setHidden(true);
-		setWindowIcon(QIcon("C:\\Users\\elen\\Desktop\\qt_sms\\main_window.png"));
+		setWindowIcon(QIcon(QT_ICON_DIR+"main_window.png"));
 }
 
 void MainWindow::update_status_bar(const QString& s, bool err, bool processing)

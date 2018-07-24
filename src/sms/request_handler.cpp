@@ -11,7 +11,8 @@ LoginHandler::LoginHandler() {
 void LoginHandler::execute() {
 	//Request m_req = new Request(Requester::Type::GET,m_req_str,reinterpret_cast<handleFunc>(&(LoginHandler::on_error)),reinterpret_cast<handleFunc>(&(LoginHandler::on_pass)));
 	
-	Request m_req = new Request(Requester::Type::GET,m_req_str,std::bind(on_error),std::bind(on_pass);
+	Request* m_req = new Request(Requester::Type::GET,m_req_str,std::bind(&LoginHandler::on_error, this, std::placeholders::_1),
+		std::bind(&LoginHandler::on_pass, this, std::placeholders::_1));
 	Controller::get_instance()->schedule_request(*m_req);
 }
 	

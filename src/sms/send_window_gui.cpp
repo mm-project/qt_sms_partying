@@ -7,13 +7,17 @@
 #include <QVBoxLayout>
 #include <QSizePolicy>
 #include <QGroupBox>
+#include <QComboBox>
+#include <QLineEdit>
+#include <QPushButton>
+#include <QTextEdit>
 
 send_window::send_window(QWidget* parent)
         : QWidget(parent)
 {
         
         m_from_edt = new QLineEdit(this);
-        m_to_edt = new QLineEdit(this);
+        m_to_combo = new QComboBox(this);
         m_msg_txt = new QTextEdit(this);
 		m_send_button = new QPushButton("Send", this);
 		m_send_button->setSizePolicy(QSizePolicy::Fixed, QSizePolicy::Fixed);
@@ -27,7 +31,7 @@ send_window::send_window(QWidget* parent)
         grid->addWidget(m_from_edt, 0, 1);
         grid->addWidget(to_l, 1, 0, Qt::AlignRight);
         grid->rowStretch(1);
-        grid->addWidget(m_to_edt, 1, 1);
+        grid->addWidget(m_to_combo, 1, 1);
         grid->addWidget(message_l, 2, 0);
         grid->addWidget(m_msg_txt, 3, 0, 1, 2);
         grid->addWidget(m_send_button, 4, 1, Qt::AlignRight);
@@ -37,18 +41,20 @@ send_window::send_window(QWidget* parent)
         setLayout(v_l);
 		
 		connect(m_send_button,SIGNAL(clicked()),this,SLOT(on_send_clicked()));
+
+		update_to_combo();
 }
 
 void send_window::disable_inputs() {
         m_from_edt->setEnabled(false);
-        m_to_edt->setEnabled(false);
+        m_to_combo->setEnabled(false);
         m_msg_txt->setEnabled(false);
 		m_send_button->setEnabled(false);
 }
 
 void send_window::enable_inputs() {
         m_from_edt->setEnabled(true);
-        m_to_edt->setEnabled(true);
+        m_to_combo->setEnabled(true);
         m_msg_txt->setEnabled(true);
 		m_send_button->setEnabled(true);
 }
@@ -60,4 +66,13 @@ void send_window::on_send_clicked() {
 	//check size message_l
 	//Controller->get_instance()->request_send_sms():
 	
+}
+
+void send_window::update_to_combo()
+{
+	m_to_combo->setEditable(true);
+	QIcon icon("C:\\Users\\elen\\Desktop\\qt_sms\\main_window.png");
+	m_to_combo->addItem(icon, "+374");
+	QIcon icon2("C:\\Users\\elen\\Desktop\\qt_sms\\au.png");
+	m_to_combo->addItem(icon2, "+4");
 }

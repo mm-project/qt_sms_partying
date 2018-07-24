@@ -2,9 +2,11 @@
 #define SEND_WINDOW_GUI_HPP
 
 #include <QWidget>
-#include <QPushButton>
-#include <QLineEdit>
-#include <QTextEdit>
+
+class QPushButton;
+class QComboBox;
+class QLineEdit;
+class QTextEdit;
 
 class send_window : public QWidget
 {
@@ -15,13 +17,14 @@ public:
 		void enable_inputs();
 public:
         send_window(QWidget* = 0);
-		
+
+private:
+		void update_to_combo();
 private:
 		QLineEdit* m_from_edt;
-        QLineEdit* m_to_edt;
+        QComboBox* m_to_combo;
         QTextEdit* m_msg_txt;
         QPushButton* m_send_button;
- 
  
 private slots:
 		void on_send_clicked();

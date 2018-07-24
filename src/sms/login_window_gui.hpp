@@ -42,7 +42,7 @@ private:
         QLineEdit* m_password;
 		QPushButton* m_login_button;
 		Controller* m_controller;
-		RequestHandler* login_hander;
+		RequestHandler* login_handler;
 };
 
 #endif

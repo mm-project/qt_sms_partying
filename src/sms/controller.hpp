@@ -3,6 +3,8 @@
 
 #include "requester.hpp"
 #include "request.hpp"
+#include "request_handler.hpp"
+
 
 #include <QTimer>
 #include <QJsonObject>
@@ -13,6 +15,7 @@
 #include <cassert>
 #include <iostream>
 #include <queue>
+#include <map>
 
 class Controller :  public QObject
 {
@@ -29,11 +32,12 @@ class Controller :  public QObject
 		Controller(); 
 		
 	public:	
-		void request_get_balance();
-		void request_check_login(const QString& l, const QString& p);
-		void request_check_price_for_country(const QString& cc);
-		void request_send_sms();
-		
+		//void request_get_balance();
+		//void request_check_login(const QString& l, const QString& p);
+		//void request_check_price_for_country(const QString& cc);
+		//void request_send_sms();
+		//void register_handler(const QString&,RequestHandler*)
+		//RequestHandler* get_handler(const QString&);
 		void schedule_request(const Request& req);
 	
 		
@@ -43,16 +47,16 @@ class Controller :  public QObject
 		
 	//FIMXE shouldn't be public	
 	public:	
-		void on_login_success();
-		void on_login_fail(const QString&);
-		void on_balance_recieved(bool, const QString&);
+		//void on_login_success();
+		//void on_login_fail(const QString&);
+		//void on_balance_recieved(bool, const QString&);
 	
 	signals:
 		//FIXME go with one signal instead, and keep bool
-		void login_successed();
-		void login_failed(const QString&);
+		//void login_successed();
+		//void login_failed(const QString&);
 		
-		void signal_balance_request_done(bool,const QString&);
+		//void signal_balance_request_done(bool,const QString&);
 		//void balance_successed(const QString&);
 		//void balance_failed(const QString&);
 		
@@ -73,10 +77,11 @@ class Controller :  public QObject
 		*/
 		
 	private:
+		std::map<std::string,RequestHandler*> m_str2handler;
 		std::queue<Request> m_pending_requests;
 		Request m_current_request;
-		handleFunc m_current_err_handler;
-		handleFunc m_current_ok_handler;
+		//handleFunc m_current_err_handler;
+		//handleFunc m_current_ok_handler;
 		
 		
 		QTimer* m_timer;

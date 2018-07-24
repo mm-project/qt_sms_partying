@@ -2,7 +2,7 @@
 #include "requester.hpp"
 
 
-	/**/
+	/*
 	namespace rest_handlers {
 		//*
 		QString json_to_string(const QJsonObject& j)
@@ -63,7 +63,7 @@
 
 		
 	} 
-	/**/
+	*/
 	
 
 	Controller::Controller() {
@@ -109,7 +109,7 @@
 		is_auth = false;
 	}
 	
-	
+	/*
 	
 	void Controller::request_get_balance() {
 		Request r(Requester::Type::GET,"account/get-balance/"+m_username+"/"+m_password,rest_handlers::balance_err_handler,rest_handlers::balance_ok_handler);
@@ -131,7 +131,7 @@
 	}
 	
 	
-	/*
+	
 	void Controller::send_sms(const QString& to, const QString& from, const QString& body) {
 		assert(is_authorized());
 		assert(have_sufficient_founds());
@@ -144,7 +144,7 @@
 		Request r(Requester::Type::POST,"/sms/json"+m_username+"/"+m_password+"/"+cc,rest_handlers::price_err_handler,rest_handlers::price_ok_handler);
 		schedule_request(r);
 	
-	}*/
+	}
 	
 	void Controller::request_check_price_for_country(const QString& cc) {
 		assert(is_authorized());
@@ -154,7 +154,7 @@
 		schedule_request(r);
 
 	}
-	
+	*/
 	//we want application to be responsive during request
 	//also usually servers doesn't support too many request without delay
 	void Controller::schedule_request(const Request& req) {
@@ -199,6 +199,7 @@
 		m_requester->sendRequest(r.get_str(),r.get_ok_handler(),r.get_err_handler(),r.get_type());
 	}
 	
+	/*
 	void Controller::on_login_success() {
 		set_authorized();
 		emit login_successed();
@@ -217,7 +218,7 @@
 		//else	
 		//	emit balance_failed(balance);
 	}
-	
+	*/
 	
 	/*
 	void Controller::print_json(const QJsonObject& j)

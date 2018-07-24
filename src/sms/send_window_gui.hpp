@@ -2,6 +2,7 @@
 #define SEND_WINDOW_GUI_HPP
 
 #include <QWidget>
+#include "simple_get_handler.hpp"
 
 class QPushButton;
 class QComboBox;
@@ -28,6 +29,11 @@ private:
  
 private slots:
 		void on_send_clicked();
-
+		void on_send_ok();
+		void on_send_err();
+		
+private:
+		RequestHandler* m_sms_handler;
+		
 };
 #endif

@@ -2,6 +2,7 @@
 #include "controller.hpp"
 #include "main_window.hpp"
 #include "request_handler.hpp"
+#include "simple_get_handler.hpp"
 
 #include <QLabel>
 #include <QLineEdit>
@@ -42,13 +43,12 @@ login_window::login_window(QWidget* parent)
 
 	//connect(m_username, SIGNAL(clicked()), this, SLOT(user_field_clicked()));
 
-	login_hander = new LoginHandler;	
-	//register_request_handler("login",login_handler,)
-	
-	
+	//m_controller->register_handler(SimpletGetHandler(""),on_login_ok,on_login_err);
+	login_handler = new SimpleGetHandler("/account/get-balance/%1/%2");	
+	connect(login_handler, SIGNAL(sig_error()), this, SLOT(on_login_ok()));
+	connect(login_handler, SIGNAL(sig_pass()), this, SLOT(on_login_err()));
+		
 	connect(m_login_button, SIGNAL(clicked()), this, SLOT(login_button_clicked()));
-	//connect(login_hander, SIGNAL(sig_error()), this, SLOT(on_login_ok()));
-	//connect(login_hander, SIGNAL(sig_pass()), this, SLOT(on_login_err()));
 	
 	//connect(m_login_button, SIGNAL(clicked()), this, SLOT(login_button_clicked()));
 	//connect(m_controller, SIGNAL(login_successed()), this, SLOT(on_login_ok()));
@@ -98,7 +98,8 @@ void login_window::login_button_clicked()
 		
 		//login_hander->add_param(m_username->text());
 		//login_hander->add_param(m_password->text());
-		login_hander->execute();
+		login_handler->get_pattern().arg(m_username->text()).arg(m_password->text());
+		login_handler->execute();
 		
 		
 		//answer will be handled by

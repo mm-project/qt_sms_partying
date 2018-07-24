@@ -43,6 +43,13 @@ send_window::send_window(QWidget* parent)
 		connect(m_send_button,SIGNAL(clicked()),this,SLOT(on_send_clicked()));
 
 		update_to_combo();
+		
+		//m_controller->get_handler("send_sms");
+		m_sms_handler = new SimpleGetHandler("/account/get-pricing/outbound/%1/%2/%3");
+		connect(m_sms_handler, SIGNAL(sig_error()), this, SLOT(on_send_ok()));
+		connect(m_sms_handler, SIGNAL(sig_pass()), this, SLOT(on_send_err()));
+
+
 }
 
 void send_window::disable_inputs() {
@@ -65,7 +72,16 @@ void send_window::on_send_clicked() {
 	//check validity m_to_edt
 	//check size message_l
 	//Controller->get_instance()->request_send_sms():
+	m_sms_handler->get_pattern().arg("aaa").arg("bbb").arg("ddd");
+	m_sms_handler->execute();
 	
+	
+}
+
+void send_window::on_send_ok() {
+}
+
+void send_window::on_send_err() {
 }
 
 void send_window::update_to_combo()

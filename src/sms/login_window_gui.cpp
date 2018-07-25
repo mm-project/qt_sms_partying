@@ -39,9 +39,8 @@ login_window::login_window(QWidget* parent)
 	setLayout(l);
 
 	//FIXME
-	m_controller = Controller::get_instance();
-
 	//connect(m_username, SIGNAL(clicked()), this, SLOT(user_field_clicked()));
+	m_controller = Controller::get_instance();
 
 	//m_controller->register_handler(SimpletGetHandler(""),on_login_ok,on_login_err);
 	login_handler = new SimpleGetHandler("/account/get-balance/%1/%2");	
@@ -55,10 +54,12 @@ login_window::login_window(QWidget* parent)
 	//connect(m_controller, SIGNAL(login_failed(const QString&)), this, SLOT(on_login_err(const QString&)));
 }
 
-//FIXME
+///FIXME
+/*
 void login_window::user_field_clicked() {
 	emit change_status_bar("",true);	
 }
+*/
 
 bool login_window::pre_validate() 
 {
@@ -71,7 +72,7 @@ bool login_window::pre_validate()
 
 void login_window::post_validate(bool res, const QString& err_msg) 
 {
-	if(!res) {
+	if(res) {
 		set_state(ENABLED);
 		emit change_status_bar("Error: "+err_msg,false);
 	} else {
@@ -83,27 +84,25 @@ void login_window::on_login_ok() {
 	post_validate(true,"");
 }
 
-void login_window::on_login_err(const QString& res) {
-	post_validate(false,"ERROR: "+res);
+void login_window::on_login_err() {
+	post_validate(false,"ERROR: "+login_handler->get_error_message());
 }
 
 
+/*
+void login_window::on_login_err(const QString& res) {
+	post_validate(false,"ERROR: "+res);
+}
+*/
+
 void login_window::login_button_clicked()
 {
-        if ( !pre_validate() ) return;
-		//Controller::get_instance()->request_check_login(m_username->text(),m_password->text());
-		//Controller::get_instance()->request("login").add_param(m_username->text());
-		//Controller::get_instance()->request("login").add_param(m_password->password());
-		//Controller::get_instance()->request("login")->execute();
-		
-		//login_hander->add_param(m_username->text());
-		//login_hander->add_param(m_password->text());
-		login_handler->get_pattern().arg(m_username->text()).arg(m_password->text());
-		login_handler->execute();
-		
-		
-		//answer will be handled by
-		//on_login_err or on_login_ok
+	if ( !pre_validate() ) return;
+	login_handler->set_args(login_handler->get_pattern().arg(m_username->text()).arg(m_password->text()));
+	login_handler->execute();
+	
+	//answer will be handled by
+	//on_login_err or on_login_ok
 }
 
 void login_window::set_state(state s)

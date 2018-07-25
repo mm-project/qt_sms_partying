@@ -68,13 +68,12 @@ void send_window::enable_inputs() {
 
 void send_window::on_send_clicked() {
 
-	//check validity m_from_edt
-	//check validity m_to_edt
-	//check size message_l
-	//Controller->get_instance()->request_send_sms():
-	m_sms_handler->get_pattern().arg("aaa").arg("bbb").arg("ddd");
-	m_sms_handler->execute();
-	
+		//check validity m_from_edt
+		//check validity m_to_edt
+		//check size message_l
+		//Controller->get_instance()->request_send_sms():
+		m_sms_handler->set_args(m_sms_handler->get_pattern().arg("aaa").arg("bbb").arg("ccc"));
+		m_sms_handler->execute();
 	
 }
 

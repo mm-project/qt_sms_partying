@@ -29,9 +29,10 @@ signals:
 		
 private slots:
 		void login_button_clicked();
-		void user_field_clicked();
 		void on_login_ok();
-		void on_login_err(const QString&);
+		void on_login_err();
+		
+		//void on_login_err(const QString&);
 		//void post_validate(bool res, const QString& err_msg); 
 
 private:

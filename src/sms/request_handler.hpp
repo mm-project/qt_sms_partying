@@ -16,10 +16,14 @@ public slots:
 
 	virtual void on_error(const QJsonObject &) = 0;
 	virtual void on_pass(const QJsonObject &) = 0;
+	
+	virtual QString get_error_message() = 0;
+	
 	virtual QString& get_pattern() = 0;
+	virtual void set_args(const QString&) = 0;
 
 signals:
-	void sig_err()	;
+	void sig_error();
 	void sig_pass();
 
 };

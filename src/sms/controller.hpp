@@ -32,33 +32,12 @@ class Controller :  public QObject
 		Controller(); 
 		
 	public:	
-		//void request_get_balance();
-		//void request_check_login(const QString& l, const QString& p);
-		//void request_check_price_for_country(const QString& cc);
-		//void request_send_sms();
-		//void register_handler(const QString&,RequestHandler*)
-		//RequestHandler* get_handler(const QString&);
 		void schedule_request(const Request& req);
 	
 		
-	public slots:
-		//void complete_request(const QString& req);
+	private slots:
 		void on_request_timer_shot();
 		
-	//FIMXE shouldn't be public	
-	public:	
-		//void on_login_success();
-		//void on_login_fail(const QString&);
-		//void on_balance_recieved(bool, const QString&);
-	
-	signals:
-		//FIXME go with one signal instead, and keep bool
-		//void login_successed();
-		//void login_failed(const QString&);
-		
-		//void signal_balance_request_done(bool,const QString&);
-		//void balance_successed(const QString&);
-		//void balance_failed(const QString&);
 		
 	private:
 		bool is_authorized();
@@ -67,22 +46,13 @@ class Controller :  public QObject
 
 		
 		void complete_request();
-		
-		//FIXME ELEEN const gives compile error
 		void send_request(Request& req);
-		/*
-		void print_json(const QJsonObject& j);
-		void success_handler(const QJsonObject& j);
-		void error_handler(const QJsonObject& j);
-		*/
 		
 	private:
-		std::map<std::string,RequestHandler*> m_str2handler;
-		std::queue<Request> m_pending_requests;
-		Request m_current_request;
-		//handleFunc m_current_err_handler;
-		//handleFunc m_current_ok_handler;
+		//std::map<std::string,RequestHandler*> m_str2handler;
 		
+		Request m_current_request;
+		std::queue<Request> m_pending_requests;
 		
 		QTimer* m_timer;
 		QSslConfiguration* ssl;

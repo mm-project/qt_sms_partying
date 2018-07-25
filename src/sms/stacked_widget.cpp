@@ -24,12 +24,20 @@ stacked_widget::stacked_widget(QWidget* parent)
 		
 }
 
+
+void stacked_widget::update_statusbar(const QString& s,bool res, bool processing)
+{
+        emit status_bar_changed(s, res, processing);
+}
+
+
 void stacked_widget::change_window()
 {
         m_layout->setCurrentWidget(m_send);
-		//m_send->disable_inputs();
+		m_send->disable_inputs();
         //emit status_bar_changed("Current balance: getting data... ", true,true); 
 		//Controller::get_instance()->request_get_balance();
+		on_balance_response_availble(false,"ok");
 }
 
 /*
@@ -47,13 +55,7 @@ void stacked_widget::on_balance_response_availble(bool rcode, const QString& res
 			emit status_bar_changed("Current balance:  "+res, true); 
 			m_send->enable_inputs();
 		} else {
-			emit status_bar_changed("Current balance:  "+res, false); 
-			
-		}
-		
+			emit status_bar_changed("Insufficent funds: "+res, false); 
+		}	
 }
 
-void stacked_widget::update_statusbar(const QString& s,bool res, bool processing)
-{
-        emit status_bar_changed(s, res, processing);
-}

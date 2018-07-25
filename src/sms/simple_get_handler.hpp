@@ -14,15 +14,25 @@ class SimpleGetHandler : public RequestHandler
 	public:
 		virtual void execute();
 
+		virtual QString get_error_message();
+		virtual void set_args(const QString&);
+		virtual QString& get_pattern();
+
 	public slots:
 		virtual void on_error(const QJsonObject &);
 		virtual void on_pass(const QJsonObject &); 
-		virtual QString& get_pattern();
 		
 	private:
-		Request* m_req;
+		Request* m_req;	
+
 		QString m_req_str;
+		QString m_pattern_str;
+		
 		QString m_err_msg;
+
+	signals:
+		void sig_error();
+		void sig_pass();
 
 };
 

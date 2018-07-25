@@ -3,8 +3,10 @@
 
 //void(const QJsonObject &)
 
+//FIXME remove if not debug
+#include <iostream>
 
-SimpleGetHandler::SimpleGetHandler(const QString& ptrn):m_req_str(ptrn) {
+SimpleGetHandler::SimpleGetHandler(const QString& ptrn):m_pattern_str(ptrn) {
 }
 
 
@@ -15,8 +17,8 @@ void SimpleGetHandler::execute() {
 	// if (!is_valid()) throw dddd
 	// if (!is_valid()) return false
 	
-		
-	Request* m_req = new Request(Requester::Type::GET,m_req_str,
+	//Request* 
+	m_req = new Request(Requester::Type::GET,m_req_str,
 								 std::bind(&SimpleGetHandler::on_error, this, std::placeholders::_1),
 								 std::bind(&SimpleGetHandler::on_pass, this, std::placeholders::_1)
 								 );
@@ -25,25 +27,33 @@ void SimpleGetHandler::execute() {
 }
 	
 void SimpleGetHandler::on_error(const QJsonObject &) {
+	//std::cout << "got error" << std::endl;
 	//save string
-	emit sig_err();
+	m_err_msg="--ERROR TO FROM-JSON_TODO";
+	emit sig_error();
+	emit SimpleGetHandler::sig_error();
+	delete m_req;
 }
 
 void SimpleGetHandler::on_pass(const QJsonObject &) {
 	//save username password
 	emit sig_pass();
+	emit SimpleGetHandler::sig_pass();
+	delete m_req;
 }
 
-/*
-QString get_error_message() {
+
+QString SimpleGetHandler::get_error_message() {
 	return m_err_msg;
 }
-*/
+
 
 QString& SimpleGetHandler::get_pattern() {
-	return m_req_str;
+	return m_pattern_str;
 }
 	
-
+ void SimpleGetHandler::set_args(const QString& s) {
+	m_req_str = s;
+ }
 
 

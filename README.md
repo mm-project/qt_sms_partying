@@ -4,14 +4,12 @@ A fun project which me and Elen started to  working on after I took tour at Nexm
 It's straightforward to use.
 
 
-## Set username and password
+## Login first
+Set username and password
 This should be obtained from Nexmo. ( secret/public keys)
 
-![alt text](https://image.ibb.co/fWLkG8/88888.png)
+![hopar](https://image.ibb.co/fWLkG8/88888.png)|![morqur](https://image.ibb.co/kWU1pT/777777.png)
 
-## Login
-
-![alt text](https://image.ibb.co/kWU1pT/777777.png)
 
 ## Creating new message
 Just fill-in sender and reciever fields,

@@ -3,6 +3,9 @@
 
 #include "request.hpp"
 #include "request_handler.hpp"
+#include "json_worker.hpp"
+
+#include <QJsonValue>
 
 class SimpleGetHandler : public RequestHandler
 {
@@ -17,6 +20,7 @@ class SimpleGetHandler : public RequestHandler
 		virtual QString get_error_message();
 		virtual void set_args(const QString&);
 		virtual QString& get_pattern();
+		virtual QJsonValue get_response_value(const QString&);
 
 	public slots:
 		virtual void on_error(const QJsonObject &);
@@ -28,7 +32,12 @@ class SimpleGetHandler : public RequestHandler
 		QString m_req_str;
 		QString m_pattern_str;
 		
-		QString m_err_msg;
+		QJsonObject m_response_json;
+		//QJsonObject m_err_json;
+		//QJsonObject m_ok_json;
+		
+
+		JsonWorker m_json_worker;
 
 	signals:
 		void sig_error();

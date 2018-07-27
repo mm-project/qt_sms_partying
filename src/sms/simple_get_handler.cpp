@@ -26,25 +26,29 @@ void SimpleGetHandler::execute() {
 	Controller::get_instance()->schedule_request(*m_req);
 }
 	
-void SimpleGetHandler::on_error(const QJsonObject &) {
+void SimpleGetHandler::on_error(const QJsonObject& jo) {
 	//std::cout << "got error" << std::endl;
 	//save string
-	m_err_msg="--ERROR TO FROM-JSON_TODO";
-	emit sig_error();
+	
+	m_response_json = jo;
+	//emit sig_error();
 	emit SimpleGetHandler::sig_error();
 	delete m_req;
 }
 
-void SimpleGetHandler::on_pass(const QJsonObject &) {
+void SimpleGetHandler::on_pass(const QJsonObject& jo) {
 	//save username password
-	emit sig_pass();
+	m_response_json = jo; //"--ERROR TO FROM-JSON_TODO";
+	//emit sig_pass();
+	std::cout << m_json_worker.json_to_string(m_response_json).toStdString() << std::endl;
 	emit SimpleGetHandler::sig_pass();
 	delete m_req;
 }
 
 
 QString SimpleGetHandler::get_error_message() {
-	return m_err_msg;
+	std::cout << "what??" << std::endl;
+	return m_json_worker.json_to_string(m_response_json);//"--ERROR TO FROM-JSON_TODO";m_err_msg;
 }
 
 
@@ -52,8 +56,13 @@ QString& SimpleGetHandler::get_pattern() {
 	return m_pattern_str;
 }
 	
- void SimpleGetHandler::set_args(const QString& s) {
+void SimpleGetHandler::set_args(const QString& s) {
 	m_req_str = s;
- }
+}
+
+
+QJsonValue SimpleGetHandler::get_response_value(const QString& str) {
+	return m_json_worker.get_value(m_response_json,str);
+}
 
 

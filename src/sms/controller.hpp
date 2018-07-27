@@ -4,7 +4,7 @@
 #include "requester.hpp"
 #include "request.hpp"
 #include "request_handler.hpp"
-
+#include "engine.hpp"
 
 #include <QTimer>
 #include <QJsonObject>
@@ -32,6 +32,7 @@ class Controller :  public QObject
 		Controller(); 
 		
 	public:	
+		Engine* get_engine();
 		void schedule_request(const Request& req);
 	
 		
@@ -40,28 +41,18 @@ class Controller :  public QObject
 		
 		
 	private:
-		bool is_authorized();
-		void set_authorized();
-		void unset_authorized();
-
-		
 		void complete_request();
 		void send_request(Request& req);
 		
 	private:
 		//std::map<std::string,RequestHandler*> m_str2handler;
-		
+		Engine* m_engine;
 		Request m_current_request;
 		std::queue<Request> m_pending_requests;
 		
 		QTimer* m_timer;
 		QSslConfiguration* ssl;
 		Requester* m_requester;
-		
-		QString m_username;
-		QString m_password;
-		bool is_auth;
-		
 		
 
 	public:

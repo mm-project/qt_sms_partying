@@ -44,8 +44,8 @@ login_window::login_window(QWidget* parent)
 
 	//m_controller->register_handler(SimpletGetHandler(""),on_login_ok,on_login_err);
 	login_handler = new SimpleGetHandler("/account/get-balance/%1/%2");	
-	connect(login_handler, SIGNAL(sig_error()), this, SLOT(on_login_ok()));
-	connect(login_handler, SIGNAL(sig_pass()), this, SLOT(on_login_err()));
+	connect(login_handler, SIGNAL(sig_error()), this, SLOT(on_login_err()));
+	connect(login_handler, SIGNAL(sig_pass()), this, SLOT(on_login_ok()));
 		
 	connect(m_login_button, SIGNAL(clicked()), this, SLOT(login_button_clicked()));
 	
@@ -70,22 +70,25 @@ bool login_window::pre_validate()
 	return true;
 }
 
-void login_window::post_validate(bool res, const QString& err_msg) 
+void login_window::post_validate(bool res, const QString& msg) 
 {
-	if(res) {
+	if(!res) {
 		set_state(ENABLED);
-		emit change_status_bar("Error: "+err_msg,false);
+		emit change_status_bar("Error: "+msg,false);
 	} else {
+		emit change_status_bar("Availble balance: "+msg,true);	
 		emit accept_user();
 	}
 }
 
 void login_window::on_login_ok() {
-	post_validate(true,"");
+	m_controller->get_engine()->set_authorized(m_username->text(),m_password->text());
+	post_validate(true,QString::number(login_handler->get_response_value("value").toDouble()));
 }
 
 void login_window::on_login_err() {
-	post_validate(false,"ERROR: "+login_handler->get_error_message());
+	m_controller->get_engine()->unset_authorized();
+	post_validate(false,login_handler->get_error_message());
 }
 
 

@@ -51,11 +51,11 @@ void stacked_widget::enable_inputs() {
 
 void stacked_widget::on_balance_response_availble(bool rcode, const QString& res)
 {
-		if ( !rcode ) {
-			emit status_bar_changed("Current balance:  "+res, true); 
+		//if ( !rcode ) {
+			//emit status_bar_changed("Current balance:  "+res, true); 
 			m_send->enable_inputs();
-		} else {
-			emit status_bar_changed("Insufficent funds: "+res, false); 
-		}	
+		//} else {
+			//emit status_bar_changed("Insufficent funds: "+res, false); 
+		//}	
 }
 

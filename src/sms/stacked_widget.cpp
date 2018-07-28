@@ -19,6 +19,8 @@ stacked_widget::stacked_widget(QWidget* parent)
 
         connect(m_login, SIGNAL(accept_user()), this, SLOT(change_window()));
         connect(m_login, SIGNAL(change_status_bar(const QString&,bool, bool)), this, SLOT(update_statusbar(const QString&, bool, bool)));
+		connect(m_send, SIGNAL(change_status_bar(const QString&,bool, bool)), this, SLOT(update_statusbar(const QString&, bool, bool)));
+		
 		
 		//connect(Controller::get_instance(), SIGNAL(signal_balance_request_done(bool,const QString&)), this, SLOT(on_balance_response_availble(bool,const QString&)));
 		

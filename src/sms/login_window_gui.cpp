@@ -43,7 +43,7 @@ login_window::login_window(QWidget* parent)
 	m_controller = Controller::get_instance();
 
 	//m_controller->register_handler(SimpletGetHandler(""),on_login_ok,on_login_err);
-	login_handler = new SimpleGetHandler("/account/get-balance/%1/%2");	
+	login_handler = new SimpleGetHandler("account/get-balance/%1/%2");	
 	connect(login_handler, SIGNAL(sig_error()), this, SLOT(on_login_err()));
 	connect(login_handler, SIGNAL(sig_pass()), this, SLOT(on_login_ok()));
 		

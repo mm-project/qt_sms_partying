@@ -14,19 +14,19 @@ class send_window : public QWidget
         Q_OBJECT
 
 public:
+        send_window(QWidget* = 0);
+
+public:
 		void disable_inputs();
 		void enable_inputs();
-public:
-        send_window(QWidget* = 0);
 
 private:
 		void update_to_combo();
-private:
-		QLineEdit* m_from_edt;
-        QComboBox* m_to_combo;
-        QTextEdit* m_msg_txt;
-        QPushButton* m_send_button;
+
  
+signals: 
+		void change_status_bar(const QString&,bool, bool = false);
+
 private slots:
 		void on_send_clicked();
 		void on_send_ok();
@@ -34,6 +34,12 @@ private slots:
 		
 private:
 		RequestHandler* m_sms_handler;
+
+private:
+		QLineEdit* m_from_edt;
+        QComboBox* m_to_combo;
+        QTextEdit* m_msg_txt;
+        QPushButton* m_send_button;
 		
 };
 #endif

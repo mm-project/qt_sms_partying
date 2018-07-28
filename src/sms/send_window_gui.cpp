@@ -40,16 +40,15 @@ send_window::send_window(QWidget* parent)
         v_l->addLayout(grid);
         setLayout(v_l);
 		
-		connect(m_send_button,SIGNAL(clicked()),this,SLOT(on_send_clicked()));
 
 		update_to_combo();
 		
-		//m_controller->get_handler("send_sms");
-		m_sms_handler = new SimpleGetHandler("/account/get-pricing/outbound/%1/%2/%3");
-		connect(m_sms_handler, SIGNAL(sig_error()), this, SLOT(on_send_ok()));
-		connect(m_sms_handler, SIGNAL(sig_pass()), this, SLOT(on_send_err()));
-
-
+		m_sms_handler = new SimpleGetHandler("sms/json", false);
+		
+		
+		connect(m_sms_handler, SIGNAL(sig_pass()), this, SLOT(on_send_ok()));
+		connect(m_sms_handler, SIGNAL(sig_err()), this, SLOT(on_send_err()));
+		connect(m_send_button,SIGNAL(clicked()),this,SLOT(on_send_clicked()));
 }
 
 void send_window::disable_inputs() {
@@ -71,23 +70,26 @@ void send_window::on_send_clicked() {
 		//check validity m_from_edt
 		//check validity m_to_edt
 		//check size message_l
-		//Controller->get_instance()->request_send_sms():
-		m_sms_handler->set_args(m_sms_handler->get_pattern().arg("aaa").arg("bbb").arg("ccc"));
-		m_sms_handler->execute();
-	
+		
+		//Controller->get_instance()->get_engine()->create_variant_for_sms(m_from_edt->text(),m_to_combo->currentText(),m_msg_txt->toPlainText());
+		disable_inputs();
+		emit change_status_bar("Sending... ",true,true);	
+		m_sms_handler->execute2(Controller::get_instance()->get_engine()->create_qvariant_for_sms("LEVON","","TEST"));	
 }
 
 void send_window::on_send_ok() {
+		enable_inputs();
+		emit change_status_bar("Message send.",true);	
 }
 
 void send_window::on_send_err() {
+		enable_inputs();
+		emit change_status_bar("Send Error: "+m_sms_handler->get_error_message(),false);	
 }
 
 void send_window::update_to_combo()
 {
-	m_to_combo->setEditable(true);
-	QIcon icon("C:\\Users\\elen\\Desktop\\qt_sms\\main_window.png");
-	m_to_combo->addItem(icon, "+374");
-	QIcon icon2("C:\\Users\\elen\\Desktop\\qt_sms\\au.png");
-	m_to_combo->addItem(icon2, "+4");
+		m_to_combo->setEditable(true);
+		QIcon icon("C:\\Users\\levons\\Desktop\\git\\mm_project\\qt_sms_partying\\etc\\icons\\armenia_640.png");
+		m_to_combo->addItem(icon, "+374");
 }

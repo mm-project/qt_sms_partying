@@ -13,6 +13,8 @@ class RequestHandler : public QObject
 	
 public:
 	virtual void execute() = 0;
+	virtual void execute2(const QVariantMap& variant ) = 0;
+	
 
 public slots:
 

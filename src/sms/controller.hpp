@@ -17,6 +17,9 @@
 #include <queue>
 #include <map>
 
+//fixme
+#define MACRO_ICONS_DIR "C:\\Users\\levons\\Desktop\\git\\mm_project\\qt_sms_partying\\etc\\icons\\"
+
 class Controller :  public QObject
 {
     Q_OBJECT

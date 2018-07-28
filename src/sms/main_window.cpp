@@ -10,8 +10,8 @@
 #include <QPicture>
 #include <QMovie>
 
-//#define MACRO_ICONS_DIR "C:\\Users\\levons\\Desktop\\git\\mm_project\\qt_sms_partying\\etc\\icons\\"
-#define MACRO_ICONS_DIR "icons\\"
+
+//define MACRO_ICONS_DIR "icons\\"
 //#define MACRO_ICONS_DIR ""
 
 
@@ -38,7 +38,7 @@ MainWindow::MainWindow(QWidget* p)
 		statusBar()->addWidget(m_status_bar_label);
 		statusBar()->addWidget(m_gif_label);
 		m_gif_label->setHidden(true);
-		setWindowIcon(QIcon(QT_ICON_DIR+"main_window.png"));
+		setWindowIcon(QIcon(QT_ICON_DIR+"logo.png"));
 }
 
 void MainWindow::update_status_bar(const QString& s, bool err, bool processing)

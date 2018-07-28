@@ -1,4 +1,3 @@
-//#include "request.hpp"
 #include "requester.hpp"
 
 #include <iostream>
@@ -7,7 +6,6 @@
 const QString Requester::KEY_QNETWORK_REPLY_ERROR = "QNetworkReplyError";
 const QString Requester::KEY_CONTENT_NOT_FOUND = "ContentNotFoundError";
 
-//const QString rest_base_url = "rest.nexmo.com";
 
 Requester::Requester(QObject *parent) : QObject(parent)
 {
@@ -30,9 +28,6 @@ void Requester::initRequester(const QString &host, const QString& port, QSslConf
         pathTemplate = "http://%1/%2";
 }
 
-//void Requester::sendRequest2(const Request& r) {
-//	sendRequest(r->get_str(),r->get_ok_handler(),r->get_err_handler(),r->get_type());
-//}
 
 void Requester::sendRequest(const QString &apiStr,
                             const handleFunc &funcSuccess,
@@ -40,11 +35,10 @@ void Requester::sendRequest(const QString &apiStr,
                             Requester::Type type,
                             const QVariantMap &data)
 {
-    //std::cout << "REPLY?" << std::endl;
 	QNetworkRequest request = createRequest(apiStr);
+	QNetworkReply* reply;
 
 	//std::cout << "REPLY?" << std::endl;
-    QNetworkReply *reply;
     switch (type) {
     case Type::POST: {
         QByteArray postDataByteArray = variantMapToJson(data);
@@ -150,7 +144,7 @@ QNetworkRequest Requester::createRequest(const QString &apiStr)
     QNetworkRequest request;
     //std::cout << pathTemplate.toStdString() << " " << apiStr.toStdString() << std::endl;
 	QString url = pathTemplate.arg(host).arg(apiStr);
-	std::cout << url.toStdString() << std::endl;
+	std::cout << "createrequest:" << url.toStdString() << std::endl;
     request.setUrl(QUrl(url));
     request.setRawHeader("Content-Type","application/json");
     if(!token.isEmpty())

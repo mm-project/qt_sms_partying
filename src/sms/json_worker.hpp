@@ -12,7 +12,7 @@ class JsonWorker
 		
 		}
 		
-		void print_json_key_value(const QJsonObject& json);
+		void dump_json(const QJsonObject& json);
 		QString json_to_string(const QJsonObject& j);
 		QJsonValue get_value(const QJsonObject& j,const QString& s);
 		

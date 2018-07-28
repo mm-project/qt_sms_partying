@@ -1,14 +1,16 @@
 #include "simple_get_handler.hpp"
 #include "controller.hpp"
 
+
 //void(const QJsonObject &)
 
 //FIXME remove if not debug
+#include <QVariantMap>
 #include <iostream>
 
-SimpleGetHandler::SimpleGetHandler(const QString& ptrn):m_pattern_str(ptrn) {
+SimpleGetHandler::SimpleGetHandler(const QString& ptrn, bool w_pattern):m_pattern_str(ptrn) {
+	if(!w_pattern) m_req_str = ptrn;
 }
-
 
 void SimpleGetHandler::execute() {
 	
@@ -25,6 +27,25 @@ void SimpleGetHandler::execute() {
 								 
 	Controller::get_instance()->schedule_request(*m_req);
 }
+
+void SimpleGetHandler::execute2(const QVariantMap& variant ) {
+	
+	///FIXME check before execute, can be one of the following
+	// if (!is_valid()) emit sig_err
+	// if (!is_valid()) throw dddd
+	// if (!is_valid()) return false
+	
+	//Request* 
+	// if (!m_req) ??
+	m_req = new Request(Requester::Type::POST,m_req_str,
+								 std::bind(&SimpleGetHandler::on_error, this, std::placeholders::_1),
+								 std::bind(&SimpleGetHandler::on_pass, this, std::placeholders::_1),
+								 variant
+								 );
+								 
+	Controller::get_instance()->schedule_request(*m_req);
+}
+
 	
 void SimpleGetHandler::on_error(const QJsonObject& jo) {
 	//std::cout << "got error" << std::endl;
@@ -40,14 +61,14 @@ void SimpleGetHandler::on_pass(const QJsonObject& jo) {
 	//save username password
 	m_response_json = jo; //"--ERROR TO FROM-JSON_TODO";
 	//emit sig_pass();
-	std::cout << m_json_worker.json_to_string(m_response_json).toStdString() << std::endl;
+	//std::cout << m_json_worker.json_to_string(m_response_json).toStdString() << std::endl;
 	emit SimpleGetHandler::sig_pass();
 	delete m_req;
 }
 
 
 QString SimpleGetHandler::get_error_message() {
-	std::cout << "what??" << std::endl;
+	//std::cout << "what??" << std::endl;
 	return m_json_worker.json_to_string(m_response_json);//"--ERROR TO FROM-JSON_TODO";m_err_msg;
 }
 

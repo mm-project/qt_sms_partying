@@ -6,16 +6,19 @@
 #include "json_worker.hpp"
 
 #include <QJsonValue>
+#include <QVariantMap>
+#include <QString>
 
 class SimpleGetHandler : public RequestHandler
 {
     Q_OBJECT
 
 	public:
-		SimpleGetHandler(const QString&);
+		SimpleGetHandler(const QString&, bool = true);
 
 	public:
 		virtual void execute();
+		virtual void execute2(const QVariantMap& variant);
 
 		virtual QString get_error_message();
 		virtual void set_args(const QString&);

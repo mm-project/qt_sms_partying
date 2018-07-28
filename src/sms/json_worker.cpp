@@ -15,7 +15,7 @@ QString JsonWorker::json_to_string(const QJsonObject& j)
 	return strJson;
 }
 
-void JsonWorker::print_json_key_value(const QJsonObject& json) {
+void JsonWorker::dump_json(const QJsonObject& json) {
 
 	foreach(const QString& key, json.keys()) {
         QJsonValue value = json.value(key);
@@ -26,20 +26,8 @@ void JsonWorker::print_json_key_value(const QJsonObject& json) {
 
 QJsonValue JsonWorker::get_value(const QJsonObject& json,const QString& key)
 {
-	//QJsonValue res = jo.value(key);
-	
-	//QJsonDocument doc(j);
-	//QString strJson(doc.toJson(QJsonDocument::Compact));
-	//std::cout << strJson.toStdString() << std::endl;	
-	//foreach(const QString& key, json.keys()) {
-    //   QJsonValue value = json.value(key);
-    //    qDebug() << "Key = " << key << ", Value = " << value.toString();
-    //}
-
-	print_json_key_value(json);
-	
+	//print_json_key_value(json);
 	return json.value(key);
-	//return jo.value(key).toString();
 }
 
 /*

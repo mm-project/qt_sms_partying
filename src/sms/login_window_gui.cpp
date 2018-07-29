@@ -12,6 +12,7 @@
 #include <QVBoxLayout>
 #include <QSizePolicy>
 #include <QGroupBox>
+#include <QValidator>
 
 login_window::login_window(QWidget* parent)
 	: QWidget(parent)
@@ -19,10 +20,16 @@ login_window::login_window(QWidget* parent)
 	QGridLayout* layout = new QGridLayout;
 	m_username = new QLineEdit(this);
 	m_password = new QLineEdit(this);
+
+	m_username->setValidator(new QRegExpValidator(QRegExp("[A-Za-z0-9]+"), this));
+	m_username->addAction(QIcon("C:\\Users\\elen\\Desktop\\qt_sms\\original_sms\\qt_sms_partying\\etc\\icons\\login2.png"), QLineEdit::LeadingPosition);
+	m_password->setValidator(new QRegExpValidator(QRegExp("[A-Za-z0-9]+"), this));
+	m_password->addAction(QIcon("C:\\Users\\elen\\Desktop\\qt_sms\\original_sms\\qt_sms_partying\\etc\\icons\\password2.png"), QLineEdit::LeadingPosition);
+
 	m_login_button = new QPushButton("Login", this);
 	m_login_button->setSizePolicy(QSizePolicy::Fixed, QSizePolicy::Fixed);
-	QLabel* username_label = new QLabel("Username:", this);
-	QLabel* password_label = new QLabel("Password:", this);
+	QLabel* username_label = new QLabel("Key:", this);
+	QLabel* password_label = new QLabel("Secret:", this);
 	layout->addWidget(username_label, 0, 0, Qt::AlignRight);
 	layout->addWidget(m_username, 0, 1);
 	layout->addWidget(password_label, 1, 0, Qt::AlignRight);

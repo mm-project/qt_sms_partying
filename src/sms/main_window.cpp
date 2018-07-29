@@ -22,14 +22,14 @@ MainWindow::MainWindow(QWidget* p)
 		m_controller = Controller::get_instance();
 		
         setCentralWidget(m_stacked);
-        resize(300, 200);
+        setFixedSize(300, 280);
         setWindowTitle("SMS FUN");
         
 		connect(m_stacked, SIGNAL(status_bar_changed(const QString&, bool, bool)), this, SLOT(update_status_bar(const QString&, bool, bool)));
 		//FIXME move to member
 		QString QT_ICON_DIR(MACRO_ICONS_DIR);
 		
-		m_gif = new QMovie(QT_ICON_DIR+"gg.gif");
+		m_gif = new QMovie("C:\\Users\\elen\\Desktop\\qt_sms\\original_sms\\qt_sms_partying\\etc\\icons\\gg.gif");
 		//assert(m_gif->isValid() != 0); // maybe need to check
 		m_gif->setScaledSize(QSize(20, 20));
 		m_gif_label = new QLabel(this);
@@ -38,7 +38,7 @@ MainWindow::MainWindow(QWidget* p)
 		statusBar()->addWidget(m_status_bar_label);
 		statusBar()->addWidget(m_gif_label);
 		m_gif_label->setHidden(true);
-		setWindowIcon(QIcon(QT_ICON_DIR+"logo.png"));
+		setWindowIcon(QIcon("C:\\Users\\elen\\Desktop\\qt_sms\\original_sms\\qt_sms_partying\\etc\\icons\\logo.png"));
 }
 
 void MainWindow::update_status_bar(const QString& s, bool err, bool processing)

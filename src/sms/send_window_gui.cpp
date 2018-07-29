@@ -11,56 +11,62 @@
 #include <QLineEdit>
 #include <QPushButton>
 #include <QTextEdit>
+#include <QCompleter>
 
 send_window::send_window(QWidget* parent)
         : QWidget(parent)
 {
-        
         m_from_edt = new QLineEdit(this);
-        m_to_combo = new QComboBox(this);
+		m_countries = new QComboBox(this);
+        m_to_edit = new QLineEdit(this);
         m_msg_txt = new QTextEdit(this);
 		m_send_button = new QPushButton("Send", this);
 		m_send_button->setSizePolicy(QSizePolicy::Fixed, QSizePolicy::Fixed);
-        
+
+		//m_to_edit->setMinimumSize(m_countries->size());
+		m_from_edt->setMaxLength(10);
+
 		QLabel* from_l = new QLabel("From:", this);
         QLabel* to_l = new QLabel("To:", this);
         QLabel* message_l = new QLabel("Message:", this);
         QGridLayout* grid = new QGridLayout;
 
+		QHBoxLayout* ll = new QHBoxLayout;
+		ll->addWidget(m_countries);
+		ll->addWidget(m_to_edit);
+
         grid->addWidget(from_l, 0, 0, Qt::AlignRight);
-        grid->addWidget(m_from_edt, 0, 1);
+		grid->addWidget(m_from_edt, 0, 1);
         grid->addWidget(to_l, 1, 0, Qt::AlignRight);
-        grid->rowStretch(1);
-        grid->addWidget(m_to_combo, 1, 1);
+		grid->addLayout(ll, 1, 1);
         grid->addWidget(message_l, 2, 0);
         grid->addWidget(m_msg_txt, 3, 0, 1, 2);
         grid->addWidget(m_send_button, 4, 1, Qt::AlignRight);
 
         QVBoxLayout* v_l = new QVBoxLayout;
         v_l->addLayout(grid);
-        setLayout(v_l);
-		
+        setLayout(v_l);		
 
 		update_to_combo();
 		
 		m_sms_handler = new SimpleGetHandler("sms/json", false);
-		
-		
+				
 		connect(m_sms_handler, SIGNAL(sig_pass()), this, SLOT(on_send_ok()));
 		connect(m_sms_handler, SIGNAL(sig_err()), this, SLOT(on_send_err()));
 		connect(m_send_button,SIGNAL(clicked()),this,SLOT(on_send_clicked()));
+		connect(m_countries, SIGNAL(currentTextChanged(const QString&)), this, SLOT(update_to_line_edit_completer(const QString&)));
 }
 
 void send_window::disable_inputs() {
         m_from_edt->setEnabled(false);
-        m_to_combo->setEnabled(false);
+        m_to_edit->setEnabled(false);
         m_msg_txt->setEnabled(false);
 		m_send_button->setEnabled(false);
 }
 
 void send_window::enable_inputs() {
         m_from_edt->setEnabled(true);
-        m_to_combo->setEnabled(true);
+        m_to_edit->setEnabled(true);
         m_msg_txt->setEnabled(true);
 		m_send_button->setEnabled(true);
 }
@@ -89,7 +95,22 @@ void send_window::on_send_err() {
 
 void send_window::update_to_combo()
 {
-		m_to_combo->setEditable(true);
-		QIcon icon("C:\\Users\\levons\\Desktop\\git\\mm_project\\qt_sms_partying\\etc\\icons\\armenia_640.png");
-		m_to_combo->addItem(icon, "+374");
+	m_countries->setEditable(true);
+	// only after setEditable(true)
+	m_countries->completer()->setCompletionMode(QCompleter::PopupCompletion);
+	//m_countries->setValidator(new QRegExpValidator(QRegExp("(^\+)[0-9]+"), this));
+	QIcon icon("C:\\Users\\elen\\Desktop\\qt_sms\\original_sms\\qt_sms_partying\\etc\\icons\\armenia_640.png");
+	m_countries->addItem(icon, "+374");
+
+	update_to_line_edit_completer(m_countries->currentText());
+}
+
+void send_window::update_to_line_edit_completer(const QString& s)
+{
+	// validate if s is from coutries combo list
+	QStringList wordlist;
+	// get wordlist from s , maybe map
+	QCompleter* completer = new QCompleter(wordlist, this);
+	completer->setCompletionMode(QCompleter::PopupCompletion);
+	m_to_edit->setCompleter(completer);
 }

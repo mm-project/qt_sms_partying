@@ -31,13 +31,16 @@ private slots:
 		void on_send_clicked();
 		void on_send_ok();
 		void on_send_err();
+
+		void update_to_line_edit_completer(const QString&);
 		
 private:
 		RequestHandler* m_sms_handler;
 
 private:
 		QLineEdit* m_from_edt;
-        QComboBox* m_to_combo;
+		QComboBox* m_countries;
+        QLineEdit* m_to_edit;
         QTextEdit* m_msg_txt;
         QPushButton* m_send_button;
 		

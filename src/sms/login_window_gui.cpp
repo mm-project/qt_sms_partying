@@ -14,6 +14,8 @@
 #include <QGroupBox>
 #include <QValidator>
 
+
+
 login_window::login_window(QWidget* parent)
 	: QWidget(parent)
 {
@@ -22,9 +24,9 @@ login_window::login_window(QWidget* parent)
 	m_password = new QLineEdit(this);
 
 	m_username->setValidator(new QRegExpValidator(QRegExp("[A-Za-z0-9]+"), this));
-	m_username->addAction(QIcon("C:\\Users\\elen\\Desktop\\qt_sms\\original_sms\\qt_sms_partying\\etc\\icons\\login2.png"), QLineEdit::LeadingPosition);
+	m_username->addAction(QIcon(MACRO_ICONS_DIR_STR("login2.png")), QLineEdit::LeadingPosition);
 	m_password->setValidator(new QRegExpValidator(QRegExp("[A-Za-z0-9]+"), this));
-	m_password->addAction(QIcon("C:\\Users\\elen\\Desktop\\qt_sms\\original_sms\\qt_sms_partying\\etc\\icons\\password2.png"), QLineEdit::LeadingPosition);
+	m_password->addAction(QIcon(MACRO_ICONS_DIR_STR("password2.png")), QLineEdit::LeadingPosition);
 
 	m_login_button = new QPushButton("Login", this);
 	m_login_button->setSizePolicy(QSizePolicy::Fixed, QSizePolicy::Fixed);
@@ -83,7 +85,7 @@ void login_window::post_validate(bool res, const QString& msg)
 		set_state(ENABLED);
 		emit change_status_bar("Error: "+msg,false);
 	} else {
-		emit change_status_bar("Availble balance: "+msg,true);	
+		emit change_status_bar("Availble balance: "+msg+ "€",true);	
 		emit accept_user();
 	}
 }

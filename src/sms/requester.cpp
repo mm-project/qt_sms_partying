@@ -144,7 +144,7 @@ QNetworkRequest Requester::createRequest(const QString &apiStr)
     QNetworkRequest request;
     //std::cout << pathTemplate.toStdString() << " " << apiStr.toStdString() << std::endl;
 	QString url = pathTemplate.arg(host).arg(apiStr);
-	std::cout << "createrequest:" << url.toStdString() << std::endl;
+	//std::cout << "createrequest:" << url.toStdString() << std::endl;
     request.setUrl(QUrl(url));
     request.setRawHeader("Content-Type","application/json");
     if(!token.isEmpty())

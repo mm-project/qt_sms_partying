@@ -11,9 +11,8 @@
 #include <QMovie>
 
 
-//define MACRO_ICONS_DIR "icons\\"
-//#define MACRO_ICONS_DIR ""
 
+#include <iostream>
 
 MainWindow::MainWindow(QWidget* p)
         :QMainWindow(p)
@@ -27,9 +26,9 @@ MainWindow::MainWindow(QWidget* p)
         
 		connect(m_stacked, SIGNAL(status_bar_changed(const QString&, bool, bool)), this, SLOT(update_status_bar(const QString&, bool, bool)));
 		//FIXME move to member
-		QString QT_ICON_DIR(MACRO_ICONS_DIR);
+		//QString QT_ICON_DIR(MACRO_ICONS_DIR);
 		
-		m_gif = new QMovie("C:\\Users\\elen\\Desktop\\qt_sms\\original_sms\\qt_sms_partying\\etc\\icons\\gg.gif");
+		m_gif = new QMovie(MACRO_ICONS_DIR_STR("gg.gif"));
 		//assert(m_gif->isValid() != 0); // maybe need to check
 		m_gif->setScaledSize(QSize(20, 20));
 		m_gif_label = new QLabel(this);
@@ -38,7 +37,9 @@ MainWindow::MainWindow(QWidget* p)
 		statusBar()->addWidget(m_status_bar_label);
 		statusBar()->addWidget(m_gif_label);
 		m_gif_label->setHidden(true);
-		setWindowIcon(QIcon("C:\\Users\\elen\\Desktop\\qt_sms\\original_sms\\qt_sms_partying\\etc\\icons\\logo.png"));
+		setWindowIcon(QIcon(MACRO_ICONS_DIR_STR("logo.png")));
+		
+		std::cout << MACRO_ICONS_DIR_STR("logo.png").toStdString() << std::endl;
 }
 
 void MainWindow::update_status_bar(const QString& s, bool err, bool processing)

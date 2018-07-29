@@ -15,7 +15,6 @@ Controller::Controller() {
 
 Engine* Controller::get_engine() {
 	//if(!m_engine) ?
-	
 	return m_engine;
 }
 
@@ -26,7 +25,7 @@ void Controller::schedule_request(const Request& req) {
 	m_timer = new QTimer; 
 	connect(m_timer, SIGNAL(timeout()), this, SLOT(on_request_timer_shot()));
 	m_timer->setSingleShot(true); 
-	m_timer->start(3000);
+	m_timer->start(1000);
 
 }
 
@@ -44,7 +43,6 @@ void Controller::complete_request() {
 
 	delete m_timer;
 	m_timer = 0;
-	
 }
 
 void Controller::send_request(Request& r) {
@@ -54,7 +52,3 @@ void Controller::send_request(Request& r) {
 	else
 		m_requester->sendRequest(r.get_str(),r.get_ok_handler(),r.get_err_handler(),r.get_type(),r.get_post_data());	
 }
-
-
-
-

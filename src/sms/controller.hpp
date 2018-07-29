@@ -7,6 +7,7 @@
 #include "engine.hpp"
 
 #include <QTimer>
+#include <QString>
 #include <QJsonObject>
 #include <QJsonArray>
 #include <QJsonDocument>
@@ -17,8 +18,17 @@
 #include <queue>
 #include <map>
 
-//fixme
+//FIXME ICONS , should be moved to application env.
+//#define MACRO_ICONS_DIR "C:\\Users\\elen\\Desktop\\qt_sms\\original_sms\\qt_sms_partying\\etc\\icons\\"
 #define MACRO_ICONS_DIR "C:\\Users\\levons\\Desktop\\git\\mm_project\\qt_sms_partying\\etc\\icons\\"
+
+
+//FIXME issue with quotes in macro
+//#define MACRO_ICONS_DIR_STR(icon) QString(QString(MACRO_ICONS_DIR)+"\"" #icon "\"")
+
+namespace {
+QString MACRO_ICONS_DIR_STR(const QString& name) { return QString(MACRO_ICONS_DIR)+name; }
+}
 
 class Controller :  public QObject
 {

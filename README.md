@@ -8,7 +8,7 @@ It's straightforward to use.
 Set username and password
 This should be obtained from Nexmo. ( secret/public keys)
 
-![hopar](https://image.ibb.co/fWLkG8/88888.png)|![morqur](https://image.ibb.co/kWU1pT/777777.png)
+![hopar](https://image.ibb.co/cn8N18/no_loggin.png)![morqur](https://image.ibb.co/jFpy8o/anotherlogin.png)
 
 
 ## Creating new message

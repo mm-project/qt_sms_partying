@@ -27,7 +27,9 @@ login_window::login_window(QWidget* parent)
 	m_username->addAction(QIcon(MACRO_ICONS_DIR_STR("login2.png")), QLineEdit::LeadingPosition);
 	m_password->setValidator(new QRegExpValidator(QRegExp("[A-Za-z0-9]+"), this));
 	m_password->addAction(QIcon(MACRO_ICONS_DIR_STR("password2.png")), QLineEdit::LeadingPosition);
+	m_password->setEchoMode(QLineEdit::Password);
 
+	
 	m_login_button = new QPushButton("Login", this);
 	m_login_button->setSizePolicy(QSizePolicy::Fixed, QSizePolicy::Fixed);
 	QLabel* username_label = new QLabel("Key:", this);
@@ -58,17 +60,32 @@ login_window::login_window(QWidget* parent)
 		
 	connect(m_login_button, SIGNAL(clicked()), this, SLOT(login_button_clicked()));
 	
-	//connect(m_login_button, SIGNAL(clicked()), this, SLOT(login_button_clicked()));
-	//connect(m_controller, SIGNAL(login_successed()), this, SLOT(on_login_ok()));
-	//connect(m_controller, SIGNAL(login_failed(const QString&)), this, SLOT(on_login_err(const QString&)));
+	m_login_button->setEnabled(false);
+	connect(m_username, SIGNAL(textChanged(const QString&)), this, SLOT(username_changed(const QString&)));
+	connect(m_password, SIGNAL(textChanged(const QString&)), this, SLOT(password_changed(const QString&)));
 }
 
-///FIXME
-/*
-void login_window::user_field_clicked() {
-	emit change_status_bar("",true);	
+
+
+void login_window::check_can_login() {
+	if ( !m_username->text().isEmpty() && !m_password->text().isEmpty() ) {
+		m_login_button->setEnabled(true); 
+		emit change_status_bar("Ready to log-in",true);
+	} else {
+		emit change_status_bar("Enter creditials to login ",true);
+		m_login_button->setEnabled(false);
+	}
 }
-*/
+
+void login_window::username_changed(const QString& text) {
+	check_can_login();	
+}
+
+
+void login_window::password_changed(const QString& text) {
+	check_can_login();	
+}
+
 
 bool login_window::pre_validate() 
 {

@@ -32,11 +32,15 @@ private slots:
 		void on_login_ok();
 		void on_login_err();
 		
+		void password_changed(const QString& text);
+		void username_changed(const QString& text);
+		
 		//void on_login_err(const QString&);
 		//void post_validate(bool res, const QString& err_msg); 
 
 private:
-	void set_state(state);
+		void set_state(state);
+		void check_can_login();
 
 private:
         QLineEdit* m_username;

@@ -23,9 +23,13 @@ send_window::send_window(QWidget* parent)
 	m_msg_txt = new QTextEdit(this);
 	m_send_button = new QPushButton("Send", this);
 	m_send_button->setSizePolicy(QSizePolicy::Fixed, QSizePolicy::Fixed);
+	m_send_button->setEnabled(false);
 
 	//m_to_edit->setMinimumSize(m_countries->size());
+	m_to_edit->setPlaceholderText("12345678");
+	m_to_edit->setValidator(new QRegExpValidator(QRegExp("[0-9]+"), this));
 	m_from_edt->setMaxLength(10);
+	m_from_edt->setPlaceholderText("QtSMS");
 
 	QLabel* from_l = new QLabel("From:", this);
 	QLabel* to_l = new QLabel("To:", this);
@@ -51,14 +55,12 @@ send_window::send_window(QWidget* parent)
 	update_to_combo();
 	
 	m_sms_handler = new SimpleGetHandler("sms/json", false);
-			
+		
+	m_send_button->setEnabled(false);		
 	connect(m_sms_handler, SIGNAL(sig_pass()), this, SLOT(on_send_ok()));
-	connect(m_sms_handler, SIGNAL(sig_err()), this, SLOT(on_send_err()));
+	connect(m_sms_handler, SIGNAL(sig_error()), this, SLOT(on_send_err()));
 	connect(m_send_button,SIGNAL(clicked()),this,SLOT(on_send_clicked()));
 	connect(m_countries, SIGNAL(currentTextChanged(const QString&)), this, SLOT(update_to_line_edit_completer(const QString&)));
-
-	m_send_button->setEnabled(false);
-
 }
 
 
@@ -107,13 +109,18 @@ void send_window::update_to_combo()
 	m_countries->completer()->setCompletionMode(QCompleter::PopupCompletion);
 	m_countries->setValidator(new QRegExpValidator(QRegExp("(^\+)[0-9]+"), this));
 	
-	QIcon icon(MACRO_ICONS_DIR_STR("armenia_640.png"));
-	m_countries->addItem(icon, "+374");
-
+	//add from my file countries list.
+	//TODO add engines
+	m_countries->addItem(QIcon(MACRO_ICONS_DIR_STR("armenia.png")), "+374");
+	//m_countries->addItem(QIcon(MACRO_ICONS_DIR_STR("georgia.png")), "+955");
+	
+	//TODO add from mobile list.
 	update_to_line_edit_completer(m_countries->currentText());
 }
 
-void send_window::update_to_line_edit_completer(const QString& s)
+
+
+void send_window::update_to_line_edit_completer(const QString& country)
 {
 	// validate if s is from coutries combo list
 	QStringList wordlist;

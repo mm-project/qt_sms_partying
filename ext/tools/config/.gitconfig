@@ -1,0 +1,4 @@
+[merge]
+	tool = p4merge
+[diff]
+	tool = p4merge

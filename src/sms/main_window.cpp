@@ -21,7 +21,7 @@ MainWindow::MainWindow(QWidget* p)
 		m_controller = Controller::get_instance();
 		
         setCentralWidget(m_stacked);
-        setFixedSize(300, 280);
+        setFixedSize(250, 240);
         setWindowTitle("SMS FUN");
         
 		connect(m_stacked, SIGNAL(status_bar_changed(const QString&, bool, bool)), this, SLOT(update_status_bar(const QString&, bool, bool)));
@@ -39,7 +39,7 @@ MainWindow::MainWindow(QWidget* p)
 		m_gif_label->setHidden(true);
 		setWindowIcon(QIcon(MACRO_ICONS_DIR_STR("logo.png")));
 		
-		std::cout << MACRO_ICONS_DIR_STR("logo.png").toStdString() << std::endl;
+		//std::cout << MACRO_ICONS_DIR_STR("logo.png").toStdString() << std::endl;
 }
 
 void MainWindow::update_status_bar(const QString& s, bool err, bool processing)

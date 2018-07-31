@@ -1,0 +1,1204 @@
+Abkhazia,+7,940,10,,See Russia
+Abkhazia,+995,44x,9,,See Georgia
+Afghanistan,+93,70,?,AWCC,www.afghan-wireless.com
+Afghanistan,+93,71,?,AWCC,www.afghan-wireless.com
+Afghanistan,+93,74,,SALAAM (state owned),www.salaam.af
+Afghanistan,+93,75,?,Afghan Telecom (state owned),www.afghantelecom.af
+Afghanistan,+93,77,?,MTN,www.mtn.com.af
+Afghanistan,+93,76,,MTN,www.mtn.com.af
+Afghanistan,+93,78,?,Etisalat,www.etisalat.af
+Afghanistan,+93,73,?,Etisalat,etisalat.af
+Afghanistan,+93,79,?,Roshan,www.roshan.af
+Afghanistan,+93,72,?,Roshan,www.roshan.af
+Åland Islands,+358,457,10,,See Finland
+Albania,+355,66,?,PLUS Communication,
+Albania,+355,67,?,EAGLE MOBILE,
+Albania,+355,68,?,AMC,
+Albania,+355,69,7,Vodafone,
+Algeria,+213,5,9,Nedjma Telecom,+213 5 xx xx xx xx
+Algeria,+213,6,9,Mobilis-Algerie Telecom,+213 6 xx xx xx xx
+Algeria,+213,7,9,Orascom Telecom Algerie,+213 7 xx xx xx xx
+American Samoa,+1,684,10,,
+Andorra,+376,3,?,,
+Angola,+244,91,?,MOVICEL - CDMA,
+Angola,+244,92,?,UNITEL - GSM,
+Angola,+244,93,?,UNITEL - GSM,
+Anguilla,+1,264 772,10,,
+Antigua and Barbuda,+1,268 7xx,10,,
+Argentina,+54,9/15,?,"All carriers: Claro, Movistar, Personal, Tuenti",15 before the local number but after long distance area code for national calls (0 11 15 xxxx-xxxx) and 9 placed after the international access code excluding the 15 for international calls (+54 9 11 xxxx-xxxx).
+Armenia,+374,55,6,Ucom,
+Armenia,+374,95,6,Ucom,
+Armenia,+374,41,6,Ucom,
+Armenia,+374,77,6,VivaCell-MTS,
+Armenia,+374,93,6,VivaCell-MTS,
+Armenia,+374,94,6,VivaCell-MTS,
+Armenia,+374,98,6,VivaCell-MTS,
+Armenia,+374,91,6,Beeline Armenia,"Users can now switch carriers and keep their cell phone numbers, including prefix."
+Armenia,+374,99,6,Beeline Armenia,
+Armenia,+374,43,6,Beeline Armenia,
+Armenia,+374,97,6,Karabakh Telecom,
+Aruba,+297,??,?,,
+Ascension Island,+247,??,?,,
+Australia,+61,4,9,any,"No set cellular suffix, due to ""Number Porting"" from one network to another. i.e. 04xxxx xxxx"
+Australian Antarctic Territory,+672,1x,?,,See Norfolk Island
+Austria,+43,650,10,T-Mobile Austria GmbH (telering),
+Austria,+43,660,10,Hutchison 3G Austria GmbH (drei),
+Austria,+43,664,10,"mobilkom Austria AG (Mobilkom, A1)",
+Austria,+43,676,10,"T-Mobile Austria GmbH (T-Mobile, formerly max)",
+Austria,+43,680,10,mobilkom Austria AG (Bob),
+Austria,+43,677,11,"HoT (T-Mobile, formerly max)",
+Austria,+43,681,11,YESSS! Telekommunikation GmbH,
+Austria,+43,688,11,Tele2 Mobil,
+Austria,+43,699,11,"Hutchison 3G Austria GmbH (drei) formerly Orange Austria (Orange [formerly ONE], Yesss)"
+Azerbaijan,+994,40,?,Catel,
+Azerbaijan,+994,50,?,Azercell,
+Azerbaijan,+994,51,?,Azercell,
+Azerbaijan,+994,55,?,Bakcell,
+Azerbaijan,+994,70,?,Nar Mobile,
+Azerbaijan,+994,77,?,Azerfon-Vodafone,
+Bahamas,+1,242 35x,10,,
+Bahamas,+1,242 45x,10,,
+Bahamas,+1,242 55x,10,,
+Bahrain,+973,31,8,Royal Court,"Users can now switch carriers and keep their cell phone numbers, including prefix"
+Bahrain,+973,322,8,Batelco,"Users can now switch carriers and keep their cell phone numbers, including prefix"
+Bahrain,+973,33,8,Viva,"Users can now switch carriers and keep their cell phone numbers, including prefix"
+Bahrain,+973,340,8,Viva,"Users can now switch carriers and keep their cell phone numbers, including prefix"
+Bahrain,+973,341,8,Viva,"Users can now switch carriers and keep their cell phone numbers, including prefix"
+Bahrain,+973,343,8,Viva,"Users can now switch carriers and keep their cell phone numbers, including prefix"
+Bahrain,+973,344,8,Viva,"Users can now switch carriers and keep their cell phone numbers, including prefix"
+Bahrain,+973,345,8,Viva,"Users can now switch carriers and keep their cell phone numbers, including prefix"
+Bahrain,+973,353,8,Viva,"Users can now switch carriers and keep their cell phone numbers, including prefix"
+Bahrain,+973,355,8,Viva,"Users can now switch carriers and keep their cell phone numbers, including prefix"
+Bahrain,+973,36,8,Zain,"Users can now switch carriers and keep their cell phone numbers, including prefix"
+Bahrain,+973,377,8,Zain,"Users can now switch carriers and keep their cell phone numbers, including prefix"
+Bahrain,+973,383,8,Batelco,"Users can now switch carriers and keep their cell phone numbers, including prefix"
+Bahrain,+973,384,8,Batelco,"Users can now switch carriers and keep their cell phone numbers, including prefix"
+Bahrain,+973,388,8,Batelco,"Users can now switch carriers and keep their cell phone numbers, including prefix"
+Bahrain,+973,39,8,Batelco,"Users can now switch carriers and keep their cell phone numbers, including prefix"
+Bahrain,+973,663,8,Zain,"Users can now switch carriers and keep their cell phone numbers, including prefix"
+Bahrain,+973,666,8,Zain,"Users can now switch carriers and keep their cell phone numbers, including prefix"
+Bahrain,+973,669,8,Zain,"Users can now switch carriers and keep their cell phone numbers, including prefix"
+Bangladesh,+880,11xx,10,Citycell,"International example : +880 11xx xxxxxx,Countrywide based example : 011xx xxxxxx"
+Bangladesh,+880,15xx,10,TeleTalk,"International example : +880 15xx xxxxxx,Countrywide based example : 015xx xxxxxx"
+Bangladesh,+880,16xx,10,Airtel,"International example : +880 16xx xxxxxx,Countrywide based example : 016xx xxxxxx"
+Bangladesh,+880,17xx,10,GrameenPhone,"International example : +880 17xx xxxxxx,Countrywide based example : 017xx xxxxxx"
+Bangladesh,+880,18xx,10,Robi,"International example : +880 18xx xxxxxx,Countrywide based example : 018xx xxxxxx"
+Bangladesh,+880,19xx,10,Banglalink,"International example : +880 19xx xxxxxx,Countrywide based example : 019xx xxxxxx"
+Barbados,+1,246,10,AT&T Wireless (formerly),
+Barbados,+1,246,10,Digicel,
+Barbados,+1,246,10,LIME,
+Barbados,+1,246,10,Sunbeach,
+Belarus,+375,25,9,life:),Users can switch carriers while keeping number and prefix (so prefixes are not tightly coupled to a specific carrier).
+Belarus,+375,29 1,9,Velcom,Users can switch carriers while keeping number and prefix (so prefixes are not tightly coupled to a specific carrier).
+Belarus,+375,29 2,9,MTS,Users can switch carriers while keeping number and prefix (so prefixes are not tightly coupled to a specific carrier).
+Belarus,+375,29 3,9,Velcom,Users can switch carriers while keeping number and prefix (so prefixes are not tightly coupled to a specific carrier).
+Belarus,+375,29 4,9,diallog,Users can switch carriers while keeping number and prefix (so prefixes are not tightly coupled to a specific carrier).
+Belarus,+375,29 5,9,MTS,Users can switch carriers while keeping number and prefix (so prefixes are not tightly coupled to a specific carrier).
+Belarus,+375,29 6,9,Velcom,Users can switch carriers while keeping number and prefix (so prefixes are not tightly coupled to a specific carrier).
+Belarus,+375,29 7,9,MTS,Users can switch carriers while keeping number and prefix (so prefixes are not tightly coupled to a specific carrier).
+Belarus,+375,29 8,9,MTS,Users can switch carriers while keeping number and prefix (so prefixes are not tightly coupled to a specific carrier).
+Belarus,+375,29 9,9,Velcom,Users can switch carriers while keeping number and prefix (so prefixes are not tightly coupled to a specific carrier).
+Belarus,+375,33,9,MTS,Users can switch carriers while keeping number and prefix (so prefixes are not tightly coupled to a specific carrier).
+Belarus,+375,44,9,Velcom,Users can switch carriers while keeping number and prefix (so prefixes are not tightly coupled to a specific carrier).
+Belgium,+32,47x,9,Proximus (or other),"Users can switch carriers while keeping number and prefix (so prefixes are not tightly coupled to a specific carrier). If there is only +32.. followed by any other, shorter number, like +32 51 724859, this is the number of a normal phone, not a mobile."
+Belgium,+32,48x,9,Telenet/Base (or other),"Users can switch carriers while keeping number and prefix (so prefixes are not tightly coupled to a specific carrier). If there is only +32.. followed by any other, shorter number, like +32 51 724859, this is the number of a normal phone, not a mobile."
+Belgium,+32,49x,9,Orange Belgium (or other),"Users can switch carriers while keeping number and prefix (so prefixes are not tightly coupled to a specific carrier). If there is only +32.. followed by any other, shorter number, like +32 51 724859, this is the number of a normal phone, not a mobile."
+Belize,+501,6,?,,
+Belize,+501,6,6,Mobile Smart,
+Belize,+501,6,7,Mobile Smart,
+Benin,+229,9x,?,,
+Bermuda,+1,441,10,,
+Bhutan,+975,17,?,,
+Bolivia,+591,6,?,,
+Bolivia,+591,7,?,,
+Bonaire,+599,??,?,,See Curaçao and the Caribbean Netherlands
+Bosnia and Herzegovina (Bosnia-Herzegovina),+387,60,8,BH Mobile,
+Bosnia and Herzegovina (Bosnia-Herzegovina),+387,61,8,BH Mobile,
+Bosnia and Herzegovina (Bosnia-Herzegovina),+387,62,8,BH Mobile,
+Bosnia and Herzegovina (Bosnia-Herzegovina),+387,63,8,Eronet,
+Bosnia and Herzegovina (Bosnia-Herzegovina),+387,64,8,Hallo,
+Bosnia and Herzegovina (Bosnia-Herzegovina),+387,65,8,m:tel,
+Bosnia and Herzegovina (Bosnia-Herzegovina),+387,66,8,m:tel,
+Botswana,+267,7,?,Mascom,
+Brazil,+55,xx 9,11,,"Mobile phones use geographic area codes (two digits): after that, all numbers assigned to mobile service have nine digits, starting with 9 (example: +55 15 99999-9999). The possible range goes from 91 to 99: 90 is not possible, because collect calls start with this number[1]."
+British Indian Ocean Territory,+246,387,7,,
+British Virgin Islands,+1,284,10,,
+Brunei,+673,8x,?,,
+Bulgaria,+359,48,?,Mobikom (now defunct),
+Bulgaria,+359,87,9,Vivacom,"+359 87 xxxxxxx Users can now switch carriers and keep their cell phone numbers, including prefix"
+Bulgaria,+359,88,9,Mobiltel,"+359 88 xxxxxxx Users can now switch carriers and keep their cell phone numbers, including prefix"
+Bulgaria,+359,89,9,Globul,"+359 89 xxxxxxx Users can now switch carriers and keep their cell phone numbers, including prefix"
+Bulgaria,+359,988,9,Other mobile networks,"+359 988 xxxxxx Users can now switch carriers and keep their cell phone numbers, including prefix"
+Burkina Faso,+226,70,8,Telmob,
+Burkina Faso,+226,71,8,Telmob,
+Burkina Faso,+226,72,8,Telmob,
+Burkina Faso,+226,74,8,Celtel,
+Burkina Faso,+226,75,8,Celtel,
+Burkina Faso,+226,77,8,Celtel,
+Burkina Faso,+226,78,8,Telecel,
+Burkina Faso,+226,79,8,Telecel,
+Burma,+95,,,,See Myanmar
+Burundi,+257,7x,?,,
+Cambodia,+855,92,9,Cellcard,
+Cambodia,+855,12,9,Cellcard,
+Cambodia,+855,11,9,Cellcard,
+Cambodia,+855,77,9,Cellcard,
+Cambodia,+855,99,9,Cellcard,
+Cameroon,+237,7,?,MTN,
+Cameroon,+237,9,?,Orange,
+Canada,+1,,10,,"Mobile phones use geographic area codes. Many exchange codes contain primarily mobile devices; local numbers are portable between wired and wireless carriers. While area code 600 has been established as a non-geographic code that can be used by mobile phones, the only significant mobile usage has been for satellite phone service in remote regions."
+Canary Islands,+34,??,?,,See Spain
+Cape Verde,+238,9,?,,
+Cayman Islands,+1,345,10,,
+Central African Republic,+236,??,?,Telecel,
+Ceuta,+34,??,?,,See Spain
+Chad,+235,66,8,Airtel,
+Chad,+235,63,8,Airtel,
+Chad,+235,65,8,Airtel,
+Chad,+235,99,8,Tigo,
+Chad,+235,95,8,Tigo,
+Chad,+235,93,8,Tigo,
+Chad,+235,90,8,Tigo,
+Chad,+235,77,8,Salamat[disambiguation needed],
+Chagos Islands,+246,387,7,,See British Indian Ocean Territory
+Chile,+56,9,9,"All carriers: Movistar, Claro, Entel, WOM, Virgin Mobile, etc.","Example: +56 9 1234 5678 dialed from Chilean or foreign mobile phones, with or without blank spaces."
+People's Republic of China,+86,13x,11,,
+People's Republic of China,+86,15x,11,,
+People's Republic of China,+86,18x,11,,
+Christmas Island,+61,8 9164,?,,See Australia
+Cocos (Keeling) Islands,+61,8 9162,?,,See Australia
+Colombia,+57,30x,10,Tigo,
+Colombia,+57,310,10,Claro,
+Colombia,+57,311,10,Claro,
+Colombia,+57,312,10,Claro,
+Colombia,+57,313,10,Claro,
+Colombia,+57,314,10,Claro,
+Colombia,+57,315,10,Movistar,
+Colombia,+57,316,10,Movistar,
+Colombia,+57,317,10,Movistar,
+Colombia,+57,318,10,Movistar,
+Colombia,+57,319,10,Movistar,Operated by Virgin Mobile
+Colombia,+57,32x,10,Claro,
+Colombia,+57,"350, 351",10,Avantel,
+Comoros,+269,3,?,,
+Republic of Congo,+242,4,?,,
+Republic of Congo,+242,5,?,,
+Republic of Congo,+242,6,?,,
+Democratic Republic of Congo,+243,22,?,,
+Democratic Republic of Congo,+243,78,?,,
+Democratic Republic of Congo,+243,81,?,Vodacom,
+Democratic Republic of Congo,+243,84,?,,
+Democratic Republic of Congo,+243,85,?,,
+Democratic Republic of Congo,+243,86,?,,
+Democratic Republic of Congo,+243,88,?,,
+Democratic Republic of Congo,+243,89,?,,
+Democratic Republic of Congo,+243,90,?,Africell,
+Democratic Republic of Congo,+243,94,?,,
+Democratic Republic of Congo,+243,95,?,,
+Democratic Republic of Congo,+243,96,?,,
+Democratic Republic of Congo,+243,97,?,,
+Democratic Republic of Congo,+243,98,?,,
+Democratic Republic of Congo,+243,99,?,Airtel,
+Cook Islands,+682,5x,5,,
+Cook Islands,+682,7x,5,,
+Costa Rica,+506,6,8,Movistar,Users can switch carriers while keeping number and prefix (so prefixes are not tightly coupled to a specific carrier).
+Costa Rica,+506,7,8,Claro,Users can switch carriers while keeping number and prefix (so prefixes are not tightly coupled to a specific carrier).
+Costa Rica,+506,8,8,Instituto Costarricense de Electricidad (Kölbi),Users can switch carriers while keeping number and prefix (so prefixes are not tightly coupled to a specific carrier).
+Croatia,+385,91,9,Vipnet,
+Croatia,+385,92,9,Tomato,
+Croatia,+385,95,9,Tele2,
+Croatia,+385,97,9,bonbon,
+Croatia,+385,98,9,T-Mobile,
+Croatia,+385,99,9,T-Mobile,
+Cuba,+53,5,?,ETECSA,
+Curaçao,+599,??,?,,See Curaçao and the Caribbean Netherlands
+Curaçao and the Caribbean Netherlands,+599,??,?,,
+Cyprus,+357,94,8,LemonTel,a subsidiary of Cablenet
+Cyprus,+357,95,8,PrimeTel,
+Cyprus,+357,96,8,MTN,was called Areeba until 2007
+Cyprus,+357,97,8,Cytamobile-Vodafone,a subsidiary of Cyta
+Cyprus,+357,99,8,Cytamobile-Vodafone,a subsidiary of Cyta
+Czech Republic,+420,601,9,Telefónica O2,
+Czech Republic,+420,602,9,Telefónica O2,
+Czech Republic,+420,603,9,T-Mobile,
+Czech Republic,+420,604,9,T-Mobile,
+Czech Republic,+420,605,9,T-Mobile,
+Czech Republic,+420,606,9,Telefónica O2,
+Czech Republic,+420,607,9,Telefónica O2,
+Czech Republic,+420,608,9,Vodafone,
+Czech Republic,+420,702,9,Telefónica O2,
+Czech Republic,+420,72x,9,Telefónica O2,
+Czech Republic,+420,73x,9,T-Mobile,Except 730.
+Czech Republic,+420,77x,9,Vodafone,
+Czech Republic,+420,790,9,U:fon,"Except 79023, 79044, 79066, 79088."
+Denmark,+45,2x,8,TDC,
+Denmark,+45,30,8,,
+Denmark,+45,31,8,,
+Denmark,+45,40,8,,
+Denmark,+45,41,8,,
+Denmark,+45,42,8,,
+Denmark,+45,50,8,Telenor,
+Denmark,+45,51,8,,
+Denmark,+45,52,8,,
+Denmark,+45,53,8,,
+Denmark,+45,60,8,,
+Denmark,+45,61,8,,
+Denmark,+45,71,8,,
+Denmark,+45,81,8,,
+Diego Garcia,+246,387,7,,See British Indian Ocean Territory
+Djibouti,+253,8,?,,
+Dominica,+1,767 2xx,10,,
+Dominican Republic,+1,809,10,,Mobile phones use geographic numbers that cannot be recognized as cell numbers.
+Dominican Republic,+1,829,10,,Mobile phones use geographic numbers that cannot be recognized as cell numbers.
+Dominican Republic,+1,849,10,,Mobile phones use geographic numbers that cannot be recognized as cell numbers.
+East Timor,+670,77,8,,+670 77xxxxxx
+East Timor,+670,78,8,,+670 78xxxxxx
+Easter Island,+56,32,?,,See Chile
+Ecuador,+593,8,?,,newest lines
+Ecuador,+593,9,9,,
+Egypt,+20,10,10,Vodafone,"Users can now switch carriers and keep their cell phone numbers, including prefix. An additional digit has been added to the code of every carrier. Making a single code per carrier, after each carrier had to have multiple codes. And making the NSN 10 digits after it was 9. Dialing format inside Egypt is 01X XXXX XXXX, International format is +20 1X XXXX XXXX"
+Egypt,+20,11,10,Etisalat,"Users can now switch carriers and keep their cell phone numbers, including prefix. An additional digit has been added to the code of every carrier. Making a single code per carrier, after each carrier had to have multiple codes. And making the NSN 10 digits after it was 9. Dialing format inside Egypt is 01X XXXX XXXX, International format is +20 1X XXXX XXXX"
+Egypt,+20,12,10,Mobinil,"Users can now switch carriers and keep their cell phone numbers, including prefix. An additional digit has been added to the code of every carrier. Making a single code per carrier, after each carrier had to have multiple codes. And making the NSN 10 digits after it was 9. Dialing format inside Egypt is 01X XXXX XXXX, International format is +20 1X XXXX XXXX"
+El Salvador,+503,6,?,,"Users can now switch carriers and keep their cell phone numbers, including prefix."
+El Salvador,+503,7,?,,"Users can now switch carriers and keep their cell phone numbers, including prefix."
+England,+44,,10,,See United Kingdom
+Equatorial Guinea,+240,2,?,,
+Equatorial Guinea,+240,7,?,,
+Eritrea,+291,7,?,,
+Estonia,+372,5x,?,,
+Ethiopia,+251,9X,?,Ethio_telecom,
+Falkland Islands,+500,5,5,,
+Falkland Islands,+500,6,5,,
+Faroe Islands,+298,21,5,,
+Faroe Islands,+298,22,5,,
+Faroe Islands,+298,23,5,,
+Faroe Islands,+298,24,5,,
+Faroe Islands,+298,25,5,,
+Faroe Islands,+298,26,5,,
+Faroe Islands,+298,27,5,,
+Faroe Islands,+298,28,5,,
+Faroe Islands,+298,29,5,,
+Faroe Islands,+298,5x,5,,
+Faroe Islands,+298,71,5,,
+Faroe Islands,+298,72,5,,
+Faroe Islands,+298,73,5,,
+Faroe Islands,+298,74,5,,
+Faroe Islands,+298,75,5,,
+Faroe Islands,+298,76,5,,
+Faroe Islands,+298,77,5,,
+Faroe Islands,+298,78,5,,
+Faroe Islands,+298,79,5,,
+Faroe Islands,+298,91,5,,
+Faroe Islands,+298,92,5,,
+Faroe Islands,+298,93,5,,
+Faroe Islands,+298,94,5,,
+Faroe Islands,+298,95,5,,
+Faroe Islands,+298,96,5,,
+Faroe Islands,+298,97,5,,
+Faroe Islands,+298,98,5,,
+Faroe Islands,+298,99,5,,
+Federated States of Micronesia,+691,92,7,,
+Federated States of Micronesia,+691,93,7,,
+Federated States of Micronesia,+691,95,7,,
+Federated States of Micronesia,+691,97,7,,
+Fiji,+679,3,?,Telecom,
+Fiji,+679,7,?,Digicel,
+Fiji,+679,9,?,Vodafone,
+Finland,+358,4x,?,,
+Finland,+358,457,10,,
+Finland,+358,50,?,,
+Finland,+358,500,?,,
+France,+33,6,9,,
+France,+33,700,9,,
+France,+33,73,9,,
+France,+33,74,9,,
+France,+33,75,9,,
+France,+33,76,9,,
+France,+33,77,9,,
+France,+33,78,9,,
+French Overseas Departments and Territories,+262,,,,See Réunion and Mayotte
+French Overseas Departments and Territories,+508,,,,See Saint Pierre and Miquelon
+French Overseas Departments and Territories,+590,,,,"See Guadeloupe, Saint-Barthélemy and Saint-Martin"
+French Overseas Departments and Territories,+594,,,,See French Guiana
+French Overseas Departments and Territories,+596,,,,See Martinique
+French Guiana,+594,694,9,,+594 694 xx xx xx
+French Guiana,+594,700,12?,,(NSN = 12 means +594 700 xxx xxx xxx)
+French Polynesia,+689,87: Vini89: Vodafone,6,,
+Gabon,+241,2,7,,
+Gabon,+241,3,7,,
+Gabon,+241,4,7,,
+Gabon,+241,5,7,,
+Gabon,+241,6,7,,
+Gabon,+241,7,7,,
+Gambia,+220,7x,?,,
+Gambia,+220,9x,?,,
+Georgia,+995,544,9,Aquafon,"Operating in Abkhazia, also having +7-940 code"
+Georgia,+995,514,9,LaiLai(Geocell),"Attention! Numbering plan will be changed in 2011. Update will be made afterwards. Be advised that on February 15, 2011 number portability has been introduced, so prefixes can be of other networks."
+Georgia,+995,551,9,Bani (MagtiCom),"Attention! Numbering plan will be changed in 2011. Update will be made afterwards. Be advised that on February 15, 2011 number portability has been introduced, so prefixes can be of other networks."
+Georgia,+995,555,9,LaiLai (Geocell),"Attention! Numbering plan will be changed in 2011. Update will be made afterwards. Be advised that on February 15, 2011 number portability has been introduced, so prefixes can be of other networks."
+Georgia,+995,557,9,LaiLai (Geocell),"Attention! Numbering plan will be changed in 2011. Update will be made afterwards. Be advised that on February 15, 2011 number portability has been introduced, so prefixes can be of other networks."
+Georgia,+995,558,9,LaiLai (Geocell),"Attention! Numbering plan will be changed in 2011. Update will be made afterwards. Be advised that on February 15, 2011 number portability has been introduced, so prefixes can be of other networks."
+Georgia,+995,568,9,BeeLine,"Attention! Numbering plan will be changed in 2011. Update will be made afterwards. Be advised that on February 15, 2011 number portability has been introduced, so prefixes can be of other networks."
+Georgia,+995,571,9,BeeLine,"Attention! Numbering plan will be changed in 2011. Update will be made afterwards. Be advised that on February 15, 2011 number portability has been introduced, so prefixes can be of other networks."
+Georgia,+995,574,9,BeeLine,"Attention! Numbering plan will be changed in 2011. Update will be made afterwards. Be advised that on February 15, 2011 number portability has been introduced, so prefixes can be of other networks."
+Georgia,+995,577,9,Geocell,"Attention! Numbering plan will be changed in 2011. Update will be made afterwards. Be advised that on February 15, 2011 number portability has been introduced, so prefixes can be of other networks."
+Georgia,+995,579,9,BeeLine,"Attention! Numbering plan will be changed in 2011. Update will be made afterwards. Be advised that on February 15, 2011 number portability has been introduced, so prefixes can be of other networks."
+Georgia,+995,591,9,MagtiCom,"Attention! Numbering plan will be changed in 2011. Update will be made afterwards. Be advised that on February 15, 2011 number portability has been introduced, so prefixes can be of other networks."
+Georgia,+995,592,9,BeeLine,"Attention! Numbering plan will be changed in 2011. Update will be made afterwards. Be advised that on February 15, 2011 number portability has been introduced, so prefixes can be of other networks."
+Georgia,+995,593,9,LaiLai (Geocell),"Attention! Numbering plan will be changed in 2011. Update will be made afterwards. Be advised that on February 15, 2011 number portability has been introduced, so prefixes can be of other networks."
+Georgia,+995,595,9,MagtiCom,"Attention! Numbering plan will be changed in 2011. Update will be made afterwards. Be advised that on February 15, 2011 number portability has been introduced, so prefixes can be of other networks."
+Georgia,+995,596,9,Bali (MagtiCom),"Attention! Numbering plan will be changed in 2011. Update will be made afterwards. Be advised that on February 15, 2011 number portability has been introduced, so prefixes can be of other networks."
+Georgia,+995,597,9,BeeLine,"Attention! Numbering plan will be changed in 2011. Update will be made afterwards. Be advised that on February 15, 2011 number portability has been introduced, so prefixes can be of other networks."
+Georgia,+995,598,9,Bali (MagtiCom),"Attention! Numbering plan will be changed in 2011. Update will be made afterwards. Be advised that on February 15, 2011 number portability has been introduced, so prefixes can be of other networks."
+Georgia,+995,599,9,MagtiCom,"Attention! Numbering plan will be changed in 2011. Update will be made afterwards. Be advised that on February 15, 2011 number portability has been introduced, so prefixes can be of other networks."
+Germany,+49,151x,10,T-Mobile (GSM/UMTS),
+Germany,+49,152x,10,Vodafone D2 (GSM/UMTS),
+Germany,+49,155x,10,E-Plus (GSM/UMTS),
+Germany,+49,157x,10,E-Plus (GSM/UMTS),"157-0 used for MVNO ViStream,157-5 for Ring Mobilfunk"
+Germany,+49,159x,10,O2 Germany (GSM/UMTS),
+Germany,+49,160,10/11,T-Mobile (GSM/UMTS),NSN length is 10 digits except 0160-9 with 11 digits
+Germany,+49,162,10,Vodafone D2 (GSM/UMTS),
+Germany,+49,163,10,E-Plus (GSM/UMTS),
+Germany,+49,170,10,T-Mobile (GSM/UMTS),
+Germany,+49,171,10,T-Mobile (GSM/UMTS),
+Germany,+49,172,10,Vodafone D2 (GSM/UMTS),
+Germany,+49,173,10,Vodafone D2 (GSM/UMTS),
+Germany,+49,174,10,Vodafone D2 (GSM/UMTS),
+Germany,+49,175,10,T-Mobile (GSM/UMTS),
+Germany,+49,176,10,O2 Germany (GSM/UMTS),
+Germany,+49,177,10,E-Plus (GSM/UMTS),
+Germany,+49,178,10,E-Plus (GSM/UMTS),
+Germany,+49,179,10,O2 Germany (GSM/UMTS),
+Ghana,+233,20,9,GT-Vodafone,
+Ghana,+233,23,9,Glo Mobile,
+Ghana,+233,24,9,MTN,
+Ghana,+233,26,9,Airtel (Zain),
+Ghana,+233,27,9,Tigo,
+Ghana,+233,28,9,Kasapa,
+Ghana,+233,54,9,MTN,
+Ghana,+233,57,9,Tigo,
+Gibraltar,+350,58x,?,,
+Greece,+30,690,10,WIND,
+Greece,+30,693,10,WIND,
+Greece,+30,694,10,Vodafone,
+Greece,+30,695,10,Vodafone,
+Greece,+30,697,10,Cosmote,
+Greece,+30,698,10,Cosmote,
+Greece,+30,699,10,WIND,The prefix belonged to Q-Telecom until WIND acquired the company in May 2007.
+Greenland,+299,??,6,,
+Grenada,+1,473 41x,10,,
+Guadeloupe,+590,690,9?,,"+590 690 xx xx xx (Guadeloupe, Saint-Barthélemy and Saint-Martin share the same prefix)"
+Guadeloupe,+590,700,12?,,(NSN = 12 means +590 700 xxx xxx xxx)
+Guam,+1,671,10,,
+Guatemala,+502,231,?,Comcel Mobile,
+Guatemala,+502,2324,?,Comcel Mobile,
+Guatemala,+502,2326,?,Comcel Mobile,
+Guatemala,+502,2327,?,Comcel Mobile,
+Guatemala,+502,2328,?,Comcel Mobile,
+Guatemala,+502,2329,?,Comcel Mobile,
+Guatemala,+502,2428,?,Comcel Mobile,
+Guatemala,+502,2429,?,Comcel Mobile,
+Guatemala,+502,30,?,Comcel Mobile,
+Guatemala,+502,310,?,Comcel Mobile,
+Guatemala,+502,311,?,Comcel Mobile,
+Guatemala,+502,3120-3128,?,Comcel Mobile,
+Guatemala,+502,4476-4479,?,Comcel Mobile,
+Guatemala,+502,448,?,Comcel Mobile,
+Guatemala,+502,449,?,Comcel Mobile,
+Guatemala,+502,45,?,Comcel Mobile,
+Guatemala,+502,46,?,Comcel Mobile,
+Guatemala,+502,470-476,?,Comcel Mobile,
+Guatemala,+502,4773-4779,?,Comcel Mobile,
+Guatemala,+502,478,?,Comcel Mobile,
+Guatemala,+502,479,?,Comcel Mobile,
+Guatemala,+502,480,?,Comcel Mobile,
+Guatemala,+502,481,?,Comcel Mobile,
+Guatemala,+502,4822-4829,?,Comcel Mobile,
+Guatemala,+502,483-489,?,Comcel Mobile,
+Guatemala,+502,49,?,Comcel Mobile,
+Guatemala,+502,4x,?,,
+Guatemala,+502,5x,?,,
+Guernsey,+44,,10,,See United Kingdom
+Guinea,+224,6,?,,
+Guinea-Bissau,+245,6,?,,
+Guinea-Bissau,+245,7,?,,
+Guyana,+592,6,?,,
+Haiti[2],+509,34,?,Comcel (Voilà),
+Haiti[2],+509,39,?,Comcel (Voilà),
+Haiti[2],+509,35,?,Haïtel,
+Haiti[2],+509,36,?,Digicel,
+Haiti[2],+509,37,?,Digicel,
+Haiti[2],+509,38,?,Digicel,
+Haiti[2],+509,4x,?,Any carrier,
+Hawaii,+1,808,10,,
+Honduras,+504,3,?,Claro,
+Honduras,+504,7,?,Hondutel,
+Honduras,+504,8,?,Digicel,
+Honduras,+504,9,?,Tigo,
+Hong Kong,+852,510-569,8,"various operators, including  CSL Mobile, Sun Mobile, 3 HK, PCCW Mobile, SmarTone, CMHK, China Unicom",Operator can be changed while keeping numbers.
+Hong Kong,+852,590-599,8,"various operators, including  CSL Mobile, Sun Mobile, 3 HK, PCCW Mobile, SmarTone, CMHK, China Unicom",Operator can be changed while keeping numbers.
+Hong Kong,+852,601-699,8,"various operators, including  CSL Mobile, Sun Mobile, 3 HK, PCCW Mobile, SmarTone, CMHK, China Unicom",Operator can be changed while keeping numbers.
+Hong Kong,+852,901-989,8,"various operators, including  CSL Mobile, Sun Mobile, 3 HK, PCCW Mobile, SmarTone, CMHK, China Unicom",Operator can be changed while keeping numbers.
+Hungary,+36,20,9,Telenor,Operator can be changed while keeping numbers.
+Hungary,+36,30,9,T-Mobile,
+Hungary,+36,31,9,Tesco Mobile,
+Hungary,+36,70,9,Vodafone,
+Iceland,+354,6,?,
+Iceland,+354,India,+91,7xx,10,"Various GSM and CDMA, including Aircel GSM, Airtel, BSNL GSM & CDMA, Idea, Loop Mobile GSM, MTS CDMA, Reliance GSM & CDMA, S-Tel GSM, Uninor GSM, Videocon GSM, Vodafone GSM.","Number porting allowed independent to change your operator. For more details, please visit the page Mobile telephone numbering in India"
+8xx,"Various GSM and CDMA, including Aircel GSM, Airtel, BSNL GSM & CDMA, Idea, Loop Mobile GSM, MTS CDMA, Reliance GSM & CDMA, S-Tel GSM, Uninor GSM, Videocon GSM, Vodafone GSM.",India,+91,10,"Number porting allowed independent to change your operator. For more details, please visit the page Mobile telephone numbering in India"
+90x,Various GSM,India,+91,10,"Number porting allowed independent to change your operator. For more details, please visit the page Mobile telephone numbering in India"
+91x,"Various GSM and CDMA, including MTS CDMA, BSNL GSM & CDMA, Uninor GSM, Loop Mobile GSM, S-Tel GSM etc.",India,+91,10,"Number porting allowed independent to change your operator. For more details, please visit the page Mobile telephone numbering in India"
+92x,Tata Indicom CDMA,India,+91,10,"Number porting allowed independent to change your operator. For more details, please visit the page Mobile telephone numbering in India"
+93x,Reliance CDMA,India,+91,10,"Number porting allowed independent to change your operator. For more details, please visit the page Mobile telephone numbering in India"
+94x,BSNL GSM,India,+91,10,"Number porting allowed independent to change your operator. For more details, please visit the page Mobile telephone numbering in India"
+95x,"Various GSM, including Airtel, BSNL, Idea, Aircel, Reliance GSM and Vodafone.",India,+91,10,"Number porting allowed independent to change your operator. For more details, please visit the page Mobile telephone numbering in India"
+96x,"Various GSM and CDMA, including Airtel, Idea, Reliance CDMA & GSM, Vodafone and Aircel.",India,+91,10,"Number porting allowed independent to change your operator. For more details, please visit the page Mobile telephone numbering in India"
+97x,"Various GSM, including Airtel, Vodafone, Idea, Aircel, Uninor, Reliance GSM and Videocon.",India,+91,10,"Number porting allowed independent to change your operator. For more details, please visit the page Mobile telephone numbering in India"
+98x,"Various GSM, including Airtel, Vodafone, Idea, Aircel, Uninor, Reliance GSM and Videocon.",India,+91,10,"Number porting allowed independent to change your operator. For more details, please visit the page Mobile telephone numbering in India"
+99x,"Various GSM, including Airtel, Vodafone, Idea, Aircel, Uninor, Reliance GSM and Videocon.",India,+91,10,"Number porting allowed independent to change your operator. For more details, please visit the page Mobile telephone numbering in India"
+Indonesia,+62,811,9,Telkomsel (KartuHalo),6 digits
+Indonesia,+62,812,10-11,Telkomsel (KartuHalo & simPati),7-8 digits
+Indonesia,+62,813,11,Telkomsel (KartuHalo & simPati),8 digits
+Indonesia,+62,814,11,Indosat (IM2 Broadband Internet & Matrix),8 digits
+Indonesia,+62,815,10,Indosat (Mentari & Matrix),7 digits
+Indonesia,+62,816,9-10,Indosat (Mentari),6-7 digits
+Indonesia,+62,817,9-10,XL,6-7 digits
+Indonesia,+62,818,9,XL,6 digits
+Indonesia,+62,819,10,XL,7 digits
+Indonesia,+62,838,10,AXIS,7 digits
+Indonesia,+62,852,11,Telkomsel (Kartu As),8 digits
+Indonesia,+62,853,11,Telkomsel (Kartu As),8 digits
+Indonesia,+62,855,10,Indosat (im3 Postpaid),7 digits
+Indonesia,+62,856,10-11,Indosat (im3 Prepaid),7-8 digits
+Indonesia,+62,858,11,Indosat (Mentari),8 digits
+Indonesia,+62,859,11,XL,8 digits
+Indonesia,+62,878,11,XL,8 digits
+Indonesia,+62,896,10,3,7 digits
+Indonesia,+62,897,10,3,7 digits
+Indonesia,+62,898,10,3,7 digits
+Indonesia,+62,899,10,3,7 digits
+Iran,+98,901,?,MTN Irancell,
+Iran,+98,902,?,MTN Irancell,
+Iran,+98,903,?,MTN Irancell,
+Iran,+98,91x,10,Hamrah Aval,
+Iran,+98,920,?,RighTel,
+Iran,+98,921,?,RighTel,
+Iran,+98,922,?,RighTel,
+Iran,+98,930,?,MTN Irancell,
+Iran,+98,931,?,MTCE,
+Iran,+98,932,?,Taliya,
+Iran,+98,933,?,MTN Irancell,
+Iran,+98,934,?,Kish-TCI,
+Iran,+98,935,?,MTN Irancell,
+Iran,+98,936,?,MTN Irancell,
+Iran,+98,937,?,MTN Irancell,
+Iran,+98,938,?,MTN Irancell,
+Iran,+98,939,?,MTN Irancell,
+Iran,+98,990,10,Hamrah Aval,
+Iran,+98,999 9,?,SamanTel,
+Iraq,+964,73x,?,Korek Telecom (formerly SanaTel),
+Iraq,+964,74x,?,Itisaluna and Kalemat,
+Iraq,+964,75x,?,Korek Telecom,
+Iraq,+964,76x,?,Mobitel (Iraq-Kurdistan) and Moutiny,
+Iraq,+964,77x,?,AsiaCell,
+Iraq,+964,78x,?,Zain Iraq ( formerly MTC Atheer),
+Iraq,+964,79x,?,"Zain Iraq, ( formerly Iraqna)",
+Ireland,+353,8x,9,,
+Ireland,+353,83,9,Three,
+Ireland,+353,85,9,eir/Meteor (Meteor branding to be retired in September 2017),
+Ireland,+353,86,9,Three (Formerly O2),
+Ireland,+353,87,9,Vodafone,
+Ireland,+353,89,9,Tesco(MVNO),
+Isle of Man,+44,,10,,See United Kingdom
+Israel,+972,50,9,Pelephone / Walla Mobile / YouPhone,"Users can now switch carriers and keep their cell phone numbers, including prefix"
+Israel,+972,52,9,Cellcom,"Users can now switch carriers and keep their cell phone numbers, including prefix"
+Israel,+972,53,9,Hot Mobile,"Users can now switch carriers and keep their cell phone numbers, including prefix"
+Israel,+972,54,9,Partner / 012 Mobile,"Users can now switch carriers and keep their cell phone numbers, including prefix"
+Israel,+972,5522 or 5523,9,Home Cellular,"Users can now switch carriers and keep their cell phone numbers, including prefix"
+Israel,+972,556,9,Rami Levy Hashikma Marketing,"Users can now switch carriers and keep their cell phone numbers, including prefix"
+Israel,+972,5570 or 5571,9,Cellact,"Users can now switch carriers and keep their cell phone numbers, including prefix"
+Israel,+972,558,9,Pelephone / Walla Mobile / YouPhone,"Users can now switch carriers and keep their cell phone numbers, including prefix"
+Israel,+972,559,9,019 Telecom,"Users can now switch carriers and keep their cell phone numbers, including prefix"
+Israel,+972,58,9,Golan Telecom,"Users can now switch carriers and keep their cell phone numbers, including prefix"
+Italy,+39,310,10,Elsacom S.p.A. (Retired),"Users can now switch carriers and keep their cell phone numbers, including prefix. Usually NSN are 10 digits long for mobile and personal services."
+Italy,+39,31100,10,Telespazio S.p.A.,"Users can now switch carriers and keep their cell phone numbers, including prefix. Usually NSN are 10 digits long for mobile and personal services."
+Italy,+39,31101,10,Telespazio S.p.A.,"Users can now switch carriers and keep their cell phone numbers, including prefix. Usually NSN are 10 digits long for mobile and personal services."
+Italy,+39,31105,10,Spal Telecommunications S.r.l.,"Users can now switch carriers and keep their cell phone numbers, including prefix. Usually NSN are 10 digits long for mobile and personal services."
+Italy,+39,313,10,RFI Rete Ferroviaria Italiana S.p.A.,"Users can now switch carriers and keep their cell phone numbers, including prefix. Usually NSN are 10 digits long for mobile and personal services."
+Italy,+39,319,10,Intermatica S.r.l.,"Users can now switch carriers and keep their cell phone numbers, including prefix. Usually NSN are 10 digits long for mobile and personal services."
+Italy,+39,320,10,WIND,"Users can now switch carriers and keep their cell phone numbers, including prefix. Usually NSN are 10 digits long for mobile and personal services."
+Italy,+39,322,13 (3 + 10),WIND operator reserved (routing number),"Users can now switch carriers and keep their cell phone numbers, including prefix. Usually NSN are 10 digits long for mobile and personal services."
+Italy,+39,323,"12 (""32"" + 10-digit MSISDN)",WIND operator reserved (voice mail),"Users can now switch carriers and keep their cell phone numbers, including prefix. Usually NSN are 10 digits long for mobile and personal services."
+Italy,+39,324,10,WIND,"Users can now switch carriers and keep their cell phone numbers, including prefix. Usually NSN are 10 digits long for mobile and personal services."
+Italy,+39,327,10,WIND,"Users can now switch carriers and keep their cell phone numbers, including prefix. Usually NSN are 10 digits long for mobile and personal services."
+Italy,+39,328,10,WIND,"Users can now switch carriers and keep their cell phone numbers, including prefix. Usually NSN are 10 digits long for mobile and personal services."
+Italy,+39,329,10,WIND,"Users can now switch carriers and keep their cell phone numbers, including prefix. Usually NSN are 10 digits long for mobile and personal services."
+Italy,+39,330,9-10,TIM there are many legacy 9-digit numbers,"Users can now switch carriers and keep their cell phone numbers, including prefix. Usually NSN are 10 digits long for mobile and personal services."
+Italy,+39,331,10,TIM,"Users can now switch carriers and keep their cell phone numbers, including prefix. Usually NSN are 10 digits long for mobile and personal services."
+Italy,+39,333,10,TIM,"Users can now switch carriers and keep their cell phone numbers, including prefix. Usually NSN are 10 digits long for mobile and personal services."
+Italy,+39,334,10,TIM,"Users can now switch carriers and keep their cell phone numbers, including prefix. Usually NSN are 10 digits long for mobile and personal services."
+Italy,+39,335,9-10,TIM there are a few legacy 9-digit numbers,"Users can now switch carriers and keep their cell phone numbers, including prefix. Usually NSN are 10 digits long for mobile and personal services."
+Italy,+39,336,9-10,TIM there are many legacy 9-digit numbers,"Users can now switch carriers and keep their cell phone numbers, including prefix. Usually NSN are 10 digits long for mobile and personal services."
+Italy,+39,337,9-10,TIM there are many legacy 9-digit numbers,"Users can now switch carriers and keep their cell phone numbers, including prefix. Usually NSN are 10 digits long for mobile and personal services."
+Italy,+39,338,10,TIM,"Users can now switch carriers and keep their cell phone numbers, including prefix. Usually NSN are 10 digits long for mobile and personal services."
+Italy,+39,339,10,TIM,"Users can now switch carriers and keep their cell phone numbers, including prefix. Usually NSN are 10 digits long for mobile and personal services."
+Italy,+39,340,10,Vodafone,"Users can now switch carriers and keep their cell phone numbers, including prefix. Usually NSN are 10 digits long for mobile and personal services."
+Italy,+39,341,13 (3 + 10),Vodafone operator reserved (routing number),"Users can now switch carriers and keep their cell phone numbers, including prefix. Usually NSN are 10 digits long for mobile and personal services."
+Italy,+39,342,10,Vodafone,"Users can now switch carriers and keep their cell phone numbers, including prefix. Usually NSN are 10 digits long for mobile and personal services."
+Italy,+39,343,"12 (""34"" + 10-digit MSISDN)",Vodafone operator reserved (voice mail),"Users can now switch carriers and keep their cell phone numbers, including prefix. Usually NSN are 10 digits long for mobile and personal services."
+Italy,+39,344,10,Vodafone,"Users can now switch carriers and keep their cell phone numbers, including prefix. Usually NSN are 10 digits long for mobile and personal services."
+Italy,+39,345,10,Vodafone,"Users can now switch carriers and keep their cell phone numbers, including prefix. Usually NSN are 10 digits long for mobile and personal services."
+Italy,+39,346,10,Vodafone,"Users can now switch carriers and keep their cell phone numbers, including prefix. Usually NSN are 10 digits long for mobile and personal services."
+Italy,+39,347,10,Vodafone,"Users can now switch carriers and keep their cell phone numbers, including prefix. Usually NSN are 10 digits long for mobile and personal services."
+Italy,+39,348,10,Vodafone,"Users can now switch carriers and keep their cell phone numbers, including prefix. Usually NSN are 10 digits long for mobile and personal services."
+Italy,+39,349,10,Vodafone,"Users can now switch carriers and keep their cell phone numbers, including prefix. Usually NSN are 10 digits long for mobile and personal services."
+Italy,+39,3505,10,"Full MVNO Nòverca using TIM network (retired 9 January 2015, users are being migrated to TIM)","Users can now switch carriers and keep their cell phone numbers, including prefix. Usually NSN are 10 digits long for mobile and personal services."
+Italy,+39,3510,10,Full MVNO Lycamobile using Vodafone network,"Users can now switch carriers and keep their cell phone numbers, including prefix. Usually NSN are 10 digits long for mobile and personal services."
+Italy,+39,3512,10,Full MVNO Lycamobile,"Users can now switch carriers and keep their cell phone numbers, including prefix. Usually NSN are 10 digits long for mobile and personal services."
+Italy,+39,360,9-10,TIM there are many legacy 9-digit numbers,"Users can now switch carriers and keep their cell phone numbers, including prefix. Usually NSN are 10 digits long for mobile and personal services."
+Italy,+39,361,13 (3 + 10),TIM operator reserved (TACS legacy routing number),"Users can now switch carriers and keep their cell phone numbers, including prefix. Usually NSN are 10 digits long for mobile and personal services."
+Italy,+39,362,13 (3 + 10),TIM operator reserved (GSM/UMTS routing number),"Users can now switch carriers and keep their cell phone numbers, including prefix. Usually NSN are 10 digits long for mobile and personal services."
+Italy,+39,363,"12 (""36"" + 10-digit MSISDN)",TIM operator reserved (voice mail),"Users can now switch carriers and keep their cell phone numbers, including prefix. Usually NSN are 10 digits long for mobile and personal services."
+Italy,+39,366,10,TIM,"Users can now switch carriers and keep their cell phone numbers, including prefix. Usually NSN are 10 digits long for mobile and personal services."
+Italy,+39,368,9-10,TIM there are many legacy 9-digit numbers,"Users can now switch carriers and keep their cell phone numbers, including prefix. Usually NSN are 10 digits long for mobile and personal services."
+Italy,+39,370,10,"various Light MVNOs including Coop Voce, Noverca, Tiscali Mobile, Terrecablate Mobile. Operated by TIM","Users can now switch carriers and keep their cell phone numbers, including prefix. Usually NSN are 10 digits long for mobile and personal services."
+Italy,+39,3710,10,Full MVNO BT Mobile using TIM network,"Users can now switch carriers and keep their cell phone numbers, including prefix. Usually NSN are 10 digits long for mobile and personal services."
+Italy,+39,3711,10,Full MVNO PosteMobile using WIND network,"Users can now switch carriers and keep their cell phone numbers, including prefix. Usually NSN are 10 digits long for mobile and personal services."
+Italy,+39,373,10,various Light MVNOs operated by H3G (Tre),"Users can now switch carriers and keep their cell phone numbers, including prefix. Usually NSN are 10 digits long for mobile and personal services."
+Italy,+39,377,10,"various Light MVNOs including PosteMobile, Erg Mobile, Daily Telecom Mobile, Carrefour UNO Mobile, Bladna Mobile, BT Mobile, BT Enìa. Operated by Vodafone","Users can now switch carriers and keep their cell phone numbers, including prefix. Usually NSN are 10 digits long for mobile and personal services."
+Italy,+39,380,10,WIND,"Users can now switch carriers and keep their cell phone numbers, including prefix. Usually NSN are 10 digits long for mobile and personal services."
+Italy,+39,381,13 (3 + 10),Full MVNO Nòverca operator reserved (routing number) (retired 9 January 2015),"Users can now switch carriers and keep their cell phone numbers, including prefix. Usually NSN are 10 digits long for mobile and personal services."
+Italy,+39,382,13 (3 + 10),Full MVNO Lycamobile operator reserved (routing number),"Users can now switch carriers and keep their cell phone numbers, including prefix. Usually NSN are 10 digits long for mobile and personal services."
+Italy,+39,383,"12 (""38"" + 10-digit MSISDN)",Vodafone operator reserved (voice mail),"Users can now switch carriers and keep their cell phone numbers, including prefix. Usually NSN are 10 digits long for mobile and personal services."
+Italy,+39,385,10,Telecom Italia S.p.A. (not TIM),"Users can now switch carriers and keep their cell phone numbers, including prefix. Usually NSN are 10 digits long for mobile and personal services."
+Italy,+39,388,10,WIND,"Users can now switch carriers and keep their cell phone numbers, including prefix. Usually NSN are 10 digits long for mobile and personal services."
+Italy,+39,389,10,WIND,"Users can now switch carriers and keep their cell phone numbers, including prefix. Usually NSN are 10 digits long for mobile and personal services."
+Italy,+39,390,13 (3 + 10),H3G (Tre) operator reserved (voice mail),"Users can now switch carriers and keep their cell phone numbers, including prefix. Usually NSN are 10 digits long for mobile and personal services."
+Italy,+39,391,10,"H3G (Tre) initially it was given to early business contracts; then it was operator reserved (employee numbers, system numbers e.g. SMSC) until 2013 when H3G started giving 391 numbers to regular users","Users can now switch carriers and keep their cell phone numbers, including prefix. Usually NSN are 10 digits long for mobile and personal services."
+Italy,+39,392,10,H3G (Tre),"Users can now switch carriers and keep their cell phone numbers, including prefix. Usually NSN are 10 digits long for mobile and personal services."
+Italy,+39,393,10,H3G (Tre),"Users can now switch carriers and keep their cell phone numbers, including prefix. Usually NSN are 10 digits long for mobile and personal services."
+Italy,+39,397,13 (3 + 10),H3G (Tre) operator reserved (routing number),"Users can now switch carriers and keep their cell phone numbers, including prefix. Usually NSN are 10 digits long for mobile and personal services."
+Ivory Coast,+225,0x,?,,
+Ivory Coast,+225,6x,?,,
+Jamaica,+1,876,10,,
+Jan Mayen,+47,79,?,,See Norway and Svalbard
+Japan,+81,70,?,,
+Japan,+81,80,?,,
+Japan,+81,90,?,,
+Jersey,+44,,10,,See United Kingdom
+Jordan,+962,77,?,Orange,
+Jordan,+962,79,?,Zain Jordan,
+Jordan,+962,78,?,Umniah,
+Kazakhstan,+7,700,?,Altel,
+Kazakhstan,+7,701,?,Kcell GSM,
+Kazakhstan,+7,702,?,KCell GSM,
+Kazakhstan,+7,705,?,Beeline GSM,
+Kazakhstan,+7,707,?,Tele2 GSM,
+Kazakhstan,+7,777,?,Beeline GSM,
+Kenya,+254,70x,?,Safaricom,
+Kenya,+254,71x,?,Safaricom,
+Kenya,+254,72x,?,Safaricom,
+Kenya,+254,73x,?,Airtel,
+Kenya,+254,763,?,Equitel,
+Kenya,+254,78x,?,Airtel,
+Kenya,+254,75x,?,Yu,
+Kenya,+254,77x,?,Orange,
+Kiribati,+686,6x,5,,
+Kiribati,+686,9x,5,,
+Kosovo,+383,44,8,Post_and_Telecom_of_Kosovo,
+Kosovo,+383,45,8,Z mobile,
+Kosovo,+383,49,8,IPKO,
+Kuwait,+965,5,?,Viva,
+Kuwait,+965,6,?,Wataniya Telecom,
+Kuwait,+965,9,?,Zain,
+Kyrgyzstan,+996,5xx,?,,
+Laos,+856,20,?,,
+Latvia,+371,2xx,8,,
+Lebanon,+961,3,7?,(03-Abcdef) where A is 1/2/3/4/5 for Alfa and 0/6/7/8/9 for Touch,
+Lebanon,+961,70,8?,(70-Abcdef) where A is 1/2/3/4/5 for Alfa and 0/6/7/8/9 for Touch,
+Lebanon,+961,71,8?,(71-Abcdef) where A is 1/2/3/4/5 for Touch and 0/6/7/8/9 for Alfa,
+Lebanon,+961,76,8?,"(76-Abcdef) where A is 1/2/3/4/5 for Alfa and 0/6/7/8/9 for Touch, until 01-2011, only 76-6 & 76-7 are available",
+Lesotho,+266,58,?,,
+Lesotho,+266,6x,?,,
+Liberia,+231,46,7,,
+Liberia,+231,47,7,,
+Liberia,+231,5,7,,
+Liberia,+231,64,7,,
+Liberia,+231,65,7,,
+Liberia,+231,7,8,,
+Libya,+218,91,10,AL-MADAR,
+Libya,+218,92,10,LIBYANA,
+Libya,+218,94,10,LIBYANA,
+Liechtenstein,+423,7,?,,
+Lithuania,+370,6xx,8,"Bite Lietuva, Tele2, Telia (previously Omnitel), Eurocom",+370 6xx xx xxxUsers can switch carriers while keeping number and prefix (so prefixes are not tightly coupled to a specific carrier).
+Luxembourg,+352,621,9,LuxGSM,
+Luxembourg,+352,628,9,LuxGSM,
+Luxembourg,+352,661,9,Orange,
+Luxembourg,+352,668,9,Orange,
+Luxembourg,+352,691,9,Tango Mobile,
+Luxembourg,+352,698,9,Tango Mobile,
+Macau,+853,6,?,,
+Republic of Macedonia,+389,70,?,Telekom Macedonia,
+Republic of Macedonia,+389,71,?,Telekom Macedonia,
+Republic of Macedonia,+389,72,?,Telekom Macedonia,
+Republic of Macedonia,+389,79,?,Lycamobile MVNO,Use One.Vip network
+Republic of Macedonia,+389,75,?,former One- now one.vip,
+Republic of Macedonia,+389,76,?,former One- now one-.vip,
+Republic of Macedonia,+389,77,?,one.vip VIP Operator,
+Republic of Macedonia,+389,78,?,one.vip VIP Operator,
+Madagascar,+261,3x,?,,
+Madeira,+351,??,?,,See Portugal
+Malawi,+265,8,TNM,,
+Malawi,+265,9,Celtel,,
+Malaysia,+60,10,?,DiGi,
+Malaysia,+60,11,?,Maxis,
+Malaysia,+60,12,?,Maxis,
+Malaysia,+60,13,?,Celcom,
+Malaysia,+60,142,?,Maxis,
+Malaysia,+60,143,?,DiGi,
+Malaysia,+60,146,?,DiGi,
+Malaysia,+60,149,?,DiGi,
+Malaysia,+60,16,9,DiGi,
+Malaysia,+60,17,?,Maxis,
+Malaysia,+60,18,?,U Mobile,
+Malaysia,+60,19,?,Celcom,
+Maldives,+960,7,7,Dhiraagu,
+Maldives,+960,9,7,Ooredoo,
+Mali,+223,3,?,,
+Mali,+223,4,?,,
+Mali,+223,5,?,,
+Mali,+223,6,8,Malitel,
+Mali,+223,7,8,Orange Mali,
+Malta,+356,77,?,Melita Mobile Ltd,
+Malta,+356,79,?,Go Mobile Ltd & MTV Mobile,
+Malta,+356,98,?,Red Touch Phone,
+Malta,+356,99,?,Vodafone Malta,
+Marshall Islands,+692,??,7,,
+Martinique,+596,696,9,,+596 696 xx xx xx
+Martinique,+596,700,12?,,(NSN = 12 means +596 700 xxx xxx xxx)
+Mauritania,+222,6,?,,
+Mauritius,+230,57,8,,
+Mauritius,+230,58,8,,
+Mauritius,+230,59,8,,
+Mayotte,+262,??,?,,See Réunion
+Melilla,+34,??,?,,See Spain
+Mexico,+52,1,10,"Telcel, Movistar, IUSACell, Nextel, UNEFON, Virgin Mobile, Tuenti",+52 then three digits for code area and seven for mobile line ID. Example +52 000 1234567
+Moldova,+373,60xxxxxx,8,Orange,
+Moldova,+373,65xxxxxx,8,Eventis,
+Moldova,+373,67xxxxxx,8,Unité,
+Moldova,+373,68xxxxxx,8,Orange,
+Moldova,+373,69xxxxxx,8,Orange,
+Moldova,+373,78xxxxxx,8,Moldcell,
+Moldova,+373,79xxxxxx,8,Moldcell,
+Monaco,+377,4,?,,
+Monaco,+377,6,?,,
+Mongolia,+976,70xxxxxx,8,Mongolian Telecom Company,The first telecom company of Mongolia
+Mongolia,+976,88xxxxxx,8,Unitel Corporation,
+Mongolia,+976,89xxxxxx,8,Unitel Corporation,
+Mongolia,+976,91xxxxxx,8,Skytel,The second largest mobile network coverage in Mongolia
+Mongolia,+976,93xxxxxx,8,G-Mobile,The newest mobile network of Mongolia
+Mongolia,+976,94xxxxxx,8,Mobicom Corporation,The first Mongolian cellphone operator
+Mongolia,+976,95xxxxxx,8,Mobicom Corporation,The first Mongolian cellphone operator
+Mongolia,+976,96xxxxxx,8,Skytel,The second largest mobile network coverage in Mongolia
+Mongolia,+976,98xxxxxx,8,G-Mobile,The newest mobile network of Mongolia
+Mongolia,+976,99xxxxxx,8,Mobicom Corporation,The first Mongolian cellphone operator
+Montenegro,+382,60,8,"Revolucija, VMNO under MTEL CG",
+Montenegro,+382,63,8,Telenor Montenegro,
+Montenegro,+382,66,8,"Volim, VMNO under T-Mobile",
+Montenegro,+382,67,8,T-Mobile,
+Montenegro,+382,68,8,MTEL CG,
+Montenegro,+382,69,8,Telenor Montenegro,Telenor Mobile Communications AS
+Montserrat,+1,664,10,,
+Morocco,+212,6x,?,,
+Mozambique,+258,8x,?,,
+Myanmar,+95,92xxxxxx,8,MPT,
+Myanmar,+95,925xxxxxxx,10,MPT,
+Myanmar,+95,926xxxxxxx,10,MPT,
+Myanmar,+95,943xxxxxx,9,MPT,
+Myanmar,+95,94xxxxxxxx,10,MPT,
+Myanmar,+95,944xxxxxx,9,MPT,
+Myanmar,+95,95xxxxxx,8,MPT,
+Myanmar,+95,96xxxxxx,8,MPT,
+Myanmar,+95,973xxxxxx,9,MPT,
+Myanmar,+95,991xxxxxx,9,MPT,
+Myanmar,+95,93xxxxxxx,9,MEC,
+Myanmar,+95,996xxxxxxx,10,Ooredoo Myanmar,
+Myanmar,+95,997xxxxxxx,10,Ooredoo Myanmar,
+Myanmar,+95,977xxxxxxx,10,Telenor Myanmar,
+Myanmar,+95,978xxxxxxx,10,Telenor Myanmar,
+Myanmar,+95,979xxxxxxx,10,Telenor Myanmar,
+Artsakh,+374,97,?,,See Armenia
+Namibia,+264,60,?,Switch,National telecommunications operator wholly owned by the Government of the Republic of Namibia
+Namibia,+264,81,?,MTC,
+Namibia,+264,85,?,Leo,
+Nauru,+674,555,?,,
+Nepal,+977,98xxxxxxxx,10,"Nepal Telecom, Ncell",13 digits including country code ( 977 ),
+Netherlands,+31,6,9,,Except 67 (reserved for data services and dial up internet).
+New Caledonia,+687,7,6,,
+New Caledonia,+687,8,6,,
+New Caledonia,+687,9,6,,
+New Zealand,+64,20,?,Orcon,
+New Zealand,+64,21,8-10,Vodafone,6 to 8 digits
+New Zealand,+64,22,9,2degrees,7 digits
+New Zealand,+64,24,?,Unused,Protected by Management Committee on 30 January 2009 to preserve the potential code expansion option.
+New Zealand,+64,25,8-9,Unused,6-7 digits - Was used by Telecom New Zealand (now called Spark) until it was shut down on 31 March 2007. All numbers have now migrated to 027 (7-digit) and 0274 (6-digit).
+New Zealand,+64,27,9,Spark New Zealand,7 digits
+New Zealand,+64,280,?,Compass Communications,
+New Zealand,+64,28,?,Mainly CallPlus,
+New Zealand,+64,283,?,Teletraders MVNO,
+New Zealand,+64,28,?,M2 MVNO,
+New Zealand,+64,29,?,TelstraClear,Acquired by Vodafone.
+Nicaragua,+505,8,?,,
+Niger,+227,9,8,,
+Nigeria,+234,804,8,ntel,
+Nigeria,+234,805,8,glo,
+Nigeria,+234,803,8,mtn,
+Nigeria,+234,802,8,airtel,
+Nigeria,+234,809,8,etisalat,
+Niue,+683,1,4,,
+Niue,+683,3,4,,
+Niue,+683,4,4,,
+Norfolk Island,+672,38,6,,See also Australian Antarctic Territory
+North Korea,+850,?,,,
+Northern Cyprus,+90,533,7,,See Turkey
+Northern Cyprus,+90,542,?,,See Turkey
+Northern Ireland,+44,,10,,See United Kingdom
+Northern Mariana Islands,+1,670,10,,
+Norway,+47,4,8,,+47 4x xx xx xx
+Norway,+47,59,8,,"+47 59 xx xx xx Machine-to-machine communication, also work with SMS and calls. See also NKOM numbering plan."
+Norway,+47,9,8,,+47 9x xx xx xx
+Oman,+968,91,8,,"Paging, now retired"
+Oman,+968,91,,Oman Mobile,
+Oman,+968,92,?,Oman Mobile,
+Oman,+968,93,?,Nawras,
+Oman,+968,94,?,Nawras,
+Oman,+968,95,?,Nawras,
+Oman,+968,96,?,Nawras,
+Oman,+968,97,?,Nawras,
+Oman,+968,98,?,Friendy,
+Oman,+968,99,?,Oman Mobile,
+Pakistan,+92,3xx MOBILE CODE,10,ALL PAKISTAN MOBILE OPERATORS,Format +92 3XX YYYZZZZ List of mobile codes in Pakistan
+Pakistan,+92,30x,10,Mobilink,+92 30X YYYZZZZ
+Pakistan,+92,31x,10,Zong,+92 31X YYYZZZZ (formerly Paktel)
+Pakistan,+92,32x,10,Warid Pakistan,+92 32X YYYZZZZ
+Pakistan,+92,33x,10,Ufone,+92 33X YYYZZZZ
+Pakistan,+92,34x,10,Telenor,+92 34X YYYZZZZ
+Palau,+680,??,7,,
+"Palestine, State of",+970 / +972,56,9,Wataniya,Some countries use the code +972 of Israel for calling Palestine
+"Palestine, State of",+970 / +972,59,9,Jawwal,Some countries use the code +972 of Israel for calling Palestine
+Panama,+507,6,8,,
+Papua New Guinea,+675,68,?,,
+Papua New Guinea,+675,69,?,,
+Paraguay,+595,9xx,?,Tigo,First cellullar operator in this country since 1991
+Peru,+51,9,9,,
+Philippines,+63,973,10,Express Telecom,
+Philippines,+63,974,10,Express Telecom,
+Philippines,+63,905,10,"Globe Telecom, Touch Mobile",
+Philippines,+63,906,10,"Globe Telecom, Touch Mobile",
+Philippines,+63,977,10,"Globe Telecom, Touch Mobile",
+Philippines,+63,915,10,"Globe Telecom, Touch Mobile",
+Philippines,+63,916,10,"Globe Telecom, Touch Mobile",
+Philippines,+63,926,10,"Globe Telecom, Touch Mobile",
+Philippines,+63,927,10,"Globe Telecom, Touch Mobile",
+Philippines,+63,935,10,"Globe Telecom, Touch Mobile",
+Philippines,+63,936,10,"Globe Telecom, Touch Mobile",
+Philippines,+63,937,10,"Globe Telecom, Touch Mobile",
+Philippines,+63,996,10,"Globe Telecom, Touch Mobile",
+Philippines,+63,997,10,
+Philippines,+63,917,10,Globe Telecom,
+Philippines,+63,979,10,Next Mobile,
+Philippines,+63,920,10,"Smart Communications, Talk 'N Text, Addict Mobile",
+Philippines,+63,930,10,"Smart Communications, Talk 'N Text, Red Mobile",
+Philippines,+63,938,10,"Smart Communications, Talk 'N Text, Red Mobile",
+Philippines,+63,939,10,"Smart Communications, Talk 'N Text, Red Mobile",
+Philippines,+63,907,10,"Smart Communications, Talk 'N Text",
+Philippines,+63,908,10,"Smart Communications, Talk 'N Text",
+Philippines,+63,909,10,"Smart Communications, Talk 'N Text",
+Philippines,+63,910,10,"Smart Communications, Talk 'N Text",
+Philippines,+63,912,10,"Smart Communications, Talk 'N Text",
+Philippines,+63,919,10,"Smart Communications, Talk 'N Text",
+Philippines,+63,921,10,"Smart Communications, Talk 'N Text",
+Philippines,+63,928,10,"Smart Communications, Talk 'N Text",
+Philippines,+63,929,10,"Smart Communications, Talk 'N Text",
+Philippines,+63,947,10,"Smart Communications, Talk 'N Text",
+Philippines,+63,948,10,"Smart Communications, Talk 'N Text",
+Philippines,+63,949,10,"Smart Communications, Talk 'N Text",
+Philippines,+63,989,10,,
+Philippines,+63,918,10,Smart Communications,
+Philippines,+63,999,10,"Smart Communications, Red Mobile",
+Philippines,+63,922,10,Sun Cellular,
+Philippines,+63,923,10,Sun Cellular,
+Philippines,+63,932,10,Sun Cellular,
+Philippines,+63,933,10,Sun Cellular,
+Philippines,+63,942,10,Sun Cellular,
+943,,Sun Cellular
+Pitcairn Islands,+64,??,?,,See New Zealand
+Plazas de soberanía,+34,??,?,,See Spain
+Poland,+48,50x,9,"Category grouping Polish cellular operators on 2012-08-21 there are 4 leading companies: Polkomtel, T-Mobile, P4, PTK Centertel",
+Poland,+48,45x,9,"Category grouping Polish cellular operators on 2012-08-21 there are 4 leading companies: Polkomtel, T-Mobile, P4, PTK Centertel",
+Poland,+48,51x,9,"Category grouping Polish cellular operators on 2012-08-21 there are 4 leading companies: Polkomtel, T-Mobile, P4, PTK Centertel",
+Poland,+48,53x,9,"Category grouping Polish cellular operators on 2012-08-21 there are 4 leading companies: Polkomtel, T-Mobile, P4, PTK Centertel",
+Poland,+48,57x,9,"Category grouping Polish cellular operators on 2012-08-21 there are 4 leading companies: Polkomtel, T-Mobile, P4, PTK Centertel",
+Poland,+48,60x,9,"Category grouping Polish cellular operators on 2012-08-21 there are 4 leading companies: Polkomtel, T-Mobile, P4, PTK Centertel",
+Poland,+48,66x,9,"Category grouping Polish cellular operators on 2012-08-21 there are 4 leading companies: Polkomtel, T-Mobile, P4, PTK Centertel",
+Poland,+48,69x,9,"Category grouping Polish cellular operators on 2012-08-21 there are 4 leading companies: Polkomtel, T-Mobile, P4, PTK Centertel",
+Poland,+48,72x,9,"Category grouping Polish cellular operators on 2012-08-21 there are 4 leading companies: Polkomtel, T-Mobile, P4, PTK Centertel",
+Poland,+48,73x,9,"Category grouping Polish cellular operators on 2012-08-21 there are 4 leading companies: Polkomtel, T-Mobile, P4, PTK Centertel",
+Poland,+48,78x,9,"Category grouping Polish cellular operators on 2012-08-21 there are 4 leading companies: Polkomtel, T-Mobile, P4, PTK Centertel",
+Poland,+48,79x,9,"Category grouping Polish cellular operators on 2012-08-21 there are 4 leading companies: Polkomtel, T-Mobile, P4, PTK Centertel",
+Poland,+48,88x,9,"Category grouping Polish cellular operators on 2012-08-21 there are 4 leading companies: Polkomtel, T-Mobile, P4, PTK Centertel",
+Portugal,+351,91,9,Vodafone,
+Portugal,+351,921,9,Vodafone,
+Portugal,+351,922,9,Phone-Ix,
+Portugal,+351,924,9,TMN,
+Portugal,+351,925,9,TMN,
+Portugal,+351,926,9,TMN,
+Portugal,+351,927,9,TMN,
+Portugal,+351,9290,9,Zon Mobile,
+Portugal,+351,9291,9,Zon Mobile,
+Portugal,+351,9292,9,Zon Mobile,
+Portugal,+351,9293,9,Zon Mobile,
+Portugal,+351,9294,9,Zon Mobile,
+Portugal,+351,93,9,Optimus,
+Portugal,+351,96,9,TMN,
+Príncipe,+239,90,?,,See São Tomé and Príncipe
+Puerto Rico,+1,787,10,,Mobile phones use geographic numbers that cannot be recognized as cell numbers.
+Puerto Rico,+1,939,10,,Mobile phones use geographic numbers that cannot be recognized as cell numbers.
+Qatar,+974,33,8,Qtel,Format: +974 33XX-XXXX or 33XX-XXXX
+Qatar,+974,55,8,Qtel,Format: +974 55XX-XXXX or 55XX-XXXX
+Qatar,+974,66,8,Qtel,Format: +974 66XX-XXXX or 66XX-XXXX
+Qatar,+974,77,8,Vodafone,Format: +974 77XX-XXXX or 77XX-XXXX
+Réunion,+262,692 / 693,9,,+262 692 xx xx xx or +262 693 xx xx xx
+Réunion,+262,700,12?,,(NSN = 12 means +262 700 xxx xxx xxx)
+Romania,+40,70x,?,Reserved for virtual operators,
+Romania,+40,711,?,Telekom Romania,
+Romania,+40,72x,?,Vodafone Romania,
+Romania,+40,73x,?,Vodafone Romania,
+Romania,+40,74x,?,Orange Romania,
+Romania,+40,75x,?,Orange Romania,
+Romania,+40,76x,?,Telekom Romania,
+Romania,+40,77x,?,DigiMobil (RCS & RDS),
+Romania,+40,78x,?,Zapp Mobile (merged with Telekom[3]),
+Russia (Russian Federation),+7,901,10,Skylink (Russia),
+Russia (Russian Federation),+7,902,10,Tele2 (Russia) and regional operators,
+Russia (Russian Federation),+7,903,10,Beeline,
+Russia (Russian Federation),+7,904,10,Tele2 (Russia),
+Russia (Russian Federation),+7,905,10,Beeline,
+Russia (Russian Federation),+7,906,10,Beeline,
+Russia (Russian Federation),+7,908,10,Tele2 (Russia),
+Russia (Russian Federation),+7,909,10,Beeline,
+Russia (Russian Federation),+7,91x,10,MTS,
+Russia (Russian Federation),+7,92x,10,Megafon,
+Russia (Russian Federation),+7,93x,10,Megafon,
+Russia (Russian Federation),+7,950,10,Tele2 (Russia),
+Russia (Russian Federation),+7,951,10,MTS,
+Russia (Russian Federation),+7,952,10,Tele2 (Russia),
+Russia (Russian Federation),+7,953,10,Tele2 (Russia),
+Rwanda,+250,07,?,,
+Rwanda,+250,08,?,,
+Saba,+599,??,?,,See Curaçao and the Caribbean Netherlands
+Sahrawi Arab Democratic Republic,+212,??,?,,See Morocco and Western Sahara
+Saint Barthélemy,+590,6,?,,See Guadeloupe
+Saint Helena and Tristan da Cunha (not Ascenscion),+290,??,4,,
+Saint Kitts and Nevis,+1,869,10,,
+Saint Lucia,+1,758,10,,
+Collectivity of Saint Martin,+590,6,?,,See Guadeloupe
+Saint Pierre and Miquelon,+508,??,?,,
+Saint Vincent and the Grenadines,+1,784,10,,
+Samoa,+685,77,?,,
+San Marino,+378,66,?,Prima,(see Italy for TMS customers)
+São Tomé and Príncipe,+239,90,?,,
+Saudi Arabia,+966,50,9,STC,Example +966 50 000 0000 with country code is twelve digits / national number 050 000 0000 with 0 prefix is ten digits)
+Saudi Arabia,+966,51,9,Bravo,example +966510000000
+Saudi Arabia,+966,53,9,STC,example +966530000000
+Saudi Arabia,+966,54,9,mobily,example +966540000000
+Saudi Arabia,+966,55,9,STC,example +966550000000
+Saudi Arabia,+966,56,9,mobily,example +966560000000
+Saudi Arabia,+966,57,9,Bravo,example +966570000000 is new
+Saudi Arabia,+966,58,9,Zain,example +966580000000
+Saudi Arabia,+966,59,9,Zain,example +966590000000
+Scotland,+44,,10,,See United Kingdom
+Senegal,+221,76,?,Senegal Mobile Tigo,
+Senegal,+221,77,?,Senegal Mobile Orange,
+Serbia,+381,60,9,Vip mobile,
+Serbia,+381,61,9,Vip mobile,
+Serbia,+381,62,9,Telenor Serbia,
+Serbia,+381,63,9,Telenor Serbia,
+Serbia,+381,64,9,mt:s,
+Serbia,+381,65,9,mt:s,
+Serbia,+381,66,9,mt:s,
+Serbia,+381,68,9,Vip mobile,
+Serbia,+381,69,8,Telenor Serbia,
+Seychelles,+248,5,?,,
+Seychelles,+248,7,?,,
+Sierra Leone,+232,23,?,,
+Sierra Leone,+232,30,?,,
+Sierra Leone,+232,33,?,,
+Sierra Leone,+232,7x,?,,
+Singapore,+65,8,8,,
+Singapore,+65,9,8,,
+Sint Eustatius,+599,??,?,,See Curaçao and the Caribbean Netherlands
+Sint Maarten,+1,721,10,,
+Slovakia (Slovak Republic),+421,901,9,T-Mobile,
+Slovakia (Slovak Republic),+421,902,9,T-Mobile,
+Slovakia (Slovak Republic),+421,903,9,T-Mobile,
+Slovakia (Slovak Republic),+421,904,9,T-Mobile,
+Slovakia (Slovak Republic),+421,905,9,Orange,
+Slovakia (Slovak Republic),+421,906,9,Orange,
+Slovakia (Slovak Republic),+421,907,9,Orange,
+Slovakia (Slovak Republic),+421,908,9,Orange,
+Slovakia (Slovak Republic),+421,910,9,T-Mobile,
+Slovakia (Slovak Republic),+421,911,9,T-Mobile,
+Slovakia (Slovak Republic),+421,912,9,T-Mobile,
+Slovakia (Slovak Republic),+421,914,9,T-Mobile,
+Slovakia (Slovak Republic),+421,915,9,Orange,
+Slovakia (Slovak Republic),+421,916,9,Orange,
+Slovakia (Slovak Republic),+421,917,9,Orange,
+Slovakia (Slovak Republic),+421,918,9,Orange,
+Slovakia (Slovak Republic),+421,940,9,O2,
+Slovakia (Slovak Republic),+421,944,9,O2,
+Slovakia (Slovak Republic),+421,948,9,O2,
+Slovakia (Slovak Republic),+421,949,9,O2,
+Slovakia (Slovak Republic),+421,950,9,SWAN,
+Slovenia,+386,20,?,,
+Slovenia,+386,21,?,,
+Slovenia,+386,30,?,Si.mobil,
+Slovenia,+386,31,?,Mobitel,
+Slovenia,+386,40,?,Si.mobil,
+Slovenia,+386,41,?,Mobitel,
+Slovenia,+386,49,?,Mobitel,
+Slovenia,+386,50,?,,
+Slovenia,+386,51,?,Mobitel,
+Slovenia,+386,60,?,,
+Slovenia,+386,61,?,,
+Slovenia,+386,64,?,T-2,
+Slovenia,+386,70,?,Telemach Mobile,
+Slovenia,+386,71,?,Mobitel,
+Solomon Islands,+677,74,7,,
+Solomon Islands,+677,75,7,,
+Somalia,+252,??,7 or 8,,
+South Africa,+27,60,9,MTN,
+South Africa,+27,710,9,MTN,
+South Africa,+27,711,9,Vodacom,
+South Africa,+27,712,9,Vodacom,
+South Africa,+27,713,9,Vodacom,
+South Africa,+27,714,9,Vodacom,
+South Africa,+27,715,9,Vodacom,
+South Africa,+27,716,9,Vodacom,
+South Africa,+27,717,9,MTN,
+South Africa,+27,718,9,MTN,
+South Africa,+27,719,9,MTN,
+South Africa,+27,72,9,Vodacom,
+South Africa,+27,73,9,MTN,
+South Africa,+27,74,9,Cell C,
+South Africa,+27,741,9,Virgin Mobile,
+South Africa,+27,76,9,Vodacom,
+South Africa,+27,78,9,MTN,
+South Africa,+27,79,9,Vodacom,
+South Africa,+27,811,9,Telkom Mobile (Former 8ta),
+South Africa,+27,812,9,Telkom Mobile (Former 8ta),
+South Africa,+27,813,9,Telkom Mobile (Former 8ta),
+South Africa,+27,814,9,Telkom Mobile (Former 8ta),
+South Africa,+27,82,9,Vodacom,
+South Africa,+27,83,9,MTN,
+South Africa,+27,84,9,Cell C,
+South Georgia and the South Sandwich Islands,+500,??,?,,See Falkland Islands
+South Korea,+82,10,?,,
+South Korea,+82,11,?,,
+South Korea,+82,16,?,,
+South Korea,+82,17,?,,
+South Korea,+82,18,?,,
+South Korea,+82,19,?,,
+South Ossetia,+995,34x,?,,See Georgia
+South Sudan,+211,9x,?,,
+Spain,+34,6,9,,
+Spain,+34,7,9,,
+Sri Lanka,+94,70,7,Mobitel,
+Sri Lanka,+94,71,7,Mobitel,
+Sri Lanka,+94,72,7,Etisalat,
+Sri Lanka,+94,75,7,Airtel,
+Sri Lanka,+94,76,7,Dialog,
+Sri Lanka,+94,77,7,Dialog,
+Sri Lanka,+94,78,7,Hutch,
+Sudan,+249,9,?,,
+Suriname,+597,8,?,,
+Svalbard,+47,79,?,,See Norway
+Swaziland,+268,7,8,,
+Sweden,+46,70,7,,
+Sweden,+46,72,?,,
+Sweden,+46,73 00,7,TeliaSonera Sv. AB,
+Sweden,+46,73 01,7,Wireless Maingate N,
+Sweden,+46,73 02 - 09,7,TeliaSonera Sv. AB,
+Sweden,+46,73 10,7,Timepiece Servicos,
+Sweden,+46,73 11,7,Wireless Maingate N,
+Sweden,+46,73 12,7,Ledig,
+Sweden,+46,73 13,7,Wireless Maingate M,
+Sweden,+46,73 14 - 15,7,Campuz Mobile AB,
+Sweden,+46,73 16,7,Abbla Mobile Sv. AB,
+Sweden,+46,73 170,7,Netnet AS,
+Sweden,+46,73 171 - 179,7,Ledig,
+Sweden,+46,73 18,7,ACN Communications S,
+Sweden,+46,73 19,7,Terraflex Europe LPP,
+Sweden,+46,73 20,7,Telenor Sverige AB,
+Sweden,+46,73 21 - 22,7,Optimal Telecom Sver,
+Sweden,+46,73 23,7,Telenor Sverige AB,
+Sweden,+46,73 24 - 26,7,Telenor Mobile Sv.,
+Sweden,+46,73 27,7,Ventelo Sverige AB,
+Sweden,+46,73 28,7,Chess AB,
+Sweden,+46,73 29,7,Telogic ApS,
+Sweden,+46,73 3,7,Telenor Sverige AB,
+Sweden,+46,73 40 - 44,7,Telenor Sverige AB,
+Sweden,+46,73 450 - 454,7,Telogic ApS,
+Sweden,+46,73 455,7,Ledig,
+Sweden,+46,73 456,7,Intelligent Appl. AB,
+Sweden,+46,73 457 - 459,7,Ledig,
+Sweden,+46,73 46 - 49,7,Ledig,
+Sweden,+46,73 50 - 54,7,Hi3G Access AB,
+Sweden,+46,73 55 - 59,7,Tele2 Sverige AB,
+Sweden,+46,73 6,7,Tele2 Sverige AB,
+Sweden,+46,73 70 - 79,7,Tele2 Sverige AB,
+Sweden,+46,73 80 - 84,7,TeliaSonera Sv. AB,
+Sweden,+46,73 85,7,Telenor Sverige AB,
+Sweden,+46,73 86,7,Lebara Ltd.,
+Sweden,+46,73 87,7,Ledig,
+Sweden,+46,73 88,7,Newphone SP AB,
+Sweden,+46,73 89,7,Ledig,
+Sweden,+46,73 9,7,Tele2 Sverige AB,
+Sweden,+46,76,?,,
+Sweden,+46,79,?,,
+Switzerland,+41,74,9,,
+Switzerland,+41,76,9,Sunrise (TDC Switzerland),"Be advised that other operators can use these indexes, as long as they use network nodes of this three operators."
+Switzerland,+41,77,9,Swisscom Used by Migros,"Be advised that other operators can use these indexes, as long as they use network nodes of this three operators."
+Switzerland,+41,78,9,SALT,"Be advised that other operators can use these indexes, as long as they use network nodes of this three operators."
+Switzerland,+41,79,9,Swisscom,"Be advised that other operators can use these indexes, as long as they use network nodes of this three operators."
+Syria,+963,93,9,Syriatel,
+Syria,+963,98,9,Syriatel,
+Syria,+963,99,9,Syriatel,
+Syria,+963,94,9,MTN,
+Syria,+963,95,9,MTN,
+Syria,+963,96,9,MTN,
+Taiwan,+886,9,9,,
+Tajikistan,+992,9,?,,
+Tajikistan,+992,90,?,MLT GSM/3G,
+Tajikistan,+992,910,?,Beeline-TJ GSM/3G,
+Tajikistan,+992,911,?,Beeline-TJ GSM/3G,
+Tajikistan,+992,912,?,Beeline-TJ GSM/3G,
+Tajikistan,+992,913,?,Beeline-TJ GSM/3G,
+Tajikistan,+992,914,?,Beeline-TJ GSM/3G,
+Tajikistan,+992,915,?,Beeline-TJ GSM/3G,
+Tajikistan,+992,916,?,Beeline-TJ GSM/3G,
+Tajikistan,+992,917,?,Beeline-TJ GSM/3G,
+Tajikistan,+992,918,?,Babilon-Mobile GSM/3G,
+Tajikistan,+992,919,?,Beeline-TJ GSM/3G,
+Tajikistan,+992,92,?,TCell-Somoncom GSM/3G,
+Tajikistan,+992,93,?,TCell-Tajikistan GSM/3G,
+Tajikistan,+992,95,?,TK-Mobile CDMA,
+Tajikistan,+992,96,?,M.Teko CDMA,
+Tajikistan,+992,97,?,Skytel CDMA,
+Tajikistan,+992,98,?,Babilon-Mobile GSM/3G,
+Tanzania,+255,74x,?,,
+Thailand,+66,6,9,,
+Thailand,+66,8,9,,
+Thailand,+66,9,9,,
+Togo,+228,90,8,Togocel,
+Togo,+228,91,8,Togocel,
+Togo,+228,92,8,Togocel,
+Togo,+228,97,8,Moov Togo,
+Togo,+228,98,8,Moov Togo,
+Togo,+228,99,8,Moov Togo,
+Tokelau,+690,??,?,,
+Tonga,+676,15,?,,
+Tonga,+676,16,?,,
+Tonga,+676,17,?,,
+Tonga,+676,18,?,,
+Tonga,+676,19,?,,
+Tonga,+676,87,?,,
+Tonga,+676,88,?,,
+Tonga,+676,89,?,,
+Trinidad and Tobago,+1,868,10,Trinidad and Tobago Cellular,"+1-868-620, +1-868-678,+1-868-700 to +1-868-799,+1-868-680 to +1-868-689"
+Tristan da Cunha,+290,8,?,,See Saint Helena and Tristan da Cunha
+Tunisia,+216,2,?,Tunisia Mobile Orascom,
+Tunisia,+216,3,?,Tunisia Mobile Orange,
+Tunisia,+216,4,?,Tunisia Tuntel Mobile,
+Tunisia,+216,5,?,Tunisia Mobile Orange,
+Tunisia,+216,9,?,Tunisia Tuntel Mobile,
+Turkey,+90,50,11,Avea,Format: +90 50X-XXXXXX or 050X-XXX-XXX
+Turkey,+90,53,11,Turkcell,Format: +90 53X-XXXXXX or 053X-XXX-XXX
+Turkey,+90,54,11,Vodafone Turkey,Format: +90 54X-XXXXXX or 054X-XXX-XXX
+Turkey,+90,55,11,Avea,Format: +90 55X-XXXXXX or 055X-XXX-XXX
+Turkmenistan,+993,65,?,TMCELL,
+Turkmenistan,+993,66,?,BCTI (MTS),
+Turkmenistan,+993,67,?,BCTI (MTS),
+Turks and Caicos Islands,+1,649,10,,
+Tuvalu,+688,??,?,,
+Uganda,+256,7x,?,,
+Ukraine,+380,39,9,Golden Telecom,
+Ukraine,+380,50,9,Vodafone Ukraine,
+Ukraine,+380,63,9,Lifecell (Astelit),
+Ukraine,+380,66,9,Vodafone Ukraine,
+Ukraine,+380,67,9,Kyivstar,
+Ukraine,+380,68,9,Beeline,
+Ukraine,+380,91,9,UTEL,
+Ukraine,+380,92,9,PEOPLEnet,
+Ukraine,+380,93,9,Lifecell (Astelit),
+Ukraine,+380,94,9,Intertelecom,
+Ukraine,+380,95,9,Vodafone Ukraine,
+Ukraine,+380,96,9,Kyivstar,
+Ukraine,+380,97,9,Kyivstar,
+Ukraine,+380,98,9,Kyivstar,
+Ukraine,+380,99,9,Vodafone Ukraine,
+United Arab Emirates,+971,50,9,Etisalat,example +971 500 000 000 with country code is 12 digits
+United Arab Emirates,+971,52,9,Du,example +971 520 000 000 with country code is 12 digits
+United Arab Emirates,+971,54,9,Etisalat,example +971 540 000 000 with country code is 12 digits
+United Arab Emirates,+971,55,9,Du,example +971 550 000 000 with country code is 12 digits
+United Arab Emirates,+971,56,9,Etisalat,example +971 560 000 000 with country code is 12 digits
+United Arab Emirates,+971,58,9,Du,example +971 580 000 000 with country code is 12 digits
+United Kingdom[4],+44,71xx,10,,
+United Kingdom[4],+44,72xx,10,,
+United Kingdom[4],+44,73xx,10,,
+United Kingdom[4],+44,74xx,10,,
+United Kingdom[4],+44,75xx,10,,
+United Kingdom[4],+44,7624,10,Isle of Man,76xx is mostly radiopaging
+United Kingdom[4],+44,77xx,10,,
+United Kingdom[4],+44,78xx,10,,
+United Kingdom[4],+44,79xx,10,,
+United States (USA),+1,,10,,"Mobile phones use geographic area codes. However, there are exchange codes used for only mobile devices. Also, some overlay area codes are only used on mobile devices, or special internet phone systems other than most VoIP systems (e.g.: Google Voice, eFax, eVoice)."
+United States Virgin Islands,+1,340,10,,
+Uruguay,+598,91,?,Ancel,
+Uruguay,+598,93,?,Movistar,
+Uruguay,+598,94,?,Movistar,
+Uruguay,+598,95,?,Movistar,
+Uruguay,+598,96,?,Claro,
+Uruguay,+598,97,?,Claro,
+Uruguay,+598,98,?,Ancel,
+Uruguay,+598,99,?,Ancel,
+Uzbekistan,+998,90,?,"Beeline (""Unitel"" LLC subsidiary of ""?????????"" PTD)",
+Uzbekistan,+998,91,?,"Beeline (""Unitel"" LLC subsidiary of ""?????????"" PTD)",
+Uzbekistan,+998,93,?,"UCell (""COSCOM"" LLC subsidiary of ""TeliaSonera"" Public Enterprise)",
+Uzbekistan,+998,94,?,"UCell (""COSCOM"" LLC subsidiary of ""TeliaSonera"" Public Enterprise)",
+Uzbekistan,+998,97,?,"UMS (""Uzdunrobita"" LLC subsidiary of ""????????? ???????????"" PTD)",
+Vanuatu,+678,4,?,,
+Vanuatu,+678,5,?,,
+Vatican City,+39,06 698,10,,See also Italy
+Venezuela,+58,4xx,7,,
+Venezuela,+58,412,7,Digitel GSM,
+Venezuela,+58,414,7,Movistar,
+Venezuela,+58,416,7,Movilnet,
+Venezuela,+58,424,7,Movistar,
+Venezuela,+58,426,7,Movilnet,
+Vietnam,+84,"1x, 8x, 9x","If 1x, then 10; if 8x or 9x then 9",,See Telephone numbers in Vietnam
+British Virgin Islands,+1,284,10,,
+U.S. Virgin Islands,+1,340,10,,
+Wales,+44,,10,,See United Kingdom
+Wallis and Futuna,+681,??,?,,
+Western Sahara,+212,5288,?,,See Morocco.See also Sahrawi Arab Democratic Republic
+Western Sahara,+212,5289,?,,See Morocco.See also Sahrawi Arab Democratic Republic
+Yemen,+967,7x,9,,
+Yemen,+967,70,9,Y (Yemen),
+Yemen,+967,71,9,Sabafon,
+Yemen,+967,73,9,MTN,
+Yemen,+967,77,9,Yemen Mobile,
+Zambia,+260,9x,?,,
+Zimbabwe,+263,71,?,Net One,
+Zimbabwe,+263,73,?,Telecel Zimbabwe,
+Zimbabwe,+263,77,?,Econet Zimbabwe,

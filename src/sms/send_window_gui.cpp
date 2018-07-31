@@ -111,11 +111,13 @@ void send_window::update_to_combo()
 	
 	//add from my file countries list.
 	//TODO add engines
-	m_countries->addItem(QIcon(MACRO_ICONS_DIR_STR("armenia.png")), "+374");
-	//m_countries->addItem(QIcon(MACRO_ICONS_DIR_STR("georgia.png")), "+955");
 	
-	//TODO add from mobile list.
-	update_to_line_edit_completer(m_countries->currentText());
+	foreach( GenericCountry* c, Controller::get_instance()->get_engine()->get_country_infos() )
+	{ 
+		m_countries->addItem(c->get_flag_icon(), c->get_phone_code());
+		//update_to_line_edit_completer(m_countries->currentText());
+	}
+	
 }
 
 

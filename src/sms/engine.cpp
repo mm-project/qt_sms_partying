@@ -1,10 +1,26 @@
 #include "engine.hpp"
+#include "country.hpp"
 
 #include <QString>
 #include <QVariantMap>
 
+#include <iostream>
+
 Engine::Engine() {
 	is_auth = false;
+
+	//new CountryInfo<Armenia>;
+	//GenericCountry* zahrmar = new CountryInfo<Armenia>;
+	m_countries.append(new CountryInfo<Armenia>());
+	m_countries.append(new CountryInfo<Russia>());
+	m_countries.append(new CountryInfo<Georgia>());
+	
+	//m_info_manager
+	//m_countries = m_info_manager.get_list();
+	//std::cout << m_countries.size() << std::endl;
+	
+	
+	
 }
 
 bool Engine::is_authorized() {
@@ -50,5 +66,10 @@ QVariantMap Engine::create_qvariant_for_sms(const QString& f,const QString& t ,c
 	
 
 return v;
+}
+
+
+QList<GenericCountry*> Engine::get_country_infos() {
+	return m_countries;
 }
 

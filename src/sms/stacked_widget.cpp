@@ -14,7 +14,7 @@ stacked_widget::stacked_widget(QWidget* parent)
         m_send = new send_window(this);
         m_layout->addWidget(m_login);
         m_layout->addWidget(m_send);
-        m_layout->setCurrentWidget(m_login);
+        m_layout->setCurrentWidget(m_send);
         setLayout(m_layout);
 
         connect(m_login, SIGNAL(accept_user()), this, SLOT(change_window()));

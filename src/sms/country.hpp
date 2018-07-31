@@ -38,48 +38,29 @@ class GenericCountry
 };
 
 
-class CountryInfoManager 
-{
-	
-	public: 
-		//CountryInfoManager() { }
-		
-		static add_to_list(GenericCountry* c) {
-			m_countries.push_back(c);
-		}
-		
-		static QList<GenericCountry*> get_list() {
-			//new CountryInfo<Armenia>();
-			//new CountryInfo<Russia>();
 
-			return m_countries;
-		}
-		
-	public:
-		static QList<GenericCountry*> m_countries;
-		
-};
 
 enum CountryName 
 {
-		Armenia,
+		Armenia = 0 ,
 		Russia,
-		Georgia
+		Georgia,
+		Size = 4
 };
 
 
 template <CountryName a>
-class CountryInfo 
+class CountryInfo
 {
 	
 };
 
 
 template <>
-class CountryInfo<Armenia> : public GenericCountry , public CountryInfoManager
+class CountryInfo<Armenia> : public GenericCountry// , public CountryInfoManager
 {
 	public:
-		CountryInfo<Armenia>(){ CountryInfoManager::add_to_list(this); }
+		//CountryInfo<Armenia>(){ CountryInfoManager::add_to_list(this); }
 		
 		QString get_country_name() { return "Armenia"; }
 		QString get_phone_code() { return "+374"; }
@@ -130,6 +111,41 @@ class CountryInfo<Georgia> : public GenericCountry
 };
 
 
+
+
+
+class CountryInfoManager 
+{
+	
+	public: 
+		CountryInfoManager() { 
+			
+			//CountryInfo a(Armenia);	
+			//m_countries.push_back(new CountryInfo<a>());
+		}
+		static void  create() {
+			for(auto i=0; i<CountryName::Size; ++i) {
+				const int j=  i;
+				 CountryInfo<(static_cast<CountryName>(j))>();
+				//new CountryInfo<(static_cast<CountryName>(j))>();
+			}
+		}
+		
+		//static add_to_list(GenericCountry* c) {
+		//	m_countries.push_back(c);
+		//}
+		
+		static QList<GenericCountry*> get_list() {
+			//new CountryInfo<Armenia>();
+			//new CountryInfo<Russia>();
+
+			return m_countries;
+		}
+		
+	public:
+		static QList<GenericCountry*> m_countries;
+		
+};
 
 #endif 
 

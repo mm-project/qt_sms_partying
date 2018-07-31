@@ -11,12 +11,13 @@ Engine::Engine() {
 
 	//new CountryInfo<Armenia>;
 	//GenericCountry* zahrmar = new CountryInfo<Armenia>;
-	m_countries.append(new CountryInfo<Armenia>());
-	m_countries.append(new CountryInfo<Russia>());
-	m_countries.append(new CountryInfo<Georgia>());
+	
+	//m_countries.append(new CountryInfo<Armenia>());
+	//m_countries.append(new CountryInfo<Russia>());
+	//m_countries.append(new CountryInfo<Georgia>());
 	
 	//m_info_manager
-	//m_countries = m_info_manager.get_list();
+	m_countries = m_info_manager.get_list();
 	//std::cout << m_countries.size() << std::endl;
 	
 	

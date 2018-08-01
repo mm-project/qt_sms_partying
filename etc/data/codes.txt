@@ -10,7 +10,7 @@ Afghanistan,+93,78,?,Etisalat,www.etisalat.af
 Afghanistan,+93,73,?,Etisalat,etisalat.af
 Afghanistan,+93,79,?,Roshan,www.roshan.af
 Afghanistan,+93,72,?,Roshan,www.roshan.af
-Åland Islands,+358,457,10,,See Finland
+?land Islands,+358,457,10,,See Finland
 Albania,+355,66,?,PLUS Communication,
 Albania,+355,67,?,EAGLE MOBILE,
 Albania,+355,68,?,AMC,
@@ -78,12 +78,12 @@ Bahrain,+973,39,8,Batelco,"Users can now switch carriers and keep their cell pho
 Bahrain,+973,663,8,Zain,"Users can now switch carriers and keep their cell phone numbers, including prefix"
 Bahrain,+973,666,8,Zain,"Users can now switch carriers and keep their cell phone numbers, including prefix"
 Bahrain,+973,669,8,Zain,"Users can now switch carriers and keep their cell phone numbers, including prefix"
-Bangladesh,+880,11xx,10,Citycell,"International example : +880 11xx xxxxxx,Countrywide based example : 011xx xxxxxx"
-Bangladesh,+880,15xx,10,TeleTalk,"International example : +880 15xx xxxxxx,Countrywide based example : 015xx xxxxxx"
-Bangladesh,+880,16xx,10,Airtel,"International example : +880 16xx xxxxxx,Countrywide based example : 016xx xxxxxx"
-Bangladesh,+880,17xx,10,GrameenPhone,"International example : +880 17xx xxxxxx,Countrywide based example : 017xx xxxxxx"
-Bangladesh,+880,18xx,10,Robi,"International example : +880 18xx xxxxxx,Countrywide based example : 018xx xxxxxx"
-Bangladesh,+880,19xx,10,Banglalink,"International example : +880 19xx xxxxxx,Countrywide based example : 019xx xxxxxx"
+Bangladesh,+880,11xx,10,Citycell,"International example?: +880 11xx xxxxxx,Countrywide based example?: 011xx xxxxxx"
+Bangladesh,+880,15xx,10,TeleTalk,"International example?: +880 15xx xxxxxx,Countrywide based example?: 015xx xxxxxx"
+Bangladesh,+880,16xx,10,Airtel,"International example?: +880 16xx xxxxxx,Countrywide based example?: 016xx xxxxxx"
+Bangladesh,+880,17xx,10,GrameenPhone,"International example?: +880 17xx xxxxxx,Countrywide based example?: 017xx xxxxxx"
+Bangladesh,+880,18xx,10,Robi,"International example?: +880 18xx xxxxxx,Countrywide based example?: 018xx xxxxxx"
+Bangladesh,+880,19xx,10,Banglalink,"International example?: +880 19xx xxxxxx,Countrywide based example?: 019xx xxxxxx"
 Barbados,+1,246,10,AT&T Wireless (formerly),
 Barbados,+1,246,10,Digicel,
 Barbados,+1,246,10,LIME,
@@ -111,7 +111,7 @@ Bermuda,+1,441,10,,
 Bhutan,+975,17,?,,
 Bolivia,+591,6,?,,
 Bolivia,+591,7,?,,
-Bonaire,+599,??,?,,See Curaçao and the Caribbean Netherlands
+Bonaire,+599,??,?,,See Cura?ao and the Caribbean Netherlands
 Bosnia and Herzegovina (Bosnia-Herzegovina),+387,60,8,BH Mobile,
 Bosnia and Herzegovina (Bosnia-Herzegovina),+387,61,8,BH Mobile,
 Bosnia and Herzegovina (Bosnia-Herzegovina),+387,62,8,BH Mobile,
@@ -203,7 +203,7 @@ Cook Islands,+682,5x,5,,
 Cook Islands,+682,7x,5,,
 Costa Rica,+506,6,8,Movistar,Users can switch carriers while keeping number and prefix (so prefixes are not tightly coupled to a specific carrier).
 Costa Rica,+506,7,8,Claro,Users can switch carriers while keeping number and prefix (so prefixes are not tightly coupled to a specific carrier).
-Costa Rica,+506,8,8,Instituto Costarricense de Electricidad (Kölbi),Users can switch carriers while keeping number and prefix (so prefixes are not tightly coupled to a specific carrier).
+Costa Rica,+506,8,8,Instituto Costarricense de Electricidad (K?lbi),Users can switch carriers while keeping number and prefix (so prefixes are not tightly coupled to a specific carrier).
 Croatia,+385,91,9,Vipnet,
 Croatia,+385,92,9,Tomato,
 Croatia,+385,95,9,Tele2,
@@ -211,23 +211,23 @@ Croatia,+385,97,9,bonbon,
 Croatia,+385,98,9,T-Mobile,
 Croatia,+385,99,9,T-Mobile,
 Cuba,+53,5,?,ETECSA,
-Curaçao,+599,??,?,,See Curaçao and the Caribbean Netherlands
-Curaçao and the Caribbean Netherlands,+599,??,?,,
+Cura?ao,+599,??,?,,See Cura?ao and the Caribbean Netherlands
+Cura?ao and the Caribbean Netherlands,+599,??,?,,
 Cyprus,+357,94,8,LemonTel,a subsidiary of Cablenet
 Cyprus,+357,95,8,PrimeTel,
 Cyprus,+357,96,8,MTN,was called Areeba until 2007
 Cyprus,+357,97,8,Cytamobile-Vodafone,a subsidiary of Cyta
 Cyprus,+357,99,8,Cytamobile-Vodafone,a subsidiary of Cyta
-Czech Republic,+420,601,9,Telefónica O2,
-Czech Republic,+420,602,9,Telefónica O2,
+Czech Republic,+420,601,9,Telef?nica O2,
+Czech Republic,+420,602,9,Telef?nica O2,
 Czech Republic,+420,603,9,T-Mobile,
 Czech Republic,+420,604,9,T-Mobile,
 Czech Republic,+420,605,9,T-Mobile,
-Czech Republic,+420,606,9,Telefónica O2,
-Czech Republic,+420,607,9,Telefónica O2,
+Czech Republic,+420,606,9,Telef?nica O2,
+Czech Republic,+420,607,9,Telef?nica O2,
 Czech Republic,+420,608,9,Vodafone,
-Czech Republic,+420,702,9,Telefónica O2,
-Czech Republic,+420,72x,9,Telefónica O2,
+Czech Republic,+420,702,9,Telef?nica O2,
+Czech Republic,+420,72x,9,Telef?nica O2,
 Czech Republic,+420,73x,9,T-Mobile,Except 730.
 Czech Republic,+420,77x,9,Vodafone,
 Czech Republic,+420,790,9,U:fon,"Except 79023, 79044, 79066, 79088."
@@ -316,9 +316,9 @@ France,+33,75,9,,
 France,+33,76,9,,
 France,+33,77,9,,
 France,+33,78,9,,
-French Overseas Departments and Territories,+262,,,,See Réunion and Mayotte
+French Overseas Departments and Territories,+262,,,,See R?union and Mayotte
 French Overseas Departments and Territories,+508,,,,See Saint Pierre and Miquelon
-French Overseas Departments and Territories,+590,,,,"See Guadeloupe, Saint-Barthélemy and Saint-Martin"
+French Overseas Departments and Territories,+590,,,,"See Guadeloupe, Saint-Barth?lemy and Saint-Martin"
 French Overseas Departments and Territories,+594,,,,See French Guiana
 French Overseas Departments and Territories,+596,,,,See Martinique
 French Guiana,+594,694,9,,+594 694 xx xx xx
@@ -387,7 +387,7 @@ Greece,+30,698,10,Cosmote,
 Greece,+30,699,10,WIND,The prefix belonged to Q-Telecom until WIND acquired the company in May 2007.
 Greenland,+299,??,6,,
 Grenada,+1,473 41x,10,,
-Guadeloupe,+590,690,9?,,"+590 690 xx xx xx (Guadeloupe, Saint-Barthélemy and Saint-Martin share the same prefix)"
+Guadeloupe,+590,690,9?,,"+590 690 xx xx xx (Guadeloupe, Saint-Barth?lemy and Saint-Martin share the same prefix)"
 Guadeloupe,+590,700,12?,,(NSN = 12 means +590 700 xxx xxx xxx)
 Guam,+1,671,10,,
 Guatemala,+502,231,?,Comcel Mobile,
@@ -423,9 +423,9 @@ Guinea,+224,6,?,,
 Guinea-Bissau,+245,6,?,,
 Guinea-Bissau,+245,7,?,,
 Guyana,+592,6,?,,
-Haiti[2],+509,34,?,Comcel (Voilà),
-Haiti[2],+509,39,?,Comcel (Voilà),
-Haiti[2],+509,35,?,Haïtel,
+Haiti[2],+509,34,?,Comcel (Voil?),
+Haiti[2],+509,39,?,Comcel (Voil?),
+Haiti[2],+509,35,?,Ha?tel,
 Haiti[2],+509,36,?,Digicel,
 Haiti[2],+509,37,?,Digicel,
 Haiti[2],+509,38,?,Digicel,
@@ -552,7 +552,7 @@ Italy,+39,346,10,Vodafone,"Users can now switch carriers and keep their cell pho
 Italy,+39,347,10,Vodafone,"Users can now switch carriers and keep their cell phone numbers, including prefix. Usually NSN are 10 digits long for mobile and personal services."
 Italy,+39,348,10,Vodafone,"Users can now switch carriers and keep their cell phone numbers, including prefix. Usually NSN are 10 digits long for mobile and personal services."
 Italy,+39,349,10,Vodafone,"Users can now switch carriers and keep their cell phone numbers, including prefix. Usually NSN are 10 digits long for mobile and personal services."
-Italy,+39,3505,10,"Full MVNO Nòverca using TIM network (retired 9 January 2015, users are being migrated to TIM)","Users can now switch carriers and keep their cell phone numbers, including prefix. Usually NSN are 10 digits long for mobile and personal services."
+Italy,+39,3505,10,"Full MVNO N?verca using TIM network (retired 9 January 2015, users are being migrated to TIM)","Users can now switch carriers and keep their cell phone numbers, including prefix. Usually NSN are 10 digits long for mobile and personal services."
 Italy,+39,3510,10,Full MVNO Lycamobile using Vodafone network,"Users can now switch carriers and keep their cell phone numbers, including prefix. Usually NSN are 10 digits long for mobile and personal services."
 Italy,+39,3512,10,Full MVNO Lycamobile,"Users can now switch carriers and keep their cell phone numbers, including prefix. Usually NSN are 10 digits long for mobile and personal services."
 Italy,+39,360,9-10,TIM there are many legacy 9-digit numbers,"Users can now switch carriers and keep their cell phone numbers, including prefix. Usually NSN are 10 digits long for mobile and personal services."
@@ -565,9 +565,9 @@ Italy,+39,370,10,"various Light MVNOs including Coop Voce, Noverca, Tiscali Mobi
 Italy,+39,3710,10,Full MVNO BT Mobile using TIM network,"Users can now switch carriers and keep their cell phone numbers, including prefix. Usually NSN are 10 digits long for mobile and personal services."
 Italy,+39,3711,10,Full MVNO PosteMobile using WIND network,"Users can now switch carriers and keep their cell phone numbers, including prefix. Usually NSN are 10 digits long for mobile and personal services."
 Italy,+39,373,10,various Light MVNOs operated by H3G (Tre),"Users can now switch carriers and keep their cell phone numbers, including prefix. Usually NSN are 10 digits long for mobile and personal services."
-Italy,+39,377,10,"various Light MVNOs including PosteMobile, Erg Mobile, Daily Telecom Mobile, Carrefour UNO Mobile, Bladna Mobile, BT Mobile, BT Enìa. Operated by Vodafone","Users can now switch carriers and keep their cell phone numbers, including prefix. Usually NSN are 10 digits long for mobile and personal services."
+Italy,+39,377,10,"various Light MVNOs including PosteMobile, Erg Mobile, Daily Telecom Mobile, Carrefour UNO Mobile, Bladna Mobile, BT Mobile, BT En?a. Operated by Vodafone","Users can now switch carriers and keep their cell phone numbers, including prefix. Usually NSN are 10 digits long for mobile and personal services."
 Italy,+39,380,10,WIND,"Users can now switch carriers and keep their cell phone numbers, including prefix. Usually NSN are 10 digits long for mobile and personal services."
-Italy,+39,381,13 (3 + 10),Full MVNO Nòverca operator reserved (routing number) (retired 9 January 2015),"Users can now switch carriers and keep their cell phone numbers, including prefix. Usually NSN are 10 digits long for mobile and personal services."
+Italy,+39,381,13 (3 + 10),Full MVNO N?verca operator reserved (routing number) (retired 9 January 2015),"Users can now switch carriers and keep their cell phone numbers, including prefix. Usually NSN are 10 digits long for mobile and personal services."
 Italy,+39,382,13 (3 + 10),Full MVNO Lycamobile operator reserved (routing number),"Users can now switch carriers and keep their cell phone numbers, including prefix. Usually NSN are 10 digits long for mobile and personal services."
 Italy,+39,383,"12 (""38"" + 10-digit MSISDN)",Vodafone operator reserved (voice mail),"Users can now switch carriers and keep their cell phone numbers, including prefix. Usually NSN are 10 digits long for mobile and personal services."
 Italy,+39,385,10,Telecom Italia S.p.A. (not TIM),"Users can now switch carriers and keep their cell phone numbers, including prefix. Usually NSN are 10 digits long for mobile and personal services."
@@ -680,12 +680,12 @@ Mauritania,+222,6,?,,
 Mauritius,+230,57,8,,
 Mauritius,+230,58,8,,
 Mauritius,+230,59,8,,
-Mayotte,+262,??,?,,See Réunion
+Mayotte,+262,??,?,,See R?union
 Melilla,+34,??,?,,See Spain
 Mexico,+52,1,10,"Telcel, Movistar, IUSACell, Nextel, UNEFON, Virgin Mobile, Tuenti",+52 then three digits for code area and seven for mobile line ID. Example +52 000 1234567
 Moldova,+373,60xxxxxx,8,Orange,
 Moldova,+373,65xxxxxx,8,Eventis,
-Moldova,+373,67xxxxxx,8,Unité,
+Moldova,+373,67xxxxxx,8,Unit?,
 Moldova,+373,68xxxxxx,8,Orange,
 Moldova,+373,69xxxxxx,8,Orange,
 Moldova,+373,78xxxxxx,8,Moldcell,
@@ -833,7 +833,7 @@ Philippines,+63,933,10,Sun Cellular,
 Philippines,+63,942,10,Sun Cellular,
 943,,Sun Cellular
 Pitcairn Islands,+64,??,?,,See New Zealand
-Plazas de soberanía,+34,??,?,,See Spain
+Plazas de soberan?a,+34,??,?,,See Spain
 Poland,+48,50x,9,"Category grouping Polish cellular operators on 2012-08-21 there are 4 leading companies: Polkomtel, T-Mobile, P4, PTK Centertel",
 Poland,+48,45x,9,"Category grouping Polish cellular operators on 2012-08-21 there are 4 leading companies: Polkomtel, T-Mobile, P4, PTK Centertel",
 Poland,+48,51x,9,"Category grouping Polish cellular operators on 2012-08-21 there are 4 leading companies: Polkomtel, T-Mobile, P4, PTK Centertel",
@@ -861,15 +861,15 @@ Portugal,+351,9293,9,Zon Mobile,
 Portugal,+351,9294,9,Zon Mobile,
 Portugal,+351,93,9,Optimus,
 Portugal,+351,96,9,TMN,
-Príncipe,+239,90,?,,See São Tomé and Príncipe
+Pr?ncipe,+239,90,?,,See S?o Tom? and Pr?ncipe
 Puerto Rico,+1,787,10,,Mobile phones use geographic numbers that cannot be recognized as cell numbers.
 Puerto Rico,+1,939,10,,Mobile phones use geographic numbers that cannot be recognized as cell numbers.
 Qatar,+974,33,8,Qtel,Format: +974 33XX-XXXX or 33XX-XXXX
 Qatar,+974,55,8,Qtel,Format: +974 55XX-XXXX or 55XX-XXXX
 Qatar,+974,66,8,Qtel,Format: +974 66XX-XXXX or 66XX-XXXX
 Qatar,+974,77,8,Vodafone,Format: +974 77XX-XXXX or 77XX-XXXX
-Réunion,+262,692 / 693,9,,+262 692 xx xx xx or +262 693 xx xx xx
-Réunion,+262,700,12?,,(NSN = 12 means +262 700 xxx xxx xxx)
+R?union,+262,692 / 693,9,,+262 692 xx xx xx or +262 693 xx xx xx
+R?union,+262,700,12?,,(NSN = 12 means +262 700 xxx xxx xxx)
 Romania,+40,70x,?,Reserved for virtual operators,
 Romania,+40,711,?,Telekom Romania,
 Romania,+40,72x,?,Vodafone Romania,
@@ -896,9 +896,9 @@ Russia (Russian Federation),+7,952,10,Tele2 (Russia),
 Russia (Russian Federation),+7,953,10,Tele2 (Russia),
 Rwanda,+250,07,?,,
 Rwanda,+250,08,?,,
-Saba,+599,??,?,,See Curaçao and the Caribbean Netherlands
+Saba,+599,??,?,,See Cura?ao and the Caribbean Netherlands
 Sahrawi Arab Democratic Republic,+212,??,?,,See Morocco and Western Sahara
-Saint Barthélemy,+590,6,?,,See Guadeloupe
+Saint Barth?lemy,+590,6,?,,See Guadeloupe
 Saint Helena and Tristan da Cunha (not Ascenscion),+290,??,4,,
 Saint Kitts and Nevis,+1,869,10,,
 Saint Lucia,+1,758,10,,
@@ -907,7 +907,7 @@ Saint Pierre and Miquelon,+508,??,?,,
 Saint Vincent and the Grenadines,+1,784,10,,
 Samoa,+685,77,?,,
 San Marino,+378,66,?,Prima,(see Italy for TMS customers)
-São Tomé and Príncipe,+239,90,?,,
+S?o Tom? and Pr?ncipe,+239,90,?,,
 Saudi Arabia,+966,50,9,STC,Example +966 50 000 0000 with country code is twelve digits / national number 050 000 0000 with 0 prefix is ten digits)
 Saudi Arabia,+966,51,9,Bravo,example +966510000000
 Saudi Arabia,+966,53,9,STC,example +966530000000
@@ -937,7 +937,7 @@ Sierra Leone,+232,33,?,,
 Sierra Leone,+232,7x,?,,
 Singapore,+65,8,8,,
 Singapore,+65,9,8,,
-Sint Eustatius,+599,??,?,,See Curaçao and the Caribbean Netherlands
+Sint Eustatius,+599,??,?,,See Cura?ao and the Caribbean Netherlands
 Sint Maarten,+1,721,10,,
 Slovakia (Slovak Republic),+421,901,9,T-Mobile,
 Slovakia (Slovak Republic),+421,902,9,T-Mobile,

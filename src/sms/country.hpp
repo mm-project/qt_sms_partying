@@ -1,25 +1,26 @@
 #ifndef COUNTRY_HPP
 #define COUNTRY_HPP
 
-//#include "controller.hpp"
+#include "autogen_country_enum.hpp"
+
 #include <QString>
 #include <QIcon>
 #include <QStringList>
 
 #include <iostream>
 
-#define MACRO1_ICONS_DIR "C:\\Users\\levons\\Desktop\\git\\mm_project\\qt_sms_partying\\etc\\icons\\"
 
 
 //FIXME issue with quotes in macro
 //#define MACRO_ICONS_DIR_STR(icon) QString(QString(MACRO_ICONS_DIR)+"\"" #icon "\"")
 
+#define MACRO1_ICONS_DIR "C:\\Users\\levons\\Desktop\\git\\mm_project\\qt_sms_partying\\etc\\icons\\"
 namespace {
 QString ICONS_DIR_STR(const QString& name) { return QString(MACRO1_ICONS_DIR)+name; }
 }
 
 
-class CountryInfoManager;
+//class CountryInfoManager;
 
 class GenericCountry 
 {
@@ -38,82 +39,6 @@ class GenericCountry
 };
 
 
-
-
-enum CountryName 
-{
-		Armenia = 0 ,
-		Russia,
-		Georgia,
-		Size = 4
-};
-
-
-template <CountryName a>
-class CountryInfo
-{
-	
-};
-
-
-template <>
-class CountryInfo<Armenia> : public GenericCountry// , public CountryInfoManager
-{
-	public:
-		//CountryInfo<Armenia>(){ CountryInfoManager::add_to_list(this); }
-		
-		QString get_country_name() { return "Armenia"; }
-		QString get_phone_code() { return "+374"; }
-		QIcon get_flag_icon() { return QIcon(ICONS_DIR_STR("armenia.png")); }
-		QStringList get_mobile_operator_codes() {
-			QStringList z;
-			//z << "55" << "95" << "91" <<;
-			
-			return z;
-		}
-};
-
-
-
-
-template <>
-class CountryInfo<Russia> : public GenericCountry
-{
-	public:
-
-		QString get_country_name() { return "Russia"; }
-		QString get_phone_code() { return "+7"; }
-		QIcon get_flag_icon() { return QIcon(ICONS_DIR_STR("russia.png")); }
-		QStringList get_mobile_operator_codes() {
-			QStringList z;
-			//z << "55" << "95" << "91" <<;
-			
-			return z;
-		}
-};
-
-
-
-template <>
-class CountryInfo<Georgia> : public GenericCountry
-{
-	public:
-
-		QString get_country_name() { return "Georgia"; }
-		QString get_phone_code() { return "+955"; }
-		QIcon get_flag_icon() { return QIcon(ICONS_DIR_STR("georgia.png")); }
-		QStringList get_mobile_operator_codes() {
-			QStringList z;
-			//z << "55" << "95" << "91" <<;
-			
-			return z;
-		}
-};
-
-
-
-
-
 class CountryInfoManager 
 {
 	
@@ -123,6 +48,8 @@ class CountryInfoManager
 			//CountryInfo a(Armenia);	
 			//m_countries.push_back(new CountryInfo<a>());
 		}
+		
+		/*
 		static void  create() {
 			for(auto i=0; i<CountryName::Size; ++i) {
 				const int j=  i;
@@ -130,14 +57,15 @@ class CountryInfoManager
 				//new CountryInfo<(static_cast<CountryName>(j))>();
 			}
 		}
+		*/
 		
 		//static add_to_list(GenericCountry* c) {
-		//	m_countries.push_back(c);
+			//m_countries.push_back(c);
 		//}
 		
 		static QList<GenericCountry*> get_list() {
-			//new CountryInfo<Armenia>();
-			//new CountryInfo<Russia>();
+			new CountryInfo<Armenia>();
+			new CountryInfo<Russia>();
 
 			return m_countries;
 		}
@@ -146,6 +74,12 @@ class CountryInfoManager
 		static QList<GenericCountry*> m_countries;
 		
 };
+
+
+
+
+
+
 
 #endif 
 

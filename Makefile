@@ -30,7 +30,7 @@ ifeq ($(OS),Windows_NT)
 	MOC:=$(QT_BIN_ROOT)/moc.exe
 	EXT_LD:=-static-libstdc++ -Wl,-subsystem,windows -mthreads -lmingw32 -L -lshell32 $(QT_LIB_ROOT)/libqtmain.a 
 	EXT_MOCFLAGS:=-DUNICODE -DQT_QML_DEBUG -DQT_WIDGETS_LIB -DQT_GUI_LIB -DQT_CORE_LIB -DQT_NEEDS_QMAIN -D__GNUC__ -DWIN32
-	EXT_CFLAGS:=-g -Wunused-parameter -std=gnu++0x -Idebug -pipe -fno-keep-inline-dllexport -g -std=gnu++11 -frtti -Wall -Wextra -fexceptions -mthreads -DUNICODE -DQT_QML_DEBUG -DQT_WIDGETS_LIB -DQT_GUI_LIB -DQT_CORE_LIB -DQT_NEEDS_QMAIN 
+	EXT_CFLAGS:=-g -Wunused-parameter -std=gnu++0x -Idebug -pipe -fno-keep-inline-dllexport -g -std=gnu++14 -frtti -Wall -Wextra -fexceptions -mthreads -DUNICODE -DQT_QML_DEBUG -DQT_WIDGETS_LIB -DQT_GUI_LIB -DQT_CORE_LIB -DQT_NEEDS_QMAIN 
 else
 	EXE_PREFIX:=bin
 	TARGET_PLATFORM:=linux
@@ -41,7 +41,7 @@ else
 	TARGET_ARCH:=
 	EXT_LD:=
 	EXT_MOCFLAGS:=
-	EXT_CFLAGS:=-g -fPIC -Wunused-parameter -pipe -std=gnu++11 -frtti -Wall -Wextra -fexceptions -pthread
+	EXT_CFLAGS:=-g -fPIC -Wunused-parameter -pipe -std=gnu++14 -frtti -Wall -Wextra -fexceptions -pthread
 endif
 
 UNITTEST_BIN_DIR:=./bin/$(TARGET_PLATFORM)

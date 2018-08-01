@@ -115,7 +115,7 @@ void send_window::update_to_combo()
 	foreach( GenericCountry* c, Controller::get_instance()->get_engine()->get_country_infos() )
 	{ 
 		m_countries->addItem(c->get_flag_icon(), c->get_phone_code());
-		//update_to_line_edit_completer(m_countries->currentText());
+		//update_to_line_edit_completer(c->get_mobile_operator_codes());
 	}
 	
 }

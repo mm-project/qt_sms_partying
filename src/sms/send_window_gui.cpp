@@ -26,7 +26,7 @@ send_window::send_window(QWidget* parent)
 	m_send_button->setEnabled(false);
 
 	//m_to_edit->setMinimumSize(m_countries->size());
-	m_to_edit->setPlaceholderText("12345678");
+	m_to_edit->setPlaceholderText("xxxxxxxxx");
 	m_to_edit->setValidator(new QRegExpValidator(QRegExp("[0-9]+"), this));
 	m_from_edt->setMaxLength(10);
 	m_from_edt->setPlaceholderText("QtSMS");
@@ -61,7 +61,9 @@ send_window::send_window(QWidget* parent)
 	connect(m_sms_handler, SIGNAL(sig_error()), this, SLOT(on_send_err()));
 	connect(m_send_button,SIGNAL(clicked()),this,SLOT(on_send_clicked()));
 	connect(m_countries, SIGNAL(currentTextChanged(const QString&)), this, SLOT(update_to_line_edit_completer(const QString&)));
+	//m_countries
 }
+
 
 
 void send_window::disable_inputs() {
@@ -115,17 +117,20 @@ void send_window::update_to_combo()
 	foreach( GenericCountry* c, Controller::get_instance()->get_engine()->get_country_infos() )
 	{ 
 		m_countries->addItem(c->get_flag_icon(), c->get_phone_code());
-		//update_to_line_edit_completer(c->get_mobile_operator_codes());
+		std::cout << c->get_phone_code().toStdString() << "--->" <<  c->get_mobile_operator_codes().size() << std::endl;
+		m_operators[c->get_phone_code()] = c->get_mobile_operator_codes();
 	}
 	
 }
 
 
 
-void send_window::update_to_line_edit_completer(const QString& country)
+//void send_window::update_to_line_edit_completer(const QStringList& wordlist)
+void send_window::update_to_line_edit_completer(const QString &str)
 {
+	std::cout << str.toStdString() << std::endl;
 	// validate if s is from coutries combo list
-	QStringList wordlist;
+	QStringList wordlist = m_operators[str];
 	// get wordlist from s , maybe map
 	QCompleter* completer = new QCompleter(wordlist, this);
 	completer->setCompletionMode(QCompleter::PopupCompletion);

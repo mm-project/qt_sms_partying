@@ -11,6 +11,7 @@ class QPushButton;
 class QComboBox;
 class QLineEdit;
 class QTextEdit;
+class countries_custom_widget;
 
 class send_window : public QWidget
 {
@@ -23,10 +24,6 @@ public:
 		void disable_inputs();
 		void enable_inputs();
 
-private:
-		void update_to_combo();
-
- 
 signals: 
 		void change_status_bar(const QString&,bool, bool = false);
 
@@ -46,12 +43,33 @@ private:
 
 private:
 		QLineEdit* m_from_edt;
-		QComboBox* m_countries;
-        QLineEdit* m_to_edit;
+		countries_custom_widget* m_countries_widget;
         QTextEdit* m_msg_txt;
-        QPushButton* m_send_button;
+        QPushButton* m_send_button;	
 		
-		std::map<QString,QStringList> m_operators;
-		
+};
+
+/// @class coutries_custom_widget for Levon janik))
+class countries_custom_widget : public QWidget
+{
+	Q_OBJECT
+
+public:
+	countries_custom_widget(QWidget* p = 0);
+
+private slots:
+	void update_country_combo_icon(int);
+
+private:
+	void fill_countries();
+
+private:
+	QComboBox* m_countries;
+	QLineEdit* m_code;
+	QLineEdit* m_number;
+
+	std::map<QString, QStringList> m_operators;
+
+	int m_selected_index;
 };
 #endif

@@ -19,8 +19,8 @@
 #include <map>
 
 //FIXME ICONS , should be moved to application env.
-//#define MACRO_ICONS_DIR "C:\\Users\\elen\\Desktop\\qt_sms\\original_sms\\qt_sms_partying\\etc\\icons\\"
-#define MACRO_ICONS_DIR "C:\\Users\\levons\\Desktop\\git\\mm_project\\qt_sms_partying\\etc\\icons\\"
+#define MACRO_ICONS_DIR "C:\\Users\\elen\\Desktop\\my_projects\\qt_sms\\original_sms\\qt_sms_partying\\etc\\icons\\"
+//#define MACRO_ICONS_DIR "C:\\Users\\levons\\Desktop\\git\\mm_project\\qt_sms_partying\\etc\\icons\\"
 
 
 //FIXME issue with quotes in macro

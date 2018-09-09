@@ -306,7 +306,8 @@ class CountryInfo;
 //FIXME issue with quotes in macro
 //#define MACRO_ZICONS_DIR_STR(icon) QString(QString(MACRO_ICONS_DIR)+"\"" #icon "\"")
 //#define MACRO_ICONS_DIR "C:\\Users\\levons\\Desktop\\git\\mm_project\\qt_sms_partying\\etc\\icons\\"
-#define MACRO1_ICONS_DIR "C:\\Users\\levons\\Desktop\\git\\mm_project\\qt_sms_partying\\etc\\icons\\"
+#define MACRO1_ICONS_DIR "C:\\Users\\elen\\Desktop\\my_projects\\qt_sms\\original_sms\\qt_sms_partying\\etc\\icons\\"
+
 namespace {
 QString ZICONS_DIR_STR(const QString& name) { return QString(MACRO1_ICONS_DIR)+name; }
 }
